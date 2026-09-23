@@ -36,6 +36,17 @@ Um componente pode comunicar `hook`, `body`, `list`, `stats`, `quote`, `checklis
 
 Capturas do produto e assets ficam em caminhos previsíveis junto à peça ou são incorporados de modo portátil quando necessário. Mantenha resolução suficiente para o recorte; não estique captura pequena. Ao publicar HTML de preview, garanta que os recursos também carreguem fora da máquina local. O PNG final deve funcionar independentemente desses caminhos.
 
+## Composição de assets e crop
+
+Classifique cada asset antes do CSS:
+
+- **Flutuante** (logo, brasão, ícone ou recorte isolado): use arquivo com canal alfa real quando o fundo do canvas deve aparecer. Se o original vier com fundo branco/preto, prepare uma versão transparente fiel antes de compor e examine contorno/halo em fundo claro **e** escuro. Não simule transparência cobrindo o retângulo com a cor do canvas, `mix-blend-mode` ou máscara imprecisa.
+- **Screenshot/interface:** mantenha as superfícies reais da UI, inclusive branco autêntico. Recorte uma região de interesse com limites deliberados; use um painel/frame somente se ele tornar a transição para o canvas intencional. Não remova o branco da interface como se fosse fundo externo nem redesenhe botões ou números para consertar o crop.
+
+Defina área útil, proporção e posição do crop antes de aplicar `object-fit`, `object-position`, `overflow: hidden` ou transformações. Verifique que palavras, controles, bordas e sombras relevantes não ficam amputados, que não sobra cabeçalho/rodapé acidental da captura e que o conteúdo principal não fica pequeno dentro de um grande retângulo vazio. Não estique imagem nem amplie além da resolução que sustenta o PNG nativo. Um zoom que corta a prova é pior que um recorte menor e legível.
+
+Preview e exportação devem usar o mesmo asset e enquadramento. Depois de renderizar, inspecione o PNG **isolado** e em conjunto, sobre o fundo real da peça; a página de preview pode esconder emendas, faixas brancas ou colisões quando vista apenas como mosaico no navegador.
+
 ## Preview e exportação
 
 Use **o mesmo DOM, CSS, fontes e assets** para preview e PNG. No navegador automatizado, espere fontes e imagens terminarem de carregar; defina viewport e escala de dispositivo para produzir dimensões exatas; capture o elemento do canvas ou página sem barras/toolbar de edição. Se usar CSS de preview, ele só deve posicionar ou escalar o canvas na tela, nunca alterar seu layout interno.

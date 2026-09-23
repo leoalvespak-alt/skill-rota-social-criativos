@@ -4,21 +4,29 @@ Leia para campanha nova, redesign relevante ou quando a direção ainda não est
 
 ## Leitura do brief
 
-Antes de desenhar, formule uma linha de direção: **“Peça [formato] para [público/estágio], mostrando [prova real] para responder [dúvida], com [tom] e [ação].”** Identifique o que deve ser sentido e o que deve ser lido. A estética nasce dessa relação, não de um preset de “arte de concurso”.
+Antes de desenhar, formule uma linha de direção: **“Peça [formato] para [público/estágio], abrindo [tensão/benefício], sustentada por [evidência real], com [tom] e [ação].”** Decida depois se, quando e como a evidência aparecerá. Identifique o que deve ser sentido e o que deve ser lido. A estética nasce dessa relação, não de um preset de “arte de concurso”.
 
-Pergunte qual elemento visual **torna concreta a ideia dominante**. Se a promessa é “a próxima tarefa já está indicada”, amplie a tarefa real; não a substitua por personagem ou textura genéricos. Prova visual forte pode dispensar parte do texto explicativo, sem dispensar a checagem factual.
+Pergunte qual elemento visual **torna concreta a ideia dominante** em cada etapa. Abertura pode precisar de identificação e tensão; demonstração pode ampliar a tarefa real. Não substitua prova necessária por personagem ou textura genéricos. Prova visual forte pode dispensar parte do texto explicativo, sem dispensar a checagem factual.
 
 ## Direção da prova visual
 
 Antes de desenhar screenshot, missão, leitor, lei, resumo, questão ou outro material real, responda: **qual detalhe desta prova sustenta a ideia dominante?** Localize esse trecho, faça crop intencional, amplie, enquadre e dê-lhe destaque preservando dados e contexto necessários para não mudar o sentido. A interface real é matéria-prima da composição, não um retângulo que precisa entrar inteiro. Use captura completa somente quando a visão global for a própria prova.
 
-Como regra, **um argumento principal pede uma prova focal**. Não tente demonstrar missão, teoria, lei, vídeo, questões e progresso numa miniatura. Se a ideia exige vários estados reais, trate-os como sequência ou distribua-os pelos cards, com um foco legível por etapa. Nunca recrie uma interface fictícia para embelezar a captura; adaptações identificadas continuam sujeitas a [marca e evidência](rota-brand-and-evidence.md).
+Quando a peça/card **demonstrar** um argumento principal, escolha uma prova focal; isso não obriga screenshot em capa, card de contexto ou post de identificação. Não tente demonstrar missão, teoria, lei, vídeo, questões e progresso numa miniatura. Se a ideia exige vários estados reais, trate-os como sequência ou distribua-os pelos cards, com um foco legível por etapa. Nunca recrie uma interface fictícia para embelezar a captura; adaptações identificadas continuam sujeitas a [marca e evidência](rota-brand-and-evidence.md).
 
 Exemplos de enquadramento, não templates: “a missão diz a próxima tarefa” → disciplina, assunto e instrução ampliados; “a leitura está vinculada” → conexão verdadeira entre missão/recurso e crop grande do conteúdo aberto; “marque e retome” → estado, check e ponto de retomada reais. Retire navegação e detalhes irrelevantes quando o crop não distorcer o funcionamento.
 
-Se a prova sustenta o argumento, **ela pode ser o maior elemento** e a headline pode ser pequena. Uma proporção como 20% de contexto/copy e 80% de prova é possibilidade, não regra. Use zoom, sobreposição parcial, comparação, sequência, conexão visual ou enquadramento assimétrico quando esclarecem a ideia. Evite o print pequeno centralizado sob headline enorme: isso transforma evidência em decoração.
+Na demonstração, **a prova pode ser o maior elemento** e a headline pode ser pequena. Uma proporção como 20% de contexto/copy e 80% de prova é possibilidade, não regra para toda a campanha. Na capa, contexto/tensão podem dominar e a prova aparecer depois. Use zoom, sobreposição parcial, comparação, sequência, conexão visual ou enquadramento assimétrico quando esclarecem a ideia. Se a captura for a evidência central, evite o print pequeno centralizado sob headline enorme: isso a transforma em decoração.
 
 Defina a composição de cada card pela sua função na progressão: capa pode ser tipográfica, mecanismo pode pedir relação visual simples, demonstração pode ser dominada pela captura, detalhe pode exigir crop fechado e CTA pode pedir respiro. Não aplique a todos `logo → headline → apoio → screenshot → rodapé/CTA`. Essa ordem é permitida quando funciona, nunca padrão automático. Consistência de marca preserva linguagem; não obriga mesma posição, divisão vertical, moldura, escala ou hierarquia em posts, Stories e cards vizinhos.
+
+## Recorte e integração dos assets
+
+Separe **elemento flutuante** (logo, brasão, ícone, recorte isolado) de **captura de interface**. O primeiro deve ter transparência real quando a intenção é mostrar o fundo da peça; um retângulo branco opaco ao redor dele não é transparência. Na captura, porém, o branco pode ser parte autêntica da interface: preserve-o e dê ao painel um limite/enquadramento deliberado. Não apague fundos da UI para fingir que ela flutua.
+
+Escolha o recorte pela mensagem e pela forma visual. Não corte no meio de palavra, botão, brasão, sombra ou borda; não deixe “sobras” de cabeçalho/rodapé do print sem função. Se a área útil vira uma pequena ilha dentro de um grande retângulo branco, recorte mais ou recomponha. O branco/respiro do canvas deve servir à hierarquia, não parecer uma peça inacabada. Confira contraste e bordas sobre o **fundo final da arte**, inclusive onde um asset transparente pode revelar halo branco/preto.
+
+Essas decisões visuais são implementadas e verificadas conforme [sistema HTML/CSS](html-css-system.md) e [produção e QA](production-qa.md); não resolva uma captura mal recortada inventando componentes ou alterando dados reais.
 
 Use dois controles apenas como vocabulário interno, não como prescrição matemática:
 
@@ -31,7 +39,7 @@ Use dois controles apenas como vocabulário interno, não como prescrição mate
 
 ## Descoberta de direção, quando necessária
 
-Compare três hipóteses usando **a mesma ideia e a mesma prova**, para julgar composição de fato:
+Compare três hipóteses usando **a mesma ideia e base factual**, para julgar composição de fato; elas podem variar também o momento em que a prova aparece:
 
 - **A — fiel e segura:** composição clara, recorte grande do produto, marca discreta, hierarquia direta.
 - **B — expressiva:** uma mudança forte e justificável de relação entre título e produto — por exemplo, prova ocupando faixa vertical, zoom mais fechado ou tipografia em escala diferente.

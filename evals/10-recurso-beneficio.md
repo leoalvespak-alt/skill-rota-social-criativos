@@ -4,6 +4,6 @@
 
 **Contexto:** Quantidade só pode entrar se estiver confirmada na edição atual.
 
-**PASS:** Mostra uma missão real e traduz recurso → benefício operacional → significado para o aluno.
+**PASS:** Traduz recurso → benefício operacional → significado para o aluno. Verifica a missão/contagem real; só exibe captura se ela fortalecer o argumento e couber legível.
 
 **FAIL:** Headline apenas com contagem, número histórico não verificado ou promessa de aprovação.

@@ -9,6 +9,8 @@ Leia em toda tarefa da Rota. Estes caminhos são pontos de partida neste computa
 3. Este guia e o `MARCA.md` indicado abaixo.
 4. Princípios criativos gerais.
 
+Esta precedência protege a **veracidade**, não determina a ordem do carrossel nem a proporção de screenshots. Verifique internamente cada alegação factual; na arte, contexto, pergunta e benefício podem vir antes da demonstração. Um card sem print não é “sem evidência” quando não faz alegação factual nova ou quando a prova prometida aparece adiante. Nunca use essa liberdade para insinuar resultado, número ou recurso não confirmado.
+
 O guia geral descreve superfícies escuras, bordas arredondadas, caixa alta tática e efeitos de marketing. Para os anúncios PPPE/PPPB discutidos com o usuário, prevalecem **modo claro, bordas quadradas, menos caixa alta, cor parcimoniosa e demonstração ampliada**. Não exporte automaticamente o visual escuro da interface do produto para a arte publicitária. Se uma nova campanha definir outra direção, siga-a.
 
 ## Arquivos desta campanha
@@ -48,7 +50,7 @@ Capture/recorte o plano real em escala que o público leia. Se for preciso recon
 
 ## Quando a prova necessária não existe
 
-Valide a prova **antes** de fixar hook e ângulo. Se a fonte não existe ou não pôde ser confirmada, não substitua por representação fictícia, frase vaga, dado aproximado nem interface redesenhada como se fosse captura. Procure outro ângulo sustentado pelo material disponível. Se não houver ângulo relevante verificável, interrompa a produção factual **daquela peça** e registre exatamente a evidência faltante; outras peças comprováveis podem prosseguir.
+Valide a base factual **antes de fechar uma promessa sobre produto, oferta ou resultado**. Se a fonte não existe ou não pôde ser confirmada, não substitua por representação fictícia, frase vaga, dado aproximado nem interface redesenhada como se fosse captura. Procure outro ângulo sustentado pelo material disponível. Se não houver ângulo relevante verificável, interrompa a produção factual **daquela peça** e registre exatamente a evidência faltante; outras peças comprováveis podem prosseguir.
 
 - Estatística sem fonte → abandone o número e mostre uma função real do produto; não o reescreva como “a maioria”.
 - Depoimento sem fala real autorizada → use prova funcional, sem nome, avaliação ou citação fictícios.

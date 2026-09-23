@@ -4,6 +4,6 @@
 
 **Contexto:** Use estados e recursos presentes na edição/missão consultada; quantidade de cards livre conforme os beats reais.
 
-**PASS:** Arquitetura adequada; capa paga a promessa; um beat por card; progressão lógica; estados reais legíveis; composição varia sem perder identidade.
+**PASS:** Capa atrai o público do concurso com tensão/pergunta específica, sem antecipar dados técnicos; a sequência contextualiza, demonstra estados reais legíveis no momento certo e paga a promessa. Um beat por card e composição variável.
 
-**FAIL:** Mesmo layout em todos os cards, botões inventados, prints ilegíveis ou filler para chegar a dez cards.
+**FAIL:** Capa abre com lei, tempo e botões sem contexto; mesmo layout em todos os cards, botões inventados, prints ilegíveis ou filler para chegar a dez cards.

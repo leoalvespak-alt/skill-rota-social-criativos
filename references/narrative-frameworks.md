@@ -25,20 +25,20 @@ Heurística de consciência: **mais consciente →** oferta ou demonstração di
 | Dor de estudo + solução demonstrável | **Problem-Proof** | Situação reconhecível → fricção → missão real que resolve **a etapa operacional** → consequência verificável → CTA. | A “prova” é só promessa de nota/aprovação ou o problema foi exagerado. |
 | Sequência curta de técnicas ou decisões independentes | **Hack/List** | Capa identifica claramente tema e contagem verdadeira → uma dica praticável por card → fechamento útil. | Dicas são sinônimos ou o número foi inflado para parecer maior. |
 | Ponto de vista sustentado sobre hábito de estudo | **Rant/Callout** | Afirmação específica → evidência/exemplo → distinção justa → alternativa concreta → CTA. | Soa como bronca ao concurseiro, não há base ou o tom sai da voz da Rota. |
-| Funcionalidade/caminho do plano | **Demo Walkthrough / How-to** | Mostre a tarefa/resultante logo na capa → situe o problema → passos reais, um estado de tela por card → payoff do funcionamento → CTA. | A interface não foi capturada, os passos foram inventados ou os prints ficaram minúsculos. |
+| Funcionalidade/caminho do plano | **Demo Walkthrough / How-to** | Capa qualifica e promete a demonstração → contexto breve → passos/estados reais em escala legível → payoff do funcionamento → CTA. | A interface não foi capturada, os passos foram inventados ou os prints ficaram minúsculos. |
 | Estudo solto × missão definida | **Comparação** | Dois estados honestos no mesmo eixo → missão real em destaque → efeito operacional, sem alegar resultado garantido. | Comparação cria espantalho ou números sem fonte. |
 
-Em qualquer arquitetura, a capa funciona sozinha, promete o que os cards entregam e identifica concurso/produto. Cada card tem uma ideia e merece o próximo deslize; payoff resolve a pergunta antes ou junto do CTA. Não esconda toda a substância até o último card. Se bastam quatro cards, não faça dez. Se uma ideia não precisa de sequência, faça post.
+Em qualquer arquitetura, a capa funciona sozinha como **convite à pessoa qualificada**: identifica o concurso/cargo ou situação relevante, abre tensão/pergunta/benefício específico e promete o que a sequência entrega. Seu trabalho não é despejar legislação, contagens, tempo, botões ou um print antes de criar interesse. O nome do produto e a demonstração podem aparecer depois, desde que a abertura não seja enganosa. Cada card tem uma ideia e merece o próximo deslize; payoff resolve a pergunta antes ou junto do CTA. Não esconda toda a substância até o último card. Se bastam quatro cards, não faça dez.
 
 ## Progressão de compreensão no carrossel
 
-Antes de numerar cards, escreva `promessa da capa → o que o leitor precisa compreender/aceitar → prova de cada passo → payoff → ação`. O próximo card só entra se altera a compreensão: situa, nomeia fricção, explica mecanismo, demonstra, responde objeção ou conclui. Atribua a cada card uma função curta (`hook`, contexto, problema, mecanismo, prova, contraste, objeção, payoff ou CTA); não são slots obrigatórios nem todos precisam aparecer.
+Antes de numerar cards, escreva `promessa da capa → contexto/identificação → mecanismo ou contraste → demonstração/prova no ponto da dúvida → significado/benefício → ação`. É uma progressão possível, não um roteiro fixo. O próximo card só entra se altera a compreensão: situa, nomeia fricção, explica mecanismo, demonstra, responde objeção ou conclui. Registre qual **alegação factual** precisa de fonte e em qual card mostrá-la; card de identificação, pergunta ou transição não exige screenshot. Atribua a cada card uma função curta (`hook`, contexto, problema, mecanismo, prova, contraste, objeção, payoff ou CTA); não são slots obrigatórios nem todos precisam aparecer.
 
 Exemplo de lógica, não sequência fixa: “não sei a próxima tarefa” → “um cronograma genérico informa matéria, mas pode deixar a ação aberta” → missão real mostra assunto e tarefa → leitor entende o ganho operacional → pede amostra. Se um card puder sair sem mudar o entendimento ou a credibilidade, funda-o ou corte-o. Não preencha sete/dez cards por convenção. A capa deve prometer exatamente o que o corpo demonstra.
 
 ## Post estático: biblioteca seletiva
 
-Selecione **um** tratamento que ponha a prova em escala legível; não aplique a biblioteca inteira numa peça.
+Selecione **um** tratamento que cumpra a função persuasiva da peça; se houver prova visual, dê-lhe escala legível. Não aplique a biblioteca inteira nem transforme todo post em demonstração técnica.
 
 | Tratamento | Quando funciona para a Rota | Condição de evidência |
 |---|---|---|
@@ -65,4 +65,4 @@ Primeiro frame usa a abertura adequada à consciência do público — problema,
 
 ## Verificação do arco
 
-Antes do HTML, faça um mapa curto: `ideia → prova → promessa da capa → beats → payoff → CTA`. Para cada beat registre sua fonte. Se um card só repete o anterior, elimine-o ou busque outra prova; se o hook exige uma estatística/depoimento que não existe, troque o hook, não fabrique a fonte.
+Antes do HTML, faça dois mapas distintos: **checagem interna** `ideia/alegações → fontes verificadas`; **apresentação** `abertura qualificada → contexto → mecanismo/prova quando necessária → benefício/payoff → CTA`. Só alegações factuais exigem fonte; nem todo beat precisa exibir uma captura. Se um card só repete o anterior, elimine-o ou mude sua função. Se o hook exige estatística/depoimento inexistente, troque-o, não fabrique a fonte.

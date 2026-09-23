@@ -16,17 +16,17 @@ Não chame de variação uma troca de sinônimos. Mude a situação do aluno, a 
 | Continuidade | “Se eu parar, como retomo?” | Check e ponto de retomada reais, sem progresso fictício. |
 | Adequação | “É para PPPE ou PPPB?” | Edição identificada, missão e diferenças verificadas. |
 
-## Escreva a partir do que pode mostrar
+## Escreva para a pessoa, sem ultrapassar o que pode sustentar
 
-1. Fixe a única ideia, a tensão, a prova focal, o benefício e a ação. Identifique a consciência aproximada: quem ainda não conhece a Rota pode precisar de concurso, tarefa e benefício antes de detalhe interno; quem já conhece o produto pode aceitar oferta direta.
-2. Gere algumas chamadas por **mecanismos diferentes**: pergunta concreta, contraste honesto, demonstração direta, objeção, detalhe específico. Corte as que dependem de dado não verificado ou não combinam com o visual.
-3. Escolha o hook que passa cinco testes: **específico, verdadeiro, compreensível sem legenda, próprio da Rota e pago pela imagem/sequência**. A capa de carrossel deve funcionar sozinha e prometer exatamente o próximo conteúdo.
-4. Escreva apoio apenas se acrescentar sentido novo. Headline e prova visual se completam; a headline não precisa descrever literalmente a captura. Leia só gancho + prova + CTA: a mensagem tem de fechar.
+1. Fixe a única ideia, a tensão, o benefício e a ação; confirme nos bastidores as provas das alegações. Identifique a consciência aproximada: quem ainda não conhece a Rota precisa de contexto antes de detalhes internos; quem já conhece o produto pode aceitar oferta direta.
+2. Gere chamadas por **mecanismos diferentes**: pergunta concreta, contraste honesto, situação reconhecível, objeção ou demonstração direta. Selecione pela relevância para o público qualificado, não pela quantidade de dados que cabem na capa. Corte o que depende de fato não verificado.
+3. Escolha o hook que passa cinco testes: **chama a pessoa certa, é específico, verdadeiro, compreensível sem legenda e pago pela sequência/peça**. Pode abrir uma tensão sem explicar o produto inteiro. Não comece por ID da missão, lei, tempo ou número de questões só porque esses dados existem.
+4. Acrescente apoio para situar o problema ou dar significado ao benefício, não para descrever uma captura linha por linha. A prova pode entrar depois no carrossel, aparecer como detalhe secundário ou permanecer documentada nos bastidores quando a peça não for demonstrativa. Leia gancho + contexto/benefício + ação: a mensagem precisa fazer sentido sem exigir leitura da interface.
 5. CTA nomeia **uma ação** e recompensa verdadeira. Na campanha PPPE/PPPB de conversão: “Comente PPPE/PPPB/ATAQUE” para receber detalhes, amostra e preço, se essa entrega estiver operacionalmente disponível. Não o desenhe como controle clicável do produto.
 
 ## Uma mensagem dominante; funções distintas
 
-A **Regra do Um** pede uma ideia dominante, uma tensão/emoção principal, uma prova focal, um benefício central e uma ação. Os demais elementos só entram para apoiar. Se a peça tenta vender simultaneamente contagem de missões, lei, vídeo, questões, progresso, preço e bônus, escolha o ponto mais relevante e distribua o restante em outras peças ou cards.
+A **Regra do Um** pede uma ideia dominante, uma tensão/emoção principal, um benefício central e uma ação, todos sustentáveis. Em peça demonstrativa, escolha uma prova focal; isso **não** obriga captura visível em toda peça ou card. Se a peça tenta vender simultaneamente contagem de missões, lei, vídeo, questões, progresso, preço e bônus, escolha o ponto mais relevante e distribua o restante.
 
 | Função | Pergunta que responde | Exemplo ilustrativo, sujeito a prova |
 |---|---|---|
@@ -36,6 +36,8 @@ A **Regra do Um** pede uma ideia dominante, uma tensão/emoção principal, uma 
 | CTA | O que fazer agora? | Pedir amostra, se a entrega estiver disponível. |
 
 Não comprima as quatro funções na mesma frase. A prova pode comunicar parte do diferencial sem explicação repetida. O hook deve chamar **a pessoa certa** e ser pago pela peça, não ser apenas a frase mais barulhenta.
+
+Na capa para público frio, o concurso/cargo e uma situação, pergunta ou benefício reconhecível qualificam o leitor; a captura, os detalhes da missão e o mecanismo podem esperar os cards seguintes. Exemplo de contraste de função, não copy obrigatória: em vez de abrir com `Lei 15.755/2016 · 45 min · 10 questões`, abrir com `PPPE: seu cronograma diz a matéria. Mas diz a tarefa?`; depois mostrar uma missão real que responda à pergunta. Não esconda indefinidamente o payoff nem faça curiosidade vazia.
 
 ## Recurso → benefício → significado
 
@@ -58,10 +60,10 @@ Escolha uma ação principal. Um comentário não obriga compra; uma amostra nã
 - Evite urgência inventada, promessa de aprovação, metáfora militar forçada, “revolucionário”, “definitivo” e slogans que qualquer cursinho assinaria. A voz da Rota combina decisão com instrução concreta.
 - Uma cor de ênfase deve indicar uma prioridade inequívoca. Quando tudo é vermelho/azul, a leitura perde ordem.
 - Se preço/oferta fizer parte da peça, confirme a informação atual e apresente-a após o público entender o produto ou conforme objetivo da campanha; não esconda preço nem o invente para preencher um modelo.
-- Leia o caminho de varredura — headline, destaques, prova e CTA — sem o texto miúdo. Se não formar mensagem coerente, reescreva ou mude a hierarquia; o procedimento de aprovação está em [produção e QA](production-qa.md).
+- Leia o caminho de varredura — headline, contexto/destaques, prova quando exibida e CTA — sem o texto miúdo. Se não formar mensagem coerente, reescreva ou mude a hierarquia; o procedimento de aprovação está em [produção e QA](production-qa.md).
 
 ## Teste rápido por formato
 
-- **Post:** a primeira olhada deve identificar concurso, tarefa/benefício e prova focal; CTA separado e visível.
-- **Carrossel:** card 1 abre a pergunta; cada card entrega algo e justifica o próximo; payoff resolve a promessa antes ou junto do CTA.
+- **Post:** a primeira olhada deve identificar público/concurso, tensão ou benefício e ação; se a peça demonstrar o produto, a prova mostrada precisa ser legível.
+- **Carrossel:** card 1 atrai o leitor qualificado e abre uma pergunta honesta; os cards seguintes contextualizam e demonstram no momento certo; payoff resolve a promessa antes ou junto do CTA.
 - **Story:** cada frame precisa fazer sentido mesmo isolado; a sequência tem um objetivo e um ritmo, não cinco peças idênticas. Conteúdo essencial cabe na zona segura.
