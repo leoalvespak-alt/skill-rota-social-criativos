@@ -66,4 +66,6 @@ Primeiro identifique **o fato e sua fonte**; só depois considere o papel persua
 - **Prova social/autoridade:** fala, número, resultado, formação, cargo ou experiência somente com fonte e autorização quando necessária; brasão não é endosso oficial.
 - **Reciprocidade/compromisso:** amostra, aula ou demonstração precisam existir e ser entregáveis; comentário ou acesso inicial não cria obrigação moral nem justifica pressão posterior.
 
+Fotografias externas também têm origem. O fluxo atual de consulta e seleção Pexels fica centralizado em [pesquisa de imagens Pexels](pexels-image-research.md); registre banco, autor, URL da imagem, data e atribuição exigida. A licença não autoriza sugerir endosso institucional nem apaga direitos de pessoas/marcas retratadas. Credenciais de API ficam apenas no ambiente seguro de aquisição, nunca no material publicado.
+
 Separe **fato observado** de **interpretação defensável**. “O edital tem muitas disciplinas” pode ser verificado; “ninguém consegue se organizar sozinho” não decorre disso. Uma formulação proporcional seria “decidir prioridades pode consumir parte do tempo de estudo”, sem apresentá-la como pesquisa sobre todos os alunos. Reconheça objeção sem envergonhar quem estuda de outra forma. Se a interpretação exigir dado que falta, siga o fallback acima.

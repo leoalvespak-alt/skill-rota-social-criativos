@@ -20,6 +20,32 @@ Na demonstração, **a prova pode ser o maior elemento** e a headline pode ser p
 
 Defina a composição de cada card pela sua função na progressão: capa pode ser tipográfica, mecanismo pode pedir relação visual simples, demonstração pode ser dominada pela captura, detalhe pode exigir crop fechado e CTA pode pedir respiro. Não aplique a todos `logo → headline → apoio → screenshot → rodapé/CTA`. Essa ordem é permitida quando funciona, nunca padrão automático. Consistência de marca preserva linguagem; não obriga mesma posição, divisão vertical, moldura, escala ou hierarquia em posts, Stories e cards vizinhos.
 
+## Territórios de direção de arte
+
+Selecione um território pelo argumento; estes são possibilidades, não presets a alternar mecanicamente:
+
+| Território | Dominante possível | Quando ajuda | Cuidado |
+|---|---|---|---|
+| Pergunta editorial | Uma linha de texto curta, composição tipográfica | Público frio, abertura, objeção | Precisa identificar a pessoa certa e prometer um payoff. |
+| Cena contextual | Foto/ilustração de uso com copy em área de respiro | Retomada, rotina, identificação | Não usar estudante/policial genérico para preencher área. |
+| Prova em macro | Crop real de missão/leitor/lei | Demonstração de funcionamento | Não diminuir até virar textura nem recriar a UI. |
+| Contraste | Dois estados, escalas ou frases em oposição | Tornar uma escolha ou diferença imediatamente visível | Comparação precisa ser justa e verificável. |
+| Tipografia com gesto | Palavra marcada, contraste de peso/cor ou mudança de escala | Dar ritmo a uma frase de impacto | Um efeito por foco; remova filetes coloridos decorativos e qualquer recurso que reduza legibilidade. |
+| Sequência/diagrama | Relações espaciais simples ou setas | Explicar passos ou uma ligação real | Não transformar em infográfico com decoração sem função. |
+| Convite/CTA | Área de respiro e frase de ação | Conversão ou pedido de amostra | CTA de comentário não pode parecer botão da plataforma. |
+
+Um lote pode misturar territórios ou usar um com variações. A diversidade vem de ideia, escala, enquadramento, alinhamento e ritmo — não de trocar a cor mantendo a mesma composição. Evite que o mesmo cabeçalho, moldura de screenshot, legenda e CTA apareçam em todas as peças.
+
+### Fundo, atmosfera e efeitos
+
+Escolha conscientemente entre superfície limpa; textura/forma CSS; contexto fotográfico; ou prova do produto. Foto ou imagem gerada entra apenas quando acrescenta identificação, lugar ou atmosfera. Para geração, produza fundo/contexto sem texto, logo, brasão, UI, uniforme identificável ou alegação; adicione copy em HTML/CSS e mantenha overlay da marca funcional para contraste. Use imagem como contexto de abertura, não no lugar da captura necessária para demonstrar produto.
+
+Contorno, marca-texto, corte inclinado, máscara, vinheta suave, textura fina, escala/peso de fonte e sobreposição podem criar acabamento editorial quando sustentam foco ou hierarquia. Não aplique glow, gradiente, sombras, extrusão ou efeitos de recorte em série. Verifique cada efeito em tamanho nativo e a 25%; a frase deve continuar legível e a prova deve continuar fiel. Modo claro e preferência por bordas quadradas desta campanha seguem a gramática aprovada.
+
+### Busca de fotografia contextual
+
+Pexels é a primeira opção quando uma foto for de fato necessária; avalie 5–10 resultados com contexto brasileiro e use IA somente como último recurso. O fluxo completo de momento, termos, seleção, atribuição e credencial está em [pesquisa de imagens Pexels](pexels-image-research.md). Componha em HTML/CSS usando o asset baixado localmente, conforme [sistema HTML/CSS](html-css-system.md).
+
 ## Recorte e integração dos assets
 
 Separe **elemento flutuante** (logo, brasão, ícone, recorte isolado) de **captura de interface**. O primeiro deve ter transparência real quando a intenção é mostrar o fundo da peça; um retângulo branco opaco ao redor dele não é transparência. Na captura, porém, o branco pode ser parte autêntica da interface: preserve-o e dê ao painel um limite/enquadramento deliberado. Não apague fundos da UI para fingir que ela flutua.
@@ -71,7 +97,7 @@ Preserve família tipográfica, paleta, logo, tom, contraste e uma grade-base/al
 
 ## Anti-slop como diagnóstico contextual
 
-Suspeite de gradiente sem motivo, glow, três colunas automáticas, cards arredondados em toda parte, sombras uniformes, centralização contínua, número gigante decorativo, fontes escolhidas no piloto automático, padrão “eyebrow → título → parágrafo → dashboard → rodapé” e detalhes que imitam arte gerada. Investigue **por que** cada recurso existe. Se a campanha o pediu expressamente e ele funciona, mantenha-o; se não, retire ou recomponha. A revisão final usa as dez perguntas de [produção e QA](production-qa.md).
+Suspeite de gradiente sem motivo, glow, três colunas automáticas, cards arredondados em toda parte, sombras uniformes, centralização contínua, número gigante decorativo, fontes escolhidas no piloto automático, padrão “eyebrow → título → parágrafo → dashboard → rodapé”, filetes cromáticos curtos repetidos no topo/lateral de cartões e detalhes que imitam arte gerada. Investigue **por que** cada recurso existe. Se a campanha o pediu expressamente e ele funciona, mantenha-o; se não, retire ou recomponha. Indicadores dentro de capturas reais continuam intactos; se não servirem à composição, troque o enquadramento ou use transcrição atribuída. A revisão final usa as dez perguntas de [produção e QA](production-qa.md).
 
 ## Imagem gerada
 

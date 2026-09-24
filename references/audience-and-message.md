@@ -38,3 +38,15 @@ Distinga o obstáculo **externo** (muitas disciplinas), a experiência **interna
 Defina a função da peça antes da headline: atenção, educação, demonstração, prova, consideração, objeção, conversão ou remarketing. Ela não precisa realizar a jornada inteira. Se a dor parecer superficial (“não tenho tempo”), investigue uma fricção mais específica (“parte do tempo vai para decidir o que estudar”) sem tratá-la como universal.
 
 Quando ajudar, formule internamente um mini-brief de uma linha: `objetivo + público/consciência + PQR² dominante + ideia/tensão + prova disponível + benefício + CTA`. Exemplo hipotético: `amostra PPPE + conhece planos, não a Rota + pergunta “qual a próxima tarefa?” + missão real verificada + menos decisão operacional + pedir amostra se a entrega estiver disponível`. Não publique o mini-brief como se fosse pesquisa ou oferta confirmada.
+
+## Da informação ao motivo para se importar
+
+Uma peça pode estar factualmente correta e ainda não dar ao aluno motivo para continuar lendo. Antes de mostrar recurso ou dado, escreva a ponte:
+
+`situação que o concurseiro reconhece → o que fica difícil/indefinido → por que isso importa na sessão → caminho que a peça consegue mostrar`.
+
+Não trate hipótese sobre o público como depoimento ou pesquisa. Use formulações condicionais e humanas — “se você está retomando Penal…”, “na hora de escolher o que revisar…” — em vez de universalizar “todo concurseiro”. O produto entra como resposta operacional quando a prova sustenta esse papel, não como lista de funcionalidades.
+
+Para público frio, a primeira tela deve oferecer uma razão concreta para olhar: pergunta de autoidentificação, tensão de uma escolha real, objeção relevante ou benefício específico. Dizer apenas o nome do concurso, a contagem de missões ou o assunto do edital identifica, mas não cria interesse. A promessa da abertura precisa ser paga logo adiante.
+
+Em lote ou campanha importante, escreva ao menos três **ângulos** antes de escolher a copy — por exemplo: retomar um assunto, decidir o que fazer na sessão, ou entender uma distinção cobrada em questões. Eles devem partir de motivações diferentes; trocar substantivos mantendo o mesmo argumento não conta. Escolha um ângulo que combine com o estágio do público e a prova disponível.

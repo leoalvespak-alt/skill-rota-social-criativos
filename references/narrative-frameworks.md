@@ -30,11 +30,17 @@ Heurística de consciência: **mais consciente →** oferta ou demonstração di
 
 Em qualquer arquitetura, a capa funciona sozinha como **convite à pessoa qualificada**: identifica o concurso/cargo ou situação relevante, abre tensão/pergunta/benefício específico e promete o que a sequência entrega. Seu trabalho não é despejar legislação, contagens, tempo, botões ou um print antes de criar interesse. O nome do produto e a demonstração podem aparecer depois, desde que a abertura não seja enganosa. Cada card tem uma ideia e merece o próximo deslize; payoff resolve a pergunta antes ou junto do CTA. Não esconda toda a substância até o último card. Se bastam quatro cards, não faça dez.
 
+### Teste de abertura por motivação
+
+Escreva três possibilidades de entrada que usem motivações diferentes, não três versões sinonimizadas: **autoidentificação** (“isso acontece comigo?”), **dúvida/decisão** (“qual caminho devo escolher?”) e **objeção/contraste** (“e se eu já estudei isso?”). A melhor é a que qualifica o público, cria curiosidade verdadeira e pode ser resolvida pelo conteúdo. Só depois acrescente identificação curta de concurso/cargo; não deixe o label técnico ocupar o lugar do hook.
+
 ## Progressão de compreensão no carrossel
 
 Antes de numerar cards, escreva `promessa da capa → contexto/identificação → mecanismo ou contraste → demonstração/prova no ponto da dúvida → significado/benefício → ação`. É uma progressão possível, não um roteiro fixo. O próximo card só entra se altera a compreensão: situa, nomeia fricção, explica mecanismo, demonstra, responde objeção ou conclui. Registre qual **alegação factual** precisa de fonte e em qual card mostrá-la; card de identificação, pergunta ou transição não exige screenshot. Atribua a cada card uma função curta (`hook`, contexto, problema, mecanismo, prova, contraste, objeção, payoff ou CTA); não são slots obrigatórios nem todos precisam aparecer.
 
 Exemplo de lógica, não sequência fixa: “não sei a próxima tarefa” → “um cronograma genérico informa matéria, mas pode deixar a ação aberta” → missão real mostra assunto e tarefa → leitor entende o ganho operacional → pede amostra. Se um card puder sair sem mudar o entendimento ou a credibilidade, funda-o ou corte-o. Não preencha sete/dez cards por convenção. A capa deve prometer exatamente o que o corpo demonstra.
+
+Use **mudança de crença**, não uma galeria de telas: antes de cada card, anote em uma frase o que o leitor pensa agora e o que deverá entender depois. Contexto, contraste, demonstração, pausa tipográfica, consequência e CTA podem ter linguagens visuais distintas. A prova não precisa aparecer em todos os beats; quando entrar, deve resolver a pergunta criada — e ser grande o bastante para cumprir esse papel.
 
 ## Post estático: biblioteca seletiva
 

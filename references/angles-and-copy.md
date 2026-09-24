@@ -24,6 +24,18 @@ Não chame de variação uma troca de sinônimos. Mude a situação do aluno, a 
 4. Acrescente apoio para situar o problema ou dar significado ao benefício, não para descrever uma captura linha por linha. A prova pode entrar depois no carrossel, aparecer como detalhe secundário ou permanecer documentada nos bastidores quando a peça não for demonstrativa. Leia gancho + contexto/benefício + ação: a mensagem precisa fazer sentido sem exigir leitura da interface.
 5. CTA nomeia **uma ação** e recompensa verdadeira. Na campanha PPPE/PPPB de conversão: “Comente PPPE/PPPB/ATAQUE” para receber detalhes, amostra e preço, se essa entrega estiver operacionalmente disponível. Não o desenhe como controle clicável do produto.
 
+## Persuasão não é despejar prova
+
+Verificar a verdade de uma afirmação é trabalho interno; a ordem da narrativa é uma decisão de comunicação. Não transforme cada arte em relatório da interface. Antes da prova, dê ao leitor o contexto que torna o assunto relevante; em seguida, use o mecanismo/produto para responder uma dúvida concreta. A prova confirma a ideia — não precisa substituir o hook, a tensão ou o benefício.
+
+Use a sequência mental `reconhecimento → tensão/curiosidade → possibilidade útil → prova no ponto da dúvida → ação`. Uma peça pode omitir etapas que não cabem, mas não deve saltar direto de um rótulo técnico para um screenshot sem dizer por que isso importa. Prefira consequência operacional (“começar sabendo qual assunto retomar”) a adjetivos vagos (“mais completo”, “melhor”, “revolucionário”).
+
+### Capa que abre leitura qualificada
+
+No primeiro card, comece pelo pensamento, escolha ou obstáculo que faria alguém interessado no concurso se reconhecer. Não abra com ID, cronômetro, lei, artigo, contagem, lista de recursos ou uma tela de interface, a menos que o público já esteja consciente e o dado seja por si só a promessa pedida. O texto da capa pode ser curto e emocionalmente próximo sem ser sensacionalista. Inclua identificação do concurso discretamente; deixe o dado técnico para o payoff que o contextualiza.
+
+Antes de aprovar, leia a capa isolada e responda: “quem deve parar?”, “o que essa pessoa quer descobrir?” e “o próximo card realmente entrega isso?”. Se a única resposta for “quem já conhece o plano”, reescreva para público qualificado que ainda não conhece a Rota.
+
 ## Uma mensagem dominante; funções distintas
 
 A **Regra do Um** pede uma ideia dominante, uma tensão/emoção principal, um benefício central e uma ação, todos sustentáveis. Em peça demonstrativa, escolha uma prova focal; isso **não** obriga captura visível em toda peça ou card. Se a peça tenta vender simultaneamente contagem de missões, lei, vídeo, questões, progresso, preço e bônus, escolha o ponto mais relevante e distribua o restante.

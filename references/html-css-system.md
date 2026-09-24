@@ -29,10 +29,16 @@ Mantenha copy e dados por peça (concurso, formato, papel, hook, apoio, CTA, `pr
 - Defina poucos tokens semânticos (superfície, texto, texto secundário, cor Rota, cor do concurso, margem, grade-base, famílias tipográficas e escala de sombras/bordas). A campanha escolhe valores. Evite uma lista de centenas de presets combináveis que permita peça fora da marca.
 - Fontes reais devem carregar antes da captura (`document.fonts.ready`). Use fallback conhecido e cheque o render; fonte substituída muda quebras e pode cobrir a prova.
 - `text-wrap: balance` ajuda em headlines curtas, quando suportado; confira quebra no navegador real. Defina largura e `line-height` intencional. Não dependa de autoajuste que encolha até a mensagem ficar ilegível. Reescreva primeiro, depois ajuste escala e recorte. Para blocos de leitura, prefira alinhamento/fluxo natural.
+- Em canvas 1080 px, trate **20 CSS px (15 pt)** como menor tamanho permitido para qualquer texto visível. A régua inclui número de card, etiqueta, caption, rodapé e CTA, não só headline/corpo. Layout deve ceder ao texto: reduza palavras, quebre linhas ou retire metadado; não encolha fonte. Faça uma checagem computada dos textos DOM e uma leitura do texto rasterizado nas capturas no PNG final.
+- Limite a uma aplicação visível da logo Rota por criativo. Use o componente de marca no cabeçalho ou no rodapé, sem repetir ambos; conte as aplicações efetivamente visíveis após estilos responsivos/variantes. O brasão tem função distinta.
 
 ## Primitivas de informação, não moldes visuais
 
 Um componente pode comunicar `hook`, `body`, `list`, `stats`, `quote`, `checklist`, `process`, `comparison`, `CTA`, `image/prova`, `number` ou `highlight`. Use apenas o tipo apropriado ao conteúdo. `stats` exige fonte; `quote`, autor e autorização; `number`, significado contextual. A composição de cada tipo pode variar. Não deixe o sistema gerar automaticamente badge, linha, sombra, número de fundo e CTA em todos os cards.
+
+Dentro de um componente, mantenha partes que explicam a mesma ideia agrupadas. Não use `space-between`, alturas artificiais ou margens automáticas para prender título num extremo e explicação/prova no outro. Comparações usam painéis preenchidos do tamanho do conteúdo e aproximam rótulo e explicação; sequências dão largura consistente a cada etapa e alinham setas em células próprias do mesmo eixo. Inspecione o card individualmente para encontrar vazios internos e desalinhamentos que a folha de contato esconde.
+
+Não use `border-top`/`border-left`, pseudo-elementos ou segmentos de progresso coloridos como acento automático repetido. Destaque com texto, superfície inteira de tom discreto, contorno neutro e setas com função clara. Barra colorida só permanece quando codifica estado/dado real ou está dentro de UI autêntica; se competir com a mensagem, mude o recorte ou componha uma transcrição atribuída, sem reconstruir a interface.
 
 Capturas do produto e assets ficam em caminhos previsíveis junto à peça ou são incorporados de modo portátil quando necessário. Mantenha resolução suficiente para o recorte; não estique captura pequena. Ao publicar HTML de preview, garanta que os recursos também carreguem fora da máquina local. O PNG final deve funcionar independentemente desses caminhos.
 
@@ -46,6 +52,16 @@ Classifique cada asset antes do CSS:
 Defina área útil, proporção e posição do crop antes de aplicar `object-fit`, `object-position`, `overflow: hidden` ou transformações. Verifique que palavras, controles, bordas e sombras relevantes não ficam amputados, que não sobra cabeçalho/rodapé acidental da captura e que o conteúdo principal não fica pequeno dentro de um grande retângulo vazio. Não estique imagem nem amplie além da resolução que sustenta o PNG nativo. Um zoom que corta a prova é pior que um recorte menor e legível.
 
 Preview e exportação devem usar o mesmo asset e enquadramento. Depois de renderizar, inspecione o PNG **isolado** e em conjunto, sobre o fundo real da peça; a página de preview pode esconder emendas, faixas brancas ou colisões quando vista apenas como mosaico no navegador.
+
+### Fluxo Pexels (somente quando fotografia contextual fizer falta)
+
+1. Defina query, formato/orientação e função narrativa antes da busca. Use a API de busca oficial para obter 5–10 opções e monte uma folha de contato local para avaliação visual — não escolha automaticamente pelo primeiro resultado.
+2. Julgue a foto na composição final em baixa fidelidade: sujeito/gesto coerentes, espaço para copy, crop do canvas, luz e textura compatíveis com a direção da campanha. Se nenhuma sustentar a ideia, não force a foto.
+3. Baixe apenas os candidatos aprovados para `assets/`; guarde ID, autor, URL da foto, URL/perfil do autor, dimensões, data de aquisição, uso e requisitos de atribuição em um manifesto. Atribua Pexels/fotógrafo conforme a orientação vigente da API.
+4. A chave fica em variável de ambiente local usada pelo script de aquisição; não embuta segredo em HTML/JS, PNG, querystring, logs ou controle de versão. Imagens finais são carregadas localmente para preview/exportação.
+5. Se não houver foto adequada, verifique outro banco licenciado disponível; considere geração por IA apenas como último recurso. Fundos gerados nunca substituem logo, brasão, UI, captura ou prova real.
+
+Use um script pequeno, se útil, para automatizar busca, folha de contato, download e registro; não adicione pacote/framework só para a API. Verifique documentação, limites/atribuição e licenças atuais antes de uso comercial; a busca não transfere automaticamente direitos de marcas, pessoas identificáveis ou conteúdo de terceiros presentes na imagem.
 
 ## Preview e exportação
 
