@@ -2,6 +2,8 @@
 
 Este guia trata do texto que aparece no PNG. Não cobre legenda, hashtag ou roteiro. Defina público/objetivo em [público e mensagem](audience-and-message.md), confirme a prova em [marca e evidência](rota-brand-and-evidence.md) e escolha a estrutura em [frameworks narrativos](narrative-frameworks.md).
 
+Na criação, ideação ou revisão de copy, leia também [persuasão RAG](persuasion-rag.md), [escrita natural](guia-escrita-natural-ptbr.md) e [humanização PT-BR](humanizacao-ptbr.md). Essas referências complementam as regras abaixo e preservam a hierarquia da skill principal.
+
 ## Ângulo = pergunta específica + prova adequada
 
 Não chame de variação uma troca de sinônimos. Mude a situação do aluno, a objeção respondida ou a parte do produto demonstrada.
@@ -22,7 +24,7 @@ Não chame de variação uma troca de sinônimos. Mude a situação do aluno, a 
 2. Gere chamadas por **mecanismos diferentes**: pergunta concreta, contraste honesto, situação reconhecível, objeção ou demonstração direta. Selecione pela relevância para o público qualificado, não pela quantidade de dados que cabem na capa. Corte o que depende de fato não verificado.
 3. Escolha o hook que passa cinco testes: **chama a pessoa certa, é específico, verdadeiro, compreensível sem legenda e pago pela sequência/peça**. Pode abrir uma tensão sem explicar o produto inteiro. Não comece por ID da missão, lei, tempo ou número de questões só porque esses dados existem.
 4. Acrescente apoio para situar o problema ou dar significado ao benefício, não para descrever uma captura linha por linha. A prova pode entrar depois no carrossel, aparecer como detalhe secundário ou permanecer documentada nos bastidores quando a peça não for demonstrativa. Leia gancho + contexto/benefício + ação: a mensagem precisa fazer sentido sem exigir leitura da interface.
-5. CTA nomeia **uma ação** e recompensa verdadeira. Na campanha PPPE/PPPB de conversão: “Comente PPPE/PPPB/ATAQUE” para receber detalhes, amostra e preço, se essa entrega estiver operacionalmente disponível. Não o desenhe como controle clicável do produto.
+5. CTA nomeia **uma ação** e recompensa verdadeira. Comentário com palavra-chave só entra se esse canal estiver previsto. Para convite geral, use “Peça uma amostra do plano de estudos”. Nomeie curso/concurso no CTA apenas quando o pedido delimitar aquele alvo. Não o desenhe como controle clicável do produto.
 
 ## Persuasão não é despejar prova
 
@@ -49,7 +51,7 @@ A **Regra do Um** pede uma ideia dominante, uma tensão/emoção principal, um b
 
 Não comprima as quatro funções na mesma frase. A prova pode comunicar parte do diferencial sem explicação repetida. O hook deve chamar **a pessoa certa** e ser pago pela peça, não ser apenas a frase mais barulhenta.
 
-Na capa para público frio, o concurso/cargo e uma situação, pergunta ou benefício reconhecível qualificam o leitor; a captura, os detalhes da missão e o mecanismo podem esperar os cards seguintes. Exemplo de contraste de função, não copy obrigatória: em vez de abrir com `Lei 15.755/2016 · 45 min · 10 questões`, abrir com `PPPE: seu cronograma diz a matéria. Mas diz a tarefa?`; depois mostrar uma missão real que responda à pergunta. Não esconda indefinidamente o payoff nem faça curiosidade vazia.
+Na capa, identifique concurso/cargo somente se o pedido ou a copy fornecida definir esse alvo, ou se uma estratégia singular depender dessa informação. Em temas gerais, como leitura, organização de estudos ou técnicas de revisão, mantenha a mensagem aberta a todos os concursos. A origem da captura ou do plano não muda o escopo do assunto. Não acrescente cabeçalho repetido com assunto, concurso, edição ou número do card. A capa leva a logo da Rota e a mensagem central; cards e Stories não recebem números de ordem.
 
 ## Recurso → benefício → significado
 
@@ -76,6 +78,6 @@ Escolha uma ação principal. Um comentário não obriga compra; uma amostra nã
 
 ## Teste rápido por formato
 
-- **Post:** a primeira olhada deve identificar público/concurso, tensão ou benefício e ação; se a peça demonstrar o produto, a prova mostrada precisa ser legível.
+- **Post:** a primeira olhada deve identificar a situação ou público delimitado pelo pedido, a tensão/benefício e a ação. Não atribua tema geral a um concurso por causa do print usado como prova.
 - **Carrossel:** card 1 atrai o leitor qualificado e abre uma pergunta honesta; os cards seguintes contextualizam e demonstram no momento certo; payoff resolve a promessa antes ou junto do CTA.
 - **Story:** cada frame precisa fazer sentido mesmo isolado; a sequência tem um objetivo e um ritmo, não cinco peças idênticas. Conteúdo essencial cabe na zona segura.

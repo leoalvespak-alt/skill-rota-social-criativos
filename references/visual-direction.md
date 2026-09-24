@@ -36,6 +36,8 @@ Selecione um território pelo argumento; estes são possibilidades, não presets
 
 Um lote pode misturar territórios ou usar um com variações. A diversidade vem de ideia, escala, enquadramento, alinhamento e ritmo — não de trocar a cor mantendo a mesma composição. Evite que o mesmo cabeçalho, moldura de screenshot, legenda e CTA apareçam em todas as peças.
 
+O repertório inclui também foto ou ilustração em tela cheia, recortes com transparência real, continuidade entre cards vizinhos e efeitos localizados no texto. Consulte [orquestração visual de lotes](style-orchestration.md) para distribuir essas opções sem apagar a gramática já aprovada.
+
 ### Fundo, atmosfera e efeitos
 
 Escolha conscientemente entre superfície limpa; textura/forma CSS; contexto fotográfico; ou prova do produto. Foto ou imagem gerada entra apenas quando acrescenta identificação, lugar ou atmosfera. Para geração, produza fundo/contexto sem texto, logo, brasão, UI, uniforme identificável ou alegação; adicione copy em HTML/CSS e mantenha overlay da marca funcional para contraste. Use imagem como contexto de abertura, não no lugar da captura necessária para demonstrar produto.
@@ -73,7 +75,7 @@ Compare três hipóteses usando **a mesma ideia e base factual**, para julgar co
 
 As três precisam variar **posição da prova, proporção, crop, alinhamento, ritmo ou relação texto/imagem**, não só cor. Se o usuário pediu opções e acompanha a escolha, renderize três capas/prévias reais com conteúdo verdadeiro. Em execução autônoma, compare rascunhos internamente, escolha a direção que torna a prova mais clara e prossiga. Direção já aprovada não exige três alternativas a cada novo card.
 
-Avalie cada hipótese por: identificação do concurso, promessa cumprida, legibilidade a 25%, destaque da prova, compatibilidade com marca, potencial de expansão e diferença real das outras. Rejeite a mais “bonita” se ela enfraquecer produto ou CTA.
+Avalie cada hipótese por: adequação ao público definido no pedido, promessa cumprida, legibilidade a 25%, destaque da prova, compatibilidade com marca, potencial de expansão e diferença real das outras. Rejeite a mais “bonita” se ela enfraquecer produto ou CTA.
 
 ## Referências visuais enviadas pelo usuário
 
@@ -84,6 +86,12 @@ Antes de compor, extraia da referência a lógica de hierarquia, estrutura, prop
 3. **Incompatibilidades com a Rota:** visual infantil ou de fintech, glow/dashboard genérico, paleta conflitante ou sinal de vínculo oficial com órgão policial. Descarte ou transforme esses elementos.
 
 Adapte a **lógica visual** à marca, à gramática aprovada e à prova real da peça; não reproduza o layout trocando apenas logo e cor. Com várias referências, combine princípios compatíveis em uma direção coerente, sem colagem de estilos contraditórios. Se a referência trouxer uma exigência explícita do usuário, trate-a como briefing, respeitadas evidência e clareza.
+
+## Elenco visual por lote
+
+Ao escolher fotos para capas de peças distintas, mantenha uma lista simples da pessoa visível em cada imagem e da origem do arquivo. Uma pessoa continua sendo a mesma com outra pose, roupa, corte ou fundo. Não repita uma pessoa identificável entre capas de concursos/campanhas diferentes. Primeiro escolha fotos com pessoas distintas; quando isso reduzir a qualidade, use outra foto contextual, um detalhe sem rosto, uma captura real ou uma capa tipográfica. Repetir alguém é o último recurso e deve ficar registrado para revisão.
+
+O nome do arquivo, a pasta de um concurso ou a pessoa retratada numa referência não define o público da copy. A direção visual deve preservar o escopo pedido. Temas que servem a qualquer concurso ficam sem brasão, nome de cargo ou rótulo de concurso, exceto quando o pedido delimitar esse público.
 
 ## Gramática de campanha, não molde único
 

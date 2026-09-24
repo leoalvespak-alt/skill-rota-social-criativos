@@ -12,6 +12,10 @@ Revisões consultadas: Taste `a6153b3`; Marketing Skills `5b2c000`; Frontend Sli
 | `social-media-skills/skills`: `skills/brand-profile/SKILL.md`, `skills/voice-builder/SKILL.md`, `skills/hook-writer/SKILL.md`, `skills/hook-writer/references/scoring.md`, `skills/carousel-writer/SKILL.md`, `skills/carousel-writer/references/architecture.md`, `skills/carousel-writer/references/slide-craft.md`, `skills/story-writer/SKILL.md`, `skills/story-writer/references/the-frame-framework.md` | Hook nascido do conteúdo; promessa paga; marca/voz com evidência; capa isolada, um beat por card, sequência de Stories com uma ação. | `angles-and-copy.md`, `narrative-frameworks.md`, `formats.md`. |
 | `itchernetski/threads-carousel-claude-skill`: `SKILL.md`, `template/src/lib/types.ts`, `template/src/lib/presets.ts`, `template/src/slides.ts`, `template/src/app/CarouselApp.tsx`, `template/src/app/globals.css` | Arquétipos de informação; conteúdo separado do motor; tipografia adaptada ao texto, `text-wrap: balance`; preview/export no mesmo canvas. | `html-css-system.md`, `formats.md`. |
 
+## Referência visual de 24/09/2026
+
+O usuário forneceu capturas do perfil concorrente `@gurujacursos` na pasta local `C:\Users\Lenovo\Downloads\Telegram Desktop\arquivo (1)`. A análise identificou princípios de composição: cenas de fundo em tela cheia, imagens escuras com texto de alto contraste, recortes ilustrados sem fundo que avançam entre cards e destaque tipográfico localizado. A skill registra esses princípios em `style-orchestration.md`; não copia nome, marca, layout, texto, personagem, captura ou arquivo visual do concorrente. O acervo do concorrente não é dependência da skill.
+
 ## Deliberadamente não importado
 
 - Regras de frontend web, GSAP, motion e layout responsivo de site: o produto final aqui é PNG estático (`MOTION_INTENSITY = 0`).

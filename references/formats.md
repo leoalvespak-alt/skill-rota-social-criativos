@@ -6,17 +6,17 @@ Use estes formatos quando o usuário não fixar outros. A plataforma de publica�
 
 - Uma mensagem, uma tensão/benefício e uma ação. A alegação factual deve ser sustentada, mas o post não precisa trazer screenshot se sua função for identificação, contraste ou convite. Quando demonstrar produto, escolha uma prova focal; gancho e produto se complementam sem proporção fixa.
 - Se houver captura, ela precisa permitir ler **um** detalhe importante em exibição reduzida. Se houver mais recursos, distribua-os em outras peças ou cards.
-- Marca compacta. Concurso reconhecível sem transformar brasão em segundo protagonista. CTA editorial destacado e distinto dos botões da interface.
+- Marca compacta. Não ponha etiqueta de concurso ou assunto no cabeçalho por padrão; use a identificação na mensagem somente quando o pedido delimitar esse público. CTA claro, distinto dos botões da interface e compatível com o escopo geral ou específico da peça.
 - Estruturas úteis são selecionadas em [frameworks narrativos](narrative-frameworks.md); não comece por um molde visual fixo.
 
 ## Carrossel — 1080×1350 px por card
 
 - Normalmente 3–10 cards; o número é consequência do conteúdo e do pedido. Corte filler. Um único ponto pode virar post único.
-- Card 1 é capa e miniatura do feed: sua prioridade é fazer a pessoa **qualificada** querer iniciar a leitura. Identifique concurso/cargo ou situação, abra uma pergunta/tensão/benefício específico e sinalize o payoff. Não dependa da legenda para explicar “640 o quê?”; não antecipe contagem, lei, tempo, botões e screenshot apenas por estarem disponíveis.
+- Card 1 é capa e miniatura do feed: sua prioridade é fazer a pessoa certa querer iniciar a leitura. Use a logo e a mensagem central. Não acrescente assunto, concurso/cargo ou chamada pequena no topo sem pedido ou estratégia singular; não mostre número do card ou quantidade da sequência. Abra uma tensão ou benefício que a sequência realmente entrega. Não dependa da legenda para explicar a ideia nem antecipe lei, tempo, botões ou screenshot apenas por estarem disponíveis.
 - Desenhe a **espinha narrativa** antes da arte: promessa → beats comprováveis → payoff → uma ação. Um tema por carrossel e uma ideia por card. Cada card entrega valor e cria motivo honesto para o seguinte.
-- Sistema visual consistente não significa um template idêntico em oito cards. Mantenha margens base, família tipográfica, cor, marca e paginação coerentes; varie relação título/prova, crop, escala, alinhamento e densidade conforme a função do card.
+- Sistema visual consistente não significa um template idêntico em oito cards. Mantenha margens base, família tipográfica, cor e marca coerentes; varie relação título/prova, crop, escala, alinhamento e densidade conforme a função do card. Não use paginação como elemento de navegação.
 - Coloque a demonstração onde ela responde à dúvida criada; nem todo card precisa de print. Se teoria, lei, vídeo e questões perderem leitura em miniaturas, distribua em cards distintos. Quando a prova visual for o argumento, ela deve ser legível, não decorativa.
-- CTA final pode dominar a tela, com prova menor mas real. Na campanha PPPE/PPPB, comentário com palavra-chave é mais adequado que falso botão de landing page.
+- CTA final pode dominar a tela, com prova menor mas real. Use comentário com palavra-chave somente quando isso fizer parte do fluxo solicitado; tema geral pede CTA geral. Não imite botão de interface.
 
 ## Stories — 1080×1920 px
 
@@ -25,6 +25,7 @@ Use estes formatos quando o usuário não fixar outros. A plataforma de publica�
 - Menos texto que no feed. Um Story funciona isoladamente; em sequência, o primeiro prende a atenção e cada frame acrescenta um beat. A sequência persegue **um objetivo**, com uma ação principal no fim.
 - Se houver sticker nativo solicitado, reserve sua área e descreva o texto/posicionamento; não desenhe um sticker estático que prometa interação inexistente no PNG. Sem pedido de sticker, não o adicione por fórmula.
 - Uma sequência curta pode seguir dúvida → missão → material → continuidade → comentário, mas troque essa ordem se a prova e o objetivo pedirem outra narrativa.
+- Não repita no alto assunto, concurso, cargo ou etapa; não mostre contadores como `1 / 5`. Mantenha a logo e a ideia do Story. Para tema geral, use CTA geral, ainda que uma captura real venha de um plano identificado.
 
 ## Escala real de uso
 
