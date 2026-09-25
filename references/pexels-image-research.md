@@ -109,6 +109,74 @@ Rejeite manualmente imagens que pareçam: reunião/empresa sorridente, aperto de
 
 Foto genérica de notebook, policial, mesa ou estudante não melhora uma arte automaticamente. Prefira gesto cotidiano, ambiente habitado e detalhe que ajude a reconhecer uma situação; se a boa evidência do produto já resolve a peça, não acrescente foto.
 
+### Adequação ao público da Rota
+
+Para criativos dirigidos a quem estuda para concurso no Brasil, faça a curadoria pelo contexto que aparece na foto, não por suposições sobre a origem da pessoa. O padrão da marca é mostrar adultos jovens, em diferentes tons de pele e aparências, em rotinas que façam sentido para quem concilia estudo, trabalho e orçamento real. Trate idade, nacionalidade, renda e profissão como dados do brief, nunca como algo comprovado pela aparência.
+
+- Procure cenas comuns: mesa simples de sala ou cozinha, caderno usado, caneta, folhas impressas, celular cotidiano, cadeira básica, canto de quarto ou sala habitada e sala de aula comunitária. Esses itens são possibilidades, não uma lista obrigatória.
+- Prefira gesto espontâneo e atenção na tarefa: ler, anotar, corrigir ou comparar material. O sujeito não precisa encarar a câmera nem representar uma promessa ou depoimento.
+- Considere o recorte final da arte antes de aprovar. Rosto, mãos e gesto devem continuar naturais; materiais de estudo precisam parecer parte da cena e deixar a copy respirar.
+- Evite salas de reunião, roupa executiva, escritório de alto padrão, apartamento de catálogo, coworking de luxo, pose publicitária, cenário estrangeiro evidente e elenco claramente fora da faixa etária do público daquele criativo.
+- Não associe baixa renda a descuido, sujeira, sofrimento, moradia precária ou falta de estudo. Mostre cotidiano digno, sem caricatura.
+- Termos como `Brazilian`, `Latino` e `South American` ajudam a buscar, mas não comprovam nacionalidade, classe social nem adequação. Confira os pixels, o cenário e o uso no canvas.
+- Não escolha uma foto só porque o catálogo a descreve como “student”, “home office” ou “Brazil”. A descrição e o nome do arquivo são pistas para pesquisa, não aprovação visual.
+
+#### Regressão: foto de catálogo distante do público
+
+Em capas para adultos jovens que estudam no Brasil, recuse mesmo que a busca diga “student” ou “exam”:
+
+- pessoa com aparência claramente mais velha que a faixa indicada;
+- sala executiva, coworking de luxo, apartamento amplo e impessoal ou decoração de catálogo;
+- pose de campanha corporativa, expressão dirigida à câmera ou materiais arrumados como vitrine;
+- paleta e luz de ensaio que deixem a cena artificial ou cinematográfica;
+- foto só de objetos quando o texto fala de uma rotina que pede uma pessoa ou gesto reconhecível.
+
+Esses sinais são visuais, não provas de nacionalidade ou renda. Não tente “corrigir” a distância do público com uma etiqueta de busca, filtro de cor ou recorte apertado. Troque a foto por uma cena cotidiana que mostre estudo em andamento, como anotar, ler, conferir uma questão ou rever folhas em uma mesa simples. Também servem cenas sem rosto quando mãos, caderno e gesto estiverem claros.
+
+Ao trocar imagens de várias capas, faça uma grade com todas as opções antes de aprovar. Compare idade aparente, cenário, roupa, luz, ângulo, gesto e elenco no conjunto; evite repetir a mesma pessoa mesmo quando a pose ou o recorte mudam. Uma sequência curta pode variar entre pessoa estudando em casa, close de mãos e caderno, sala de aula comum e material sobre uma mesa habitada, desde que a cena ajude o argumento de cada capa.
+
+Não escolha automaticamente uma imagem clara, branca e minimalista por parecer “limpa”. Luz de janela e mesa simples funcionam quando parecem parte de uma casa real. Preserve diversidade sem transformar tom de pele ou renda em adereço, e não associe baixa renda a precariedade.
+
+#### Filtro rápido por candidato
+
+Dê nota de 0 a 2 para cada item: aderência ao público/contexto; relação da cena com o argumento; naturalidade; qualidade do recorte no canvas final; ausência de texto, marca ou associação indevida. Aprove apenas candidatos com pelo menos 8/10 e sem falha eliminatória. Rejeite sem compensação de pontos se a foto tiver aparência de anúncio corporativo, idade claramente incompatível, ambiente estrangeiro identificável quando isso confundir a mensagem, texto inventado legível, marca em destaque ou crop que corte rosto/mãos de modo estranho.
+
+Monte uma folha de contato e veja também o recorte no tamanho final da capa, post ou Story. Guarde uma nota curta com a decisão observável, por exemplo: “mesa comum, jovem adulto anotando, luz de janela, mãos e caderno inteiros no recorte”. Evite justificativas genéricas como “foto revisada” ou “combina com o Brasil”. Não repita a mesma pessoa em capas diferentes quando houver opção; mudar a pose não torna a pessoa outra.
+
+Quando uma imagem for recusada numa substituição, tire o arquivo antigo da pasta ativa `assets/`. Se precisar manter histórico, registre-o como rejeitado em área de QA ou no manifesto, sem deixá-lo disponível como escolha aprovada.
+
+### Prompts de referência para ImageGen
+
+Só use estes modelos depois de pesquisar e rejeitar opções adequadas em bancos licenciados, ou quando o usuário pedir geração. Troque a cena conforme o argumento e crie pessoas e ambientes distintos entre peças próximas. A descrição não precisa usar todos os detalhes de uma vez.
+
+**Estudo em casa:**
+
+```text
+Fotografia documental vertical de uma pessoa adulta jovem estudando para concurso em um apartamento brasileiro comum e habitado. Mesa simples, caderno, folhas impressas sem texto legível e caneta; roupa casual. A pessoa está concentrada em uma tarefa e não posa para a câmera. Luz normal da janela, proporções e mãos naturais, cenário digno e plausível, sem decoração luxuosa. Sem marcas, logotipos, uniforme, bandeira, texto legível ou marca-d'água. Evite estética de anúncio, escritório executivo, iluminação de cinema, desfoque artificial, sinais de pobreza caricatos e anatomia defeituosa.
+```
+
+**Depois do trabalho:**
+
+```text
+Foto vertical, com aparência de registro cotidiano feito por um colega, de uma pessoa adulta jovem chegando do trabalho e estudando por alguns minutos à mesa de casa. Mochila ou bolsa comum ao lado, material de estudo realista, ambiente compacto e cuidado. Iluminação comum do ambiente, sem pose, sem uniforme reconhecível e sem marca. Papéis sem escrita legível. Evite luxo, roupa executiva, sofrimento encenado, luz dramática e visual de portfólio comercial.
+```
+
+**Sala de estudo ou aula comunitária:**
+
+```text
+Fotografia vertical espontânea de adultos jovens estudando em uma sala de aula ou espaço comunitário brasileiro, mobiliário simples, cadernos e folhas sobre as mesas, luz natural comum. A cena precisa parecer uma rotina real, sem brasões, uniformes, logotipos, quadro com texto legível ou pose para catálogo. Pessoas distintas, mãos naturais, sem sugerir vínculo com a Rota ou aprovação em concurso.
+```
+
+**Tema fora da mesa de estudo:**
+
+```text
+Fotografia documental vertical ligada diretamente ao assunto [descrever tatuagem, estabelecimento, trajeto ou paisagem]. Use detalhes e referências de uso cotidiano no Brasil sem inventar placa, nome de local, uniforme, marca ou símbolo oficial. Enquadramento simples e claro, luz natural, aparência de registro real. Sem texto legível, logotipo, bandeira, marca-d'água, estética cinematográfica ou visual de anúncio.
+```
+
+Para cada geração, varie a cena concreta e a pessoa em vez de reaproveitar a mesma composição com roupa ou pose alterada. Especifique uma ação observável, o tamanho e uso do ambiente, a luz comum do local e o espaço que o recorte final precisa preservar. Se a geração repetir traços, enquadramento ou cenário de outra capa, descarte e escreva um prompt com outra distância de câmera, espaço e atividade.
+
+Depois de gerar, confira artefatos, cenário, idade aparente, mãos, texto falso e o recorte final. Rejeite a imagem se ela parecer render artificial, retrato publicitário ou versão repetida de outra pessoa. Geração não substitui a inspeção visual.
+
 ## Seleção dos resultados
 
 Para cada uma das 5–10 opções, confira em tamanho suficiente e sobre o canvas final:
