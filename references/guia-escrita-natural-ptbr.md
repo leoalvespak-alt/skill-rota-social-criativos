@@ -25,7 +25,7 @@ Se alguma delas fizer parte de um nome oficial, citação protegida ou material-
 
 ## Voz e revisão
 
-Escreva em português brasileiro natural, com clareza, ritmo variado e palavras específicas ao assunto. Prefira uma ideia por frase quando isso ajudar a leitura. Use detalhes reais da fonte; não invente experiência pessoal, conversa, estatística, citação ou exemplo para dar cor.
+Escreva em português brasileiro natural, com clareza, ritmo variado e palavras específicas ao assunto. Prefira uma ideia por frase quando isso ajudar a leitura. Use detalhes reais da fonte; não invente experiência pessoal, conversa, estatística, citação ou caso apresentado como real para dar cor. Exemplos criados para ensinar são permitidos com identificação explícita de exemplo didático ou situação hipotética; devem preservar os fatos e limites do assunto.
 
 Mantenha a explicação completa o bastante para que a pessoa entenda a ideia. Corte enchimento, não o raciocínio. Evite tom de anúncio, adjetivos inflados, frases perfeitamente simétricas, trios montados por hábito, abertura genérica, conectivos em série e conclusão otimista automática.
 

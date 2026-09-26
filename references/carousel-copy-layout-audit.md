@@ -12,6 +12,17 @@ Use ao criar ou refazer carrosséis, sobretudo em lotes. Esta referência comple
 
 ## Correspondência entre copy e visual
 
+### Escala, profundidade e forma
+
+- Comece por títulos principais de pelo menos 67 CSS px (50 pt), inclusive em cards internos. Em canvas de 1080 px de largura, explicações centrais normalmente pedem 30 a 38 px; nenhum texto visível pode ficar abaixo de 20 px (15 pt). A escala aprovada pelo pedido prevalece. Confira tamanho efetivo no PNG depois dos ajustes de escala e recortes.
+- Escreva o raciocínio que o leitor precisa antes de escolher a quantidade de telas. Amplie com contexto, critério, demonstração ou condição de aplicação. Não fixe um mínimo de palavras por card: um exemplo bem resolvido pode ser curto, e uma ressalva importante pode exigir mais espaço. Capa, CTA e assinatura têm funções diferentes da explicação.
+- Teste uma composição ampla antes de encaixar itens em colunas. Duas ou três explicações extensas costumam ganhar leitura em linhas sucessivas. Uma comparação só pede colunas se os eixos forem realmente comparáveis e a copy continuar legível.
+- Evite cartões internos em sequência por hábito. Alterne formas úteis, como texto explicado, frase anotada, tabela simples, faixas abertas e procedimento. Uma caixa pode agrupar informação; várias caixas pequenas podem fragmentar um raciocínio.
+- Remova ornamento antes de reduzir fonte ou cortar uma condição necessária. Foto, mascote, item, sombra, brilho ou gradiente continuam disponíveis quando reforçam o ponto. O efeito fica localizado e conserva o contraste; a ilustração não precisa aparecer em todo card.
+- Respiro cria foco quando aproxima as partes do argumento e separa ideias distintas. Espaço vazio junto de texto comprimido, última caixa isolada em grade incompleta ou CTA abandonado no rodapé indicam recomposição.
+
+### Correspondência semântica
+
 - O título e sua explicação formam um grupo visual próximo. Um alinhamento diferente só entra quando organiza uma composição intencional e continua claro em leitura rápida.
 - Cada painel contém conteúdo proporcional ao espaço. Rejeite caixas com área vazia grande, título longe da descrição, itens soltos ou alinhamentos que pareçam uma página de relatório.
 - Ilustração, foto, ícone, seta, número e efeito precisam reforçar o argumento daquele card. Um ícone representa o conceito ao lado; não serve como decoração genérica nem como substituto para um arquivo ausente.
@@ -29,6 +40,8 @@ Após cada bloco de até cinco carrosséis:
 3. Confira alinhamento, margens, relação entre título e apoio, preenchimento de cada painel, escala da prova, semântica dos ícones e efeitos tipográficos.
 4. Veja a folha em escala de celular. Se uma explicação vira textura, uma frase parece solta ou uma composição fica vazia, corrija antes de seguir ao próximo bloco.
 5. Depois de corrigir, gere novamente e confira as peças alteradas em tamanho integral e reduzido.
+
+Registre por card: função, contribuição útil, título e corpo medidos, inspeção integral, leitura em telefone, problema, ajuste e resultado. A folha de contato serve para ritmo e comparação; ela não substitui a abertura de cada PNG. Se um defeito vier de componente compartilhado, localize todas as peças afetadas, corrija a origem e confira novamente todo esse conjunto. Não marque como aprovado um arquivo que só herdou o resultado de outro.
 
 ## Falhas que reprovam a entrega
 

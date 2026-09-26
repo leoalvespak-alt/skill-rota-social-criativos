@@ -2,7 +2,7 @@
 
 Este guia trata do texto que aparece no PNG. Não cobre legenda, hashtag ou roteiro. Defina público/objetivo em [público e mensagem](audience-and-message.md), confirme a prova em [marca e evidência](rota-brand-and-evidence.md) e escolha a estrutura em [frameworks narrativos](narrative-frameworks.md).
 
-Na criação, ideação ou revisão de copy, leia também [persuasão RAG](persuasion-rag.md), [escrita natural](guia-escrita-natural-ptbr.md) e [humanização PT-BR](humanizacao-ptbr.md). Essas referências complementam as regras abaixo e preservam a hierarquia da skill principal.
+Na criação, ideação ou revisão de copy, leia o [guia de copy clara, humana e útil](guia-copy-clara-humana-e-util.md), além de [persuasão RAG](persuasion-rag.md), [escrita natural](guia-escrita-natural-ptbr.md) e [humanização PT-BR](humanizacao-ptbr.md). Essas referências complementam as regras abaixo e preservam a hierarquia da skill principal.
 
 ## Ângulo = pergunta específica + prova adequada
 
@@ -34,7 +34,7 @@ Use a sequência mental `reconhecimento → tensão/curiosidade → possibilidad
 
 ### Capa que abre leitura qualificada
 
-No primeiro card, comece pelo pensamento, escolha ou obstáculo que faria alguém interessado no concurso se reconhecer. Não abra com ID, cronômetro, lei, artigo, contagem, lista de recursos ou uma tela de interface, a menos que o público já esteja consciente e o dado seja por si só a promessa pedida. O texto da capa pode ser curto e emocionalmente próximo sem ser sensacionalista. Inclua identificação do concurso discretamente; deixe o dado técnico para o payoff que o contextualiza.
+No primeiro card, comece pela situação, escolha ou obstáculo que faria o público do pedido se reconhecer. Não abra com ID, cronômetro, lei, artigo, contagem, lista de recursos ou uma tela de interface, a menos que o público já esteja consciente e o dado seja por si só a promessa pedida. O texto da capa pode ser curto e emocionalmente próximo sem ser sensacionalista. Identifique concurso somente quando o pedido ou a copy fornecida delimitar esse alvo; deixe o dado técnico para o ponto em que ele ajuda a compreensão.
 
 Antes de aprovar, leia a capa isolada e responda: “quem deve parar?”, “o que essa pessoa quer descobrir?” e “o próximo card realmente entrega isso?”. Se a única resposta for “quem já conhece o plano”, reescreva para público qualificado que ainda não conhece a Rota.
 
