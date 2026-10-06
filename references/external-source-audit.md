@@ -23,7 +23,7 @@ O usuário forneceu capturas do perfil concorrente `@gurujacursos` na pasta loca
 - Next.js/React, Tailwind, Bun e o motor de exportação do Threads Carousel: dependências desnecessárias para HTML/CSS simples editável.
 - “Mesmo template em todos os slides” literal: preservamos sistema de marca e grade, mas variamos composição e enquadramento conforme cada prova.
 - Depoimentos, estatísticas, resultados, imprensa e comparações de templates externos sem fonte: a regra factual da Rota é mais rígida.
-- Legendas, hashtags, calendário, scheduling, publicação, Reels, vídeo/UGC e imagem gerada como arte principal: fora do escopo padrão pedido pelo usuário.
+- No recorte inicial de 23/09, legendas e roteiros de Reels ainda não eram entregas da skill. A revisão de 26/09 passou a cobri-los; hashtags, produção de vídeo, publicação e agendamento continuam condicionados a pedido explícito. Calendário automático, depoimento encenado e imagem gerada como prova não foram incorporados.
 
 ## Refinamento de estratégia e copy (23/09/2026)
 
@@ -39,3 +39,15 @@ Consulta local orientada pelo `PLANO_MELHORIACOPY.md`. Os arquivos abaixo foram 
 | `base_de_conhecimento_rag.json` | Metadados e ordem das obras como apoio de proveniência; conceitos conferidos nos materiais correspondentes. | Registro de proveniência; não é dependência da skill. |
 
 Não foram importados formatos de carta de vendas longa, gatilhos como checklist, urgência fictícia, “segredos”, promessa de aprovação, linguagem de guru nem obrigação de aplicar StoryBrand em toda peça. A prova e a marca Rota têm precedência.
+
+## Concretude, histórias, legendas e CTAs (28/09/2026)
+
+O pedido apontou três lacunas de execução: copy ainda abstrata em alguns casos, narrativa pouco guiada e convites genéricos. A revisão acrescentou [copy concreta e narrativa](copy-concreta-e-narrativa.md) e [legendas e CTAs](legendas-e-ctas.md), com exemplos práticos e uma escolha entre exposição direta e história curta. Os livros locais foram consultados em trechos legíveis; a nova referência registra os arquivos e pontos de consulta. O material original e a licença da humanização permaneceram intactos.
+
+| Fonte primária externa | Contribuição adotada | Limite |
+|---|---|---|
+| [Berger, Moe e Schweidel, pesquisa sobre atenção e linguagem](https://journals.sagepub.com/doi/10.1177/00222429231152880) | Preferir palavras familiares e concretas quando explicam a ação. | Não prevê conversão ou retenção da Rota. |
+| [Pesquisa sobre concretude e compartilhamento em Twitter/Reddit](https://pmc.ncbi.nlm.nih.gov/articles/PMC13062457/) | Clareza e imagens mentais podem ajudar a mensagem a circular no contexto estudado. | Plataforma e tema alteram a magnitude; não importar números como promessa. |
+| [Green e Brock, transporte narrativo](https://pubmed.ncbi.nlm.nih.gov/11079236/) e [Lin e Utz, narratividade em redes](https://pubmed.ncbi.nlm.nih.gov/28469289/) | História pode aproximar uma decisão; intimidade percebida depende de adequação. | Efeitos de narratividade/intimidade em redes não foram estáveis; não forçar confissão ou depoimento. |
+| [Instagram, boas práticas para criadores](https://about.fb.com/news/2024/10/best-practices-education-hub-creators-instagram/) | Relacionar criação e vínculo com a audiência, acompanhando a resposta real da conta. | A página não oferece fórmula universal para legendas. |
+| [TikTok, formatos narrativos](https://ads.tiktok.com/business/en-US/blog/get-creative-6-storytelling-frameworks/) e [voz natural em campanhas com criadores](https://ads.tiktok.com/business/en/blog/creator-marketplace-engaging-content-tips) | Cena, desenvolvimento, próximo passo e CTA claro; em vídeo, um convite longo pode caber na legenda. | Fontes de marketing para vídeo e campanhas; adaptar ao conteúdo orgânico e à marca. |

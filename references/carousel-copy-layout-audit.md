@@ -10,16 +10,32 @@ Use ao criar ou refazer carrosséis, sobretudo em lotes. Esta referência comple
 4. Escreva o texto completo antes do layout. Título, apoio, rótulo, exemplo e CTA devem explicar a mesma ideia. Nenhuma palavra decorativa ou frase fragmentada pode depender de uma interpretação que a imagem não fornece.
 5. Escolha a estrutura visual pelo conteúdo: sequência para passos, comparação para eixos realmente comparáveis, exemplo para aplicação, checklist para conferência. Não force uma grade de cartões quando uma frase, diagrama ou imagem cumprir melhor a função.
 
+Aplique a revisão de [substância](aprofundamento-copy.md) ao raciocínio completo antes do layout e à versão final depois. Uma ideia por card permite motivo, explicação e exemplo relacionados. A capa pode ser breve; cards educativos não herdam essa brevidade. Compreender um card isolado significa identificar assunto e contribuição, sem repetir a tese inteira. A contagem fixada pelo pedido deve ser preservada; sem contagem fixa, a quantidade segue a cobertura necessária.
+
 ## Correspondência entre copy e visual
 
 ### Escala, profundidade e forma
 
-- Comece por títulos principais de pelo menos 67 CSS px (50 pt), inclusive em cards internos. Em canvas de 1080 px de largura, explicações centrais normalmente pedem 30 a 38 px; nenhum texto visível pode ficar abaixo de 20 px (15 pt). A escala aprovada pelo pedido prevalece. Confira tamanho efetivo no PNG depois dos ajustes de escala e recortes.
+- Em canvas de 1080 px, comece com títulos de 72–104 px; palavra ou número focal pode chegar a 104–160 px quando couber; corpo 36–44 px; apoio 24–28 px. Confira tamanho efetivo no PNG, a 270 e 360 px de largura. A escala da informação determina o arranjo.
 - Escreva o raciocínio que o leitor precisa antes de escolher a quantidade de telas. Amplie com contexto, critério, demonstração ou condição de aplicação. Não fixe um mínimo de palavras por card: um exemplo bem resolvido pode ser curto, e uma ressalva importante pode exigir mais espaço. Capa, CTA e assinatura têm funções diferentes da explicação.
 - Teste uma composição ampla antes de encaixar itens em colunas. Duas ou três explicações extensas costumam ganhar leitura em linhas sucessivas. Uma comparação só pede colunas se os eixos forem realmente comparáveis e a copy continuar legível.
 - Evite cartões internos em sequência por hábito. Alterne formas úteis, como texto explicado, frase anotada, tabela simples, faixas abertas e procedimento. Uma caixa pode agrupar informação; várias caixas pequenas podem fragmentar um raciocínio.
 - Remova ornamento antes de reduzir fonte ou cortar uma condição necessária. Foto, mascote, item, sombra, brilho ou gradiente continuam disponíveis quando reforçam o ponto. O efeito fica localizado e conserva o contraste; a ilustração não precisa aparecer em todo card.
+- Para lotes com mascotes/itens solicitados ou acervo Rota aprovado, confronte o plano por série/card com os PNGs: confirme arquivo correto, papel semântico, variedade de posição/estrutura, contraste e ausência de sobreposição. Se o recurso previsto não entrou no render, corrija o HTML/CSS ou registre a exceção antes de encerrar.
+- Confira a paleta do conjunto: superfícies e elementos dominantes usam cores Rota e a base neutra aprovada; cor de concurso só aparece em rótulo curto, item pontual ou brasão autêntico. Reprove card com fundo dominante azul, laranja, verde ou outra cor fora dessa direção.
 - Respiro cria foco quando aproxima as partes do argumento e separa ideias distintas. Espaço vazio junto de texto comprimido, última caixa isolada em grade incompleta ou CTA abandonado no rodapé indicam recomposição.
+
+### Grade, âncora e navegação
+
+- Use margem útil alvo de 80 px e mínimo de 72 px em todo texto principal, após renderizar. Dê à sequência um eixo reconhecível e reserve zona protegida para a marca e o rodapé; o ponto de início do título acompanha a função de cada card.
+- Em séries que pedem assinatura, coloque a logo Rota pequena e no mesmo ponto de cada card. Alinhe a seta de deslizar nessa faixa. Não exiba número de card/página. Notas ficam juntas numa posição estável, acima da navegação.
+- Use 8/16/24/48 px como escala de espaçamento. Uma linha neutra fina pode separar título e dados. Cores têm função semântica consistente dentro da campanha. Em fundos claros, notas usam cinza #5f5f5f ou mais escuro e o vermelho pequeno mantém contraste suficiente.
+- Nunca use barra, filete ou borda colorida vertical junto à lateral de texto, cartões ou painéis. Apresente os dados soltos e separados por espaço; use tipografia, alinhamento e rótulos para organizar. Um traço horizontal neutro pode marcar uma divisão real.
+- Quando um bloco ocupa pouco espaço e o card parece vazio, amplie título, dado, explicação ou âncora ligada à copy. Preserve margens para leitura; corte repetição antes de reduzir o corpo abaixo do piso. Fundo escuro pontual ou outro fechamento pode variar o ritmo, desde que mantenha identidade e contraste.
+- Faça um mapa vertical simples antes do HTML: zona do título, início do conteúdo, extensão do elemento principal e rodapé. Em cards curtos, um conteúdo que acaba entre 55% e 65% da altura enquanto o restante fica vazio pede revisão. Para o carrossel C09 de TAF, a solução aprovada usa título perto de 7% do topo, bloco visual a partir de 35% a 40%, elemento principal com aproximadamente 30% a 35% da altura e rodapé fixo. Esses percentuais são referência do caso, não molde obrigatório para outras mensagens.
+- Se duas informações são comparadas, alinhe seus limites, pesos e categorias em um único grupo; rótulo isolado de um lado e caixa avulsa de outro reprovam a comparação. Painéis lado a lado só entram quando a relação é real. Evite filete vertical colorido.
+- Em card de ação, mostre antes o objeto ou resultado prometido quando houver prova disponível. Dê ao CTA contraste, espaço e posição compatíveis com sua importância; uma caixa pequena presa ao rodapé não substitui a hierarquia da ação.
+- No fechamento, agrupe assinatura e URL numa linha legível quando ambos forem exibidos. Mascote fica ancorado na composição; ícone simbólico só permanece se tiver escala e relação clara com a headline. Confira a continuidade da fonte de título, da fonte de corpo, do logo e da seta nos cards vizinhos.
 
 ### Correspondência semântica
 
@@ -41,7 +57,7 @@ Após cada bloco de até cinco carrosséis:
 4. Veja a folha em escala de celular. Se uma explicação vira textura, uma frase parece solta ou uma composição fica vazia, corrija antes de seguir ao próximo bloco.
 5. Depois de corrigir, gere novamente e confira as peças alteradas em tamanho integral e reduzido.
 
-Registre por card: função, contribuição útil, título e corpo medidos, inspeção integral, leitura em telefone, problema, ajuste e resultado. A folha de contato serve para ritmo e comparação; ela não substitui a abertura de cada PNG. Se um defeito vier de componente compartilhado, localize todas as peças afetadas, corrija a origem e confira novamente todo esse conjunto. Não marque como aprovado um arquivo que só herdou o resultado de outro.
+Registre por card: função, contribuição útil, título e corpo medidos, inspeção integral, leitura em telefone, problema, ajuste e resultado. A folha de contato serve para ritmo e comparação; ela não substitui a abertura de cada PNG. Se um defeito vier de componente compartilhado, localize todas as peças afetadas, corrija a origem e confira novamente todo esse conjunto. Após feedback do usuário, audite de novo os critérios citados em todos os cards atingidos, altere copy ou composição, gere PNG atualizado e registre o resultado. Não marque como aprovado um arquivo que só herdou o resultado de outro.
 
 ## Falhas que reprovam a entrega
 
@@ -54,3 +70,15 @@ Registre por card: função, contribuição útil, título e corpo medidos, insp
 - Copy que exige fonte menor para caber, afirmação sem origem, exemplo sem identificação ou CTA sem entrega confirmada.
 
 Anote o card, a falha observada e a correção feita. A aprovação depende de nova inspeção visual, além das checagens automáticas.
+
+### Auditoria adicional para refazimento integral
+
+- Peça prova da necessidade de cada caixa: qual grupo, comparação ou objeto de informação ela representa? Parágrafo amplo sem caixa é válido quando a hierarquia funciona.
+- Meça largura útil do texto antes de reservar coluna para imagem, mascote ou ícone. Confira toda margem após o render, também nas capas e estáticos.
+- Conte ativos decorativos dentro da sequência e no calendário; repetição só permanece com função de continuidade registrada. Poses, fundo ou cor diferentes não criam função nova.
+- Confira destaque de verbos, base de cálculo, condições, negações e quantificadores no original. Não separe “pelo menos um”, “alguns”, “todos” ou a condição da afirmação que governam.
+- Em refazimento com copy-lock, compare cada CTA por rede, data/URL, legenda e texto visível com o baseline antes de avaliar a arte.
+
+## Grade e ritmo consistentes
+
+Ao diagramar o conjunto, aplique também [grade, ritmo, fotografia e CTA](carousel-grade-grid-cta.md). Não fixe coordenada vertical ou largura de texto para a sequência toda. Avalie cada imagem quanto à necessidade de caixa, área de texto útil, função e frequência do ativo e destaque de condições/quantificadores. No refazimento integral, confira os intervalos anotados contra o [copy-lock e mapa visual](redesign-copy-lock-and-visual-map.md). Dê ao CTA, capa, fotografia e fechamento a mesma atenção de leitura dos internos.

@@ -6,7 +6,9 @@ Leia quando o pedido trouxer mais de uma peça, pedir uma quantidade ou envolver
 
 Conte cada tela final como uma peça visual: um post vale uma; cada card de carrossel vale uma; cada frame de Story vale uma. Para um lote misto, some as telas. Antes do HTML, faça um mapa interno com saída, função narrativa, direção dominante, origem da imagem/pessoa, continuidade entre cards e tratamento de texto.
 
-Mantenha a maior parte do lote na gramática visual já aprovada para a Rota. Use as opções novas como variações pontuais. Dentro de cada carrossel, mude a composição conforme o papel do card. Entre carrosséis, varie a arquitetura das capas e o tratamento principal. Não repita a mesma composição em peças diferentes nem deixe três cards seguidos com a mesma estrutura dominante.
+Quando houver pacote Rota aprovado ou o usuário pedir distribuição de mascotes, símbolos/itens vetoriais e layouts, consulte o acervo antes da montagem. Nesta máquina, a referência é [pacote visual da Raposa e dos itens](pacote-visual-rota.md). Registre por série/card a função editorial, o asset escolhido e sua posição/composição. Distribua as aparições por cards adequados; não use tudo na capa, não repita uma única estrutura e não deixe o plano somente como possibilidade. Se um card não comportar figura ou símbolo sem diminuir leitura, escolha outro card e registre a razão. As cores das ilustrações seguem o guia de marca; o acervo não autoriza variar a paleta dominante.
+
+Em ajustes incrementais, mantenha a gramática aprovada e mude o necessário para a peça. Em refazimento integral, preserve marca, paleta, copy e proveniência, enquanto atualiza a arquitetura; siga o [protocolo de copy-lock e mapa visual](redesign-copy-lock-and-visual-map.md). Dentro de cada carrossel, varie a estrutura conforme o papel do card. Entre peças vizinhas, alterne arquitetura, superfície e densidade. Não repita uma composição em sequência nem deixe três cards seguidos com a mesma estrutura dominante.
 
 ## 2. Distribua fundos de imagem em tela cheia
 
@@ -32,14 +34,14 @@ Não corte palavra, frase, dado, captura, controle ou ação na emenda. Cada car
 
 Além de cor e peso, um destaque curto pode receber preenchimento em gradiente, contorno, sombra ou brilho suave. Selecione uma palavra ou uma linha que já seja o foco; mantenha o restante simples. Em lote, varie o efeito em poucas peças quando combinar com a imagem e a marca. Em um card isolado, use no máximo um tratamento dominante no texto. Não empilhe contorno grosso, extrusão, sombra pesada e brilho na mesma chamada.
 
-Todo efeito preserva contraste, forma das letras e leitura em tela pequena. O efeito não reduz o piso de 15 pt, não substitui hierarquia e não pode parecer uma barra cromática decorativa. Revise o PNG renderizado, não só a regra CSS.
+Todo efeito preserva contraste, forma das letras e leitura em tela pequena. O efeito não reduz os pisos de 30 px para corpo e 24 px para informações secundárias, não substitui hierarquia e não pode parecer uma barra cromática decorativa. Revise o PNG renderizado, não só a regra CSS.
 
 ## 6. Entrega do mapa
 
 Use esta estrutura interna, ajustando ao pedido:
 
-| Tela | Função | Direção dominante | Continuidade | Tratamento de texto |
-|---|---|---|---|---|
-| Post ou card | abrir, explicar, provar ou convidar | tipografia, prova, fundo cheio ou recorte | isolado ou par com o próximo | simples ou efeito localizado |
+| Tela | Função | Direção dominante | Mascote/item e posição | Continuidade | Tratamento de texto |
+|---|---|---|---|---|---|
+| Post ou card | abrir, explicar, provar ou convidar | tipografia, prova, fundo cheio ou recorte | asset aprovado, arquivo e lugar no layout, ou “nenhum” com motivo | isolado ou par com o próximo | simples ou efeito localizado |
 
 Para lotes grandes, mostre ao usuário uma amostra compacta desse mapa antes da produção final quando isso ajudar a confirmar a distribuição. Em pedidos diretos de execução, siga o mapa internamente e entregue os arquivos. Se uma direção não tiver imagem adequada, não force a quota: registre o motivo e use a alternativa que melhor serve à mensagem.

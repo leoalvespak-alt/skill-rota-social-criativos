@@ -2,6 +2,8 @@
 
 Este guia serve para conteúdos educativos, páginas de produto, mensagens, materiais de apoio e peças sociais de projetos diferentes. Foi escrito a partir das revisões da Rota de Ataque e dos princípios de mensagem única, consciência do público, benefício concreto e fidelidade às fontes. Os exemplos são didáticos. Ajuste público, voz, formato e ação ao projeto.
 
+Nesta skill, a entrega segue [copy por formato](copy-por-formato.md) e a revisão segue [aprofundamento](aprofundamento-copy.md). Copy abre atenção e orienta decisão; o conteúdo desenvolve o que a promessa oferece. A Regra do Um organiza foco, sem limitar o argumento a uma frase. Defina a profundidade pelo que o leitor precisa entender e aplicar, depois ajuste a forma.
+
 ## 1. Decida o que a pessoa deve levar consigo
 
 Antes das frases, registre:
@@ -39,7 +41,7 @@ Para cada ponto, identifique a lacuna de compreensão. Complete o raciocínio co
 4. **Demonstração:** exemplo, comparação, procedimento ou evidência legível.
 5. **Aplicação e limite:** como adaptar e quando a orientação exige outra fonte ou ajuda.
 
-Essas funções podem caber em um parágrafo ou ocupar vários trechos. Elas não formam cinco campos obrigatórios em cada card. Escolha o que a pessoa precisa para entender aquele ponto.
+Essas funções podem caber em um parágrafo ou ocupar vários trechos. Elas não formam cinco campos obrigatórios em cada card. Escolha o que a pessoa precisa para entender aquele ponto. Para passar de uma ideia abstrata a uma ação visível e, quando fizer sentido, narrar essa passagem, consulte [copy concreta e narrativa](copy-concreta-e-narrativa.md).
 
 **Antes:** “Organize sua rotina. Tenha foco. Seja constante.”
 
@@ -59,6 +61,8 @@ Entregue uma orientação útil logo após a abertura. Evite gastar várias tela
 
 A quantidade de cards segue a profundidade e o pedido. Um assunto simples pode pedir poucas telas; uma demonstração mais longa pode precisar de espaço. Para ampliar a copy, acrescente explicação, critério ou exemplo. Para reduzir, retire repetição e distribua melhor o argumento.
 
+Quando a contagem for explícita, delimite a promessa e distribua as unidades dentro dela. Não corte um card necessário só por preferir uma sequência menor, nem aumente a quantidade sem registrar a necessidade. Blog desenvolve subquestões em seções; legenda complementa a mídia; Reel combina fala e demonstração com tempo de execução. Não transplantar a concisão da capa para essas entregas.
+
 ## 5. Crie conexão sem fabricar intimidade
 
 Descreva situações que o público possa reconhecer: a sessão interrompida, o deslocamento, a dúvida antes de comprar, o documento difícil de ler. Use essas situações como possibilidades, sem afirmar que conhece a vida de quem lê.
@@ -66,6 +70,8 @@ Descreva situações que o público possa reconhecer: a sessão interrompida, o 
 Reconheça limitações concretas antes de propor uma ação. Uma orientação que depende de horas livres, dinheiro ou equipamento precisa considerar quem não tem essas condições. Evite culpar a pessoa por uma rotina apertada.
 
 Storytelling só entra quando ajuda a entender uma decisão ou consequência. Para um caso real, confirme origem, autorização quando necessária e fatos. Para uma situação criada para ensinar, escreva “exemplo didático”, “situação hipotética” ou equivalente. Não invente aluno, diálogo, testemunho ou experiência da marca para criar proximidade.
+
+Quando a pessoa pedir uma versão “contando histórias”, a cena precisa mudar algo que se compreende ou faz: um obstáculo observado, uma escolha e um passo aplicável. Conexão vem da precisão da situação e do respeito ao leitor; detalhes de emoção, casa, trabalho ou família não entram apenas para parecer íntimos.
 
 Autoridade aparece no método explicado, na demonstração, na fonte confiável e no cuidado com limites. Adjetivos como “completo”, “único” ou “infalível” precisam de fundamento e raramente ensinam algo.
 
@@ -98,6 +104,8 @@ O conteúdo educativo deve entregar valor antes da oferta. Faça a ponte comerci
 
 Escolha uma ação principal. Diga o que fazer, o que a pessoa recebe ou por que vale a pena. Pedir para salvar combina com um material que será consultado; pedir um comentário combina com uma entrega ou conversa prevista; convidar para uma amostra combina com uma dúvida sobre a solução.
 
+Em [legendas e CTAs](legendas-e-ctas.md), confira se o convite indica destino funcional e ganho específico, sem repetir “clique agora” quando o leitor ainda não sabe o que encontrará.
+
 **Exemplo:** “Comente ROTINA para receber uma folha com campos de assunto, atividade e ponto de partida.” Só use esse convite quando a folha e o canal estiverem prontos ou quando o usuário tiver autorizado preparar a entrega. Nunca anuncie automação ou brinde inexistente.
 
 Não acumule pedidos de curtir, salvar, comentar, compartilhar e comprar. Não acrescente culpa, dívida moral ou urgência artificial ao convite. Mantenha o mesmo escopo do conteúdo: uma orientação geral pede uma ação geral.
@@ -108,7 +116,7 @@ Separe título, explicação, exemplo, ressalva necessária e CTA. Marque o que 
 
 Em peças visuais, escreva para uma leitura confortável. Se a copy exceder o espaço, redistribua a informação, revise redundâncias ou retire decoração. Reduzir fonte e apagar uma condição importante prejudicam a mensagem.
 
-O piso técnico de fonte não é a escala desejável para toda explicação. Em imagens de 1080 px de largura no padrão Rota, títulos principais usam pelo menos 67 CSS px, textos centrais normalmente 30 a 38 px e nenhum texto visível fica abaixo de 20 px. Esses números são específicos desse destino; não os transplante para páginas, e-mails ou documentos de outros formatos.
+Em imagens de 1080 px de largura no padrão Rota, títulos normalmente ficam em 72–104 px; palavras ou números focais podem chegar a 104–160 px quando couberem; corpo fica em 36–44 px; apoio em 24–28 px. A escala deve ser conferida no PNG e em telefone. Esses números são específicos desse destino; não os transplante para páginas, e-mails ou documentos de outros formatos.
 
 ## 10. Revise pelo resultado que a copy entrega
 

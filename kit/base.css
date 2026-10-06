@@ -1,0 +1,90 @@
+/* =====================================================================
+   ROTA DE ATAQUE · KIT DE CRIATIVOS · base.css
+   Comum a todos os estilos. Não edite por peça: crie classes no estilo.
+   Canvas: .card = 1080x1350 (feed) | .card.story = 1080x1920
+   ===================================================================== */
+@font-face { font-family: 'Rajdhani'; src: url('fonts/Rajdhani-Bold.ttf'); font-weight: 700; }
+@font-face { font-family: 'IBM Plex Sans'; src: url('fonts/IBMPlexSans.ttf'); font-weight: 100 700; }
+@font-face { font-family: 'Space Grotesk'; src: url('fonts/SpaceGrotesk.ttf'); font-weight: 300 700; }
+@font-face { font-family: 'IBM Plex Mono'; src: url('fonts/IBMPlexMono-Medium.ttf'); font-weight: 400 500; }
+@font-face { font-family: 'IBM Plex Mono'; src: url('fonts/IBMPlexMono-SemiBold.ttf'); font-weight: 600 700; }
+@font-face { font-family: 'Instrument Serif'; src: url('fonts/InstrumentSerif-Regular.ttf'); font-style: normal; font-weight: 400; }
+@font-face { font-family: 'Instrument Serif'; src: url('fonts/InstrumentSerif-Italic.ttf'); font-style: italic; font-weight: 400; }
+@font-face { font-family: 'Caveat'; src: url('fonts/Caveat.ttf'); font-weight: 400 700; }
+@font-face { font-family: 'Anton'; src: url('fonts/Anton-Regular.ttf'); font-weight: 400; }
+@font-face { font-family: 'Archivo Black'; src: url('fonts/ArchivoBlack-Regular.ttf'); font-weight: 400; }
+@font-face { font-family: 'Silkscreen'; src: url('fonts/Silkscreen-Regular.ttf'); font-weight: 400; }
+@font-face { font-family: 'Silkscreen'; src: url('fonts/Silkscreen-Bold.ttf'); font-weight: 700; }
+
+:root {
+  /* paleta da marca: fundos e áreas grandes só com estes */
+  --creme: #F4F1EB;
+  --papel: #FFFDF8;
+  --carvao: #171717;
+  --grafite: #232323;
+  --tinta: #171717;
+  --cinza: #5F5F5F;
+  --linha: #E2DCD0;
+  --vermelho: #C1121F;
+  --vinho: #8B0000;
+  /* ênfase sobre fundo escuro (vermelho puro reprova contraste) */
+  --coral: #F04452;
+  --rosa: #F9C9CD;
+  /* realce: SÓ em blocos pequenos (marca-texto, adesivo, etiqueta). Nunca fundo. */
+  --realce: #E8B23A;
+
+  --f-titulo: 'Rajdhani', sans-serif;
+  --f-corpo: 'IBM Plex Sans', sans-serif;
+  --f-num: 'Space Grotesk', sans-serif;
+  --f-mono: 'IBM Plex Mono', monospace;
+  --f-serif: 'Instrument Serif', serif;
+  --f-mao: 'Caveat', cursive;
+  --f-impacto: 'Anton', sans-serif;
+  --f-pesada: 'Archivo Black', sans-serif;
+  --f-pixel: 'Silkscreen', monospace;
+
+  --margem: 80px;        /* alvo. Mínimo medido pelo preflight: 72px */
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #3a3a3a; display: flex; flex-direction: column; align-items: center; gap: 40px; padding: 40px 0; }
+
+.card { position: relative; width: 1080px; height: 1350px; overflow: hidden; flex: none;
+  font-family: var(--f-corpo); background: var(--bg, var(--creme)); color: var(--ink, var(--tinta)); }
+.card.story { height: 1920px; }
+
+/* superfícies prontas (use data-bg no .card) */
+.card[data-bg=creme]  { --bg: var(--creme);  --ink: var(--tinta);  --muted: var(--cinza); --enf: var(--vermelho); --hair: var(--linha); }
+.card[data-bg=papel]  { --bg: var(--papel);  --ink: var(--tinta);  --muted: var(--cinza); --enf: var(--vermelho); --hair: var(--linha); }
+.card[data-bg=carvao] { --bg: var(--carvao); --ink: var(--papel);  --muted: #CFCAC0;      --enf: var(--coral);    --hair: #3A3A3A; }
+.card[data-bg=vinho]  { --bg: var(--vinho);  --ink: var(--papel);  --muted: #F3DADA;      --enf: var(--rosa);     --hair: #A33A3A; }
+.card[data-bg=vermelho] { --bg: var(--vermelho); --ink: var(--papel); --muted: #F8DFE1;   --enf: var(--papel);    --hair: #D9545E; }
+
+/* granulação leve opcional: <div class="grao"></div> como primeiro filho */
+.grao { position: absolute; inset: 0; pointer-events: none; opacity: var(--grao, .05); z-index: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23n)'/%3E%3C/svg%3E"); }
+
+/* área útil padrão */
+.area { position: absolute; left: var(--margem); right: var(--margem); top: 96px; bottom: 170px; z-index: 2; display: flex; flex-direction: column; }
+
+/* ---------- RODAPÉ (obrigatório: 1 logo; "Deslize →" em todos menos o último) ---------- */
+.rodape { position: absolute; left: var(--margem); right: var(--margem); bottom: 80px; min-height: 56px; z-index: 20;
+  display: flex; align-items: flex-end; justify-content: space-between; gap: 30px; }
+.rodape .logo { height: 50px; width: auto; display: block; }
+.rodape .deslize { font: 600 28px/1 var(--f-corpo); color: var(--enf); letter-spacing: .01em; }
+.rodape .url { font: 500 28px/1 var(--f-mono); color: var(--ink); }
+.rodape.inverso { flex-direction: row-reverse; }
+.pill { height: 58px; padding: 0 28px; border-radius: 29px; display: inline-flex; align-items: center;
+  font: 600 25px/1 var(--f-mono); letter-spacing: .14em; text-transform: uppercase; background: var(--papel); color: var(--tinta); }
+.card[data-bg=creme] .pill, .card[data-bg=papel] .pill { background: var(--tinta); color: var(--papel); }
+
+/* ---------- utilitários de ênfase (máx. 1 por título) ---------- */
+.enf { color: var(--enf); }
+.serif-it { font-family: var(--f-serif); font-style: italic; font-weight: 400; }
+.marca-texto { background: linear-gradient(transparent 12%, var(--realce) 12%, var(--realce) 88%, transparent 88%); padding: 0 .12em; color: var(--tinta); }
+.bloco-enf { display: inline-block; background: var(--vermelho); color: var(--papel); padding: 0 .14em .04em; transform: rotate(-1.5deg); }
+.nowrap { white-space: nowrap; }
+
+/* traços à mão reutilizáveis (SVG inline gerado em kit/assets/tracos.js) */
+.traco { position: absolute; pointer-events: none; overflow: visible; z-index: 6; }
+.traco path { fill: none; stroke: currentColor; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }

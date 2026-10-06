@@ -1,0 +1,164 @@
+/* =====================================================================
+   ESTILO 1 · PAINEL OFICIAL  (notícias, editais, vagas, prazos, etapas)
+   Base: Carrosseis 01 (aprovado). Limpo, informativo, sem enfeite.
+   Ver estilos/painel-oficial.md para quando usar cada variação.
+   ===================================================================== */
+.po { --bg: var(--creme); }
+.po .area { top: 92px; bottom: 170px; justify-content: center; }
+.po .area.topo { justify-content: flex-start; }
+
+/* tipografia */
+.po-kicker { font: 600 28px/1.1 var(--f-titulo); letter-spacing: .1em; text-transform: uppercase; color: var(--enf); margin-bottom: 14px; }
+.po-titulo { font: 700 78px/1.0 var(--f-titulo); color: var(--ink); text-wrap: balance; padding-bottom: 22px; margin-bottom: 30px; border-bottom: 2px solid var(--hair); }
+.po-titulo.sem-linha { border-bottom: 0; padding-bottom: 0; }
+.po-titulo .enf { color: var(--enf); }
+.po-corpo { font: 400 37px/1.42 var(--f-corpo); color: var(--ink); max-width: 900px; }
+.po-corpo + .po-corpo { margin-top: 18px; }
+.po-corpo b, .po-corpo strong { font-weight: 600; }
+.po-nota { font: 400 27px/1.38 var(--f-corpo); color: var(--muted); margin-top: 30px; max-width: 900px; }
+.po-fonte { margin-top: 34px; padding-top: 18px; border-top: 2px dashed var(--hair); font: 500 25px/1.3 var(--f-mono); color: var(--muted); }
+.po-brasao { width: auto; height: 132px; display: block; object-fit: contain; }
+
+/* números */
+.po-num { font: 700 200px/.86 var(--f-num); letter-spacing: -.05em; color: var(--enf); }
+
+/* I1 · linhas de número (vagas por cargo) */
+.po-linhas > div { display: flex; align-items: baseline; gap: 36px; padding: 14px 0; border-bottom: 2px solid var(--hair); }
+.po-linhas b { font: 700 128px/.92 var(--f-num); letter-spacing: -.04em; min-width: 300px; color: var(--ink); }
+.po-linhas span { font: 700 46px/1.05 var(--f-titulo); color: var(--ink); }
+.po-linhas > div:first-child b { color: var(--enf); }
+
+/* I2 · equação (total = partes) */
+.po-equacao { display: flex; align-items: center; gap: 40px; margin: 10px 0 26px; }
+.po-equacao .total { font: 700 240px/.84 var(--f-num); letter-spacing: -.06em; color: var(--enf); }
+.po-equacao .igual { font: 700 80px/1 var(--f-num); color: var(--ink); }
+.po-equacao .partes { font: 400 40px/1.35 var(--f-corpo); }
+.po-equacao .partes b { font: 700 58px/1 var(--f-num); }
+.po-par { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; border-top: 2px solid var(--hair); padding-top: 24px; }
+.po-par p { font: 400 36px/1.38 var(--f-corpo); }
+.po-par b { font: 700 52px/1.1 var(--f-num); color: var(--enf); }
+
+/* I3 · grade de itens abertos (matérias, requisitos) */
+.po-grade { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 0 48px; margin: 6px 0 22px; }
+.po-grade li { font: 500 36px/1.28 var(--f-corpo); padding: 18px 0; border-bottom: 2px solid var(--hair); }
+.po-grade.uma { grid-template-columns: 1fr; }
+
+/* I4 · colunas de comparação real (cargos, órgãos) */
+.po-colunas { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; }
+.po-colunas > div { border-top: 3px solid var(--ink); padding-top: 22px; }
+.po-colunas h3 { font: 700 52px/1 var(--f-titulo); color: var(--enf); margin-bottom: 16px; }
+.po-colunas .destaque { font: 700 44px/1.1 var(--f-num); margin-bottom: 14px; }
+.po-colunas p { font: 400 34px/1.38 var(--f-corpo); }
+
+/* I5 · linha do tempo (cronograma) */
+.po-tempo { position: relative; padding-left: 64px; }
+.po-tempo::before { content: ''; position: absolute; left: 17px; top: 18px; bottom: 18px; width: 3px; background: var(--hair); }
+.po-tempo > div { position: relative; padding: 14px 0 22px; }
+.po-tempo > div::before { content: ''; position: absolute; left: -59px; top: 26px; width: 26px; height: 26px; border-radius: 50%; background: var(--bg); border: 4px solid var(--ink); }
+.po-tempo > div.feito::before { background: var(--ink); }
+.po-tempo > div.agora::before { background: var(--enf); border-color: var(--enf); box-shadow: 0 0 0 8px color-mix(in srgb, var(--enf) 22%, transparent); }
+.po-tempo b { display: block; font: 700 48px/1.05 var(--f-num); color: var(--ink); }
+.po-tempo .agora b { color: var(--enf); }
+.po-tempo span { display: block; font: 400 34px/1.32 var(--f-corpo); margin-top: 6px; }
+
+/* I6 · oficial × previsão (o que o documento confirma e o que falta) */
+.po-oficial { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border: 3px solid var(--ink); }
+.po-oficial > div { padding: 30px 32px; }
+.po-oficial > div + div { border-left: 3px solid var(--ink); background: repeating-linear-gradient(-45deg, transparent 0 14px, color-mix(in srgb, var(--ink) 5%, transparent) 14px 16px); }
+.po-oficial h3 { font: 700 30px/1 var(--f-titulo); letter-spacing: .1em; text-transform: uppercase; margin-bottom: 18px; }
+.po-oficial > div:first-child h3 { color: var(--enf); }
+.po-oficial li { list-style: none; font: 400 34px/1.32 var(--f-corpo); padding: 8px 0 8px 40px; position: relative; }
+.po-oficial > div:first-child li::before { content: '✓'; position: absolute; left: 0; font-weight: 700; color: var(--enf); }
+.po-oficial > div + div li::before { content: '…'; position: absolute; left: 4px; font-weight: 700; color: var(--muted); }
+
+/* I7 · requisito/checagem (lista com marcação) */
+.po-check li { list-style: none; display: flex; gap: 22px; align-items: flex-start; font: 500 38px/1.3 var(--f-corpo); padding: 18px 0; border-bottom: 2px solid var(--hair); }
+.po-check li::before { content: ''; flex: none; width: 34px; height: 34px; margin-top: 6px; border: 4px solid var(--enf); border-radius: 6px; }
+
+/* I8 · grupos (áreas do direito, blocos de matérias) */
+.po-grupos { display: grid; grid-template-columns: 1fr 1fr; gap: 34px 48px; }
+.po-grupos b { display: block; font: 700 36px/1.1 var(--f-titulo); color: var(--enf); margin-bottom: 8px; letter-spacing: .02em; }
+.po-grupos span { font: 400 34px/1.36 var(--f-corpo); }
+
+/* I9 · dia de prova (manhã × tarde) */
+.po-dia { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin-bottom: 30px; }
+.po-dia small { display: block; font: 700 30px/1 var(--f-titulo); letter-spacing: .1em; color: var(--enf); margin-bottom: 10px; }
+.po-dia strong { font: 700 64px/1 var(--f-titulo); }
+.po-lista-def > div { display: grid; grid-template-columns: 330px 1fr; gap: 28px; padding: 18px 0; border-top: 2px solid var(--hair); }
+.po-lista-def b { font: 700 38px/1.1 var(--f-titulo); }
+.po-lista-def span { font: 400 34px/1.36 var(--f-corpo); }
+
+/* fechamento de notícia: data grande */
+.po-data-grande { font: 700 170px/.92 var(--f-num); letter-spacing: -.06em; color: var(--enf); margin-bottom: 26px; }
+.po-data-grande i { font-style: normal; color: var(--muted); }
+
+/* =====================================================================
+   CAPAS (escolha UMA pelo fato mais forte; nunca repita a mesma em capas vizinhas)
+   ===================================================================== */
+.po-capa .area { top: 88px; bottom: 170px; }
+.po-capa .topo-orgao { display: flex; align-items: center; justify-content: space-between; gap: 30px; }
+.po-capa .topo-orgao .po-kicker { margin: 0; font-size: 30px; }
+.po-capa .po-titulo { font-size: 100px; border: 0; padding: 0; margin: 0 0 22px; }
+.po-capa .linha-cargos { font: 600 30px/1.25 var(--f-corpo); letter-spacing: .04em; text-transform: uppercase; }
+.po-capa .linha-cargos b { color: var(--enf); }
+
+/* C1 · NÚMERO-MANCHETE: o número é a notícia */
+.c1 .numero { font: 700 330px/.8 var(--f-num); letter-spacing: -.07em; color: var(--enf); margin: 34px 0 6px 0; }
+.c1 .numero small { font: 700 64px/1 var(--f-titulo); letter-spacing: 0; color: var(--ink); margin-left: 18px; }
+.c1 .po-titulo { margin-top: 26px; }
+
+/* C2 · STATUS DO CONCURSO: em que etapa está */
+.c2 .trilha { display: grid; grid-template-columns: repeat(var(--etapas, 4), 1fr); margin: 70px 0 70px; position: relative; }
+.c2 .trilha::before { content: ''; position: absolute; left: 12%; right: 12%; top: 36px; height: 6px; background: var(--hair); }
+.c2 .etapa { position: relative; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 16px; padding: 0 6px; }
+.c2 .etapa i { width: 76px; height: 76px; border-radius: 50%; background: var(--bg); border: 5px solid var(--ink); z-index: 1; display: grid; place-items: center; font: 700 34px/1 var(--f-num); font-style: normal; color: var(--papel); }
+.c2 .etapa.feito i { background: var(--ink); }
+.c2 .etapa.feito i::after { content: '✓'; }
+.c2 .etapa.agora i { width: 100px; height: 100px; margin-top: -12px; background: var(--enf); border-color: var(--enf); box-shadow: 0 0 0 12px color-mix(in srgb, var(--enf) 20%, transparent); }
+.c2 .etapa.falta i { border-style: dashed; }
+.c2 .etapa span { font: 700 38px/1.08 var(--f-titulo); }
+.c2 .etapa.agora span { color: var(--enf); }
+.c2 .etapa.falta span { color: var(--muted); }
+.c2 .etapa small { font: 500 25px/1.2 var(--f-mono); color: var(--muted); }
+
+/* C3 · CALENDÁRIO: a data é a notícia */
+.c3 .folha { width: 520px; background: var(--papel); box-shadow: 0 22px 44px rgba(23,23,23,.18), 0 2px 6px rgba(23,23,23,.12); transform: rotate(-3deg); margin: 30px 0 46px 6px; text-align: center; overflow: hidden; border-radius: 6px; }
+.c3 .folha .mes { background: var(--vermelho); color: var(--papel); font: 700 58px/1 var(--f-titulo); letter-spacing: .14em; padding: 22px 0 16px; }
+.c3 .folha .dia { font: 700 300px/1 var(--f-num); letter-spacing: -.06em; color: var(--tinta); padding: 20px 0 10px; }
+.c3 .folha .ano { font: 600 36px/1 var(--f-mono); color: var(--cinza); padding: 0 0 30px; }
+.c3 .lado { display: flex; gap: 46px; align-items: flex-start; }
+.c3 .lado .po-brasao { margin-top: 40px; height: 170px; }
+
+/* C4 · FOTO EM PAINEL: pessoa/cenário pesquisado, sem escurecer tudo */
+.c4 .foto { position: absolute; top: 0; right: 0; bottom: 0; width: 470px; background-position: center; background-size: cover; background-repeat: no-repeat; /* imagem: style="background-image:url(...)" no HTML */ }
+.c4 .foto::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, var(--bg) 0, transparent 22%); }
+.c4 .foto .po-brasao { position: absolute; top: 88px; right: 72px; height: 120px; filter: drop-shadow(0 4px 10px rgba(0,0,0,.35)); }
+.c4 .area { right: 470px; padding-right: 30px; }
+.c4 .numero { font: 700 220px/.82 var(--f-num); letter-spacing: -.06em; color: var(--enf); margin: 40px 0 14px; }
+.c4 .po-titulo { font-size: 78px; }
+
+/* C5 · RECORTE DO DOCUMENTO: trecho REAL transcrito do edital, marcado */
+.c5 .doc { background: var(--papel); padding: 48px 50px 56px; box-shadow: 0 22px 44px rgba(23,23,23,.16); transform: rotate(1.2deg); margin: 34px 0 40px; position: relative; }
+.c5 .doc .ref { font: 600 25px/1.2 var(--f-mono); color: var(--cinza); letter-spacing: .06em; text-transform: uppercase; margin-bottom: 22px; }
+.c5 .doc p { font: 400 38px/1.5 var(--f-serif); color: var(--tinta); }
+.c5 .doc p mark { background: linear-gradient(transparent 14%, var(--realce) 14%, var(--realce) 90%, transparent 90%); color: var(--tinta); padding: 0 4px; }
+
+/* C6 · COMPARATIVO: dois ou três números lado a lado */
+.c6 .comp { display: grid; grid-template-columns: repeat(var(--cols, 3), 1fr); gap: 26px; margin: 46px 0 40px; }
+.c6 .comp > div { border-top: 6px solid var(--ink); padding-top: 22px; }
+.c6 .comp > div:first-child { border-color: var(--enf); }
+.c6 .comp b { display: block; font: 700 150px/.85 var(--f-num); letter-spacing: -.05em; }
+.c6 .comp > div:first-child b { color: var(--enf); }
+.c6 .comp span { display: block; font: 700 42px/1.05 var(--f-titulo); margin-top: 14px; }
+
+/* C7 · PRAZO: urgência real, fundo vinho */
+.c7 .ate { font: 700 46px/1 var(--f-titulo); letter-spacing: .12em; color: var(--rosa); margin-top: 44px; }
+.c7 .data { font: 700 300px/.82 var(--f-num); letter-spacing: -.07em; color: var(--papel); margin: 8px 0 0 0; }
+.c7 .data + .po-titulo { margin-top: 50px; }
+.c7 .hora { font: 700 92px/1 var(--f-num); color: var(--rosa); margin: 14px 0 40px; }
+
+/* C8 · FOTO CHEIA (o modelo antigo): no máximo 1 a cada 4 capas */
+.c8 .foto { position: absolute; inset: 0; background-position: center; background-size: cover; background-repeat: no-repeat; /* imagem: style="background-image:url(...)" no HTML */ }
+.c8 .foto::after { content: ''; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(23,23,23,.92) 0, rgba(23,23,23,.65) 42%, transparent 70%); }
+.c8 .area { justify-content: flex-end; }
+.c8 .numero { font: 700 220px/.82 var(--f-num); letter-spacing: -.06em; color: var(--coral); }

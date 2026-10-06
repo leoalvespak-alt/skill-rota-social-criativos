@@ -1,52 +1,135 @@
 ---
 name: rota-social-criativos
-description: Planeje, crie ou revise posts estáticos, carrosséis e Stories visuais da Rota de Ataque para Instagram e TikTok, com estratégia, copy, prova fiel dos planos, HTML/CSS, PNG e variação visual orquestrada. Não inclui legendas, roteiros de Reels ou publicação por padrão.
+description: "Cria, revisa e produz conteúdo social da Rota de Ataque (concursos policiais) em português brasileiro: carrosséis, posts estáticos, Stories, legendas, blog e roteiros. Use para qualquer pedido de copy, criativo, carrossel, post, arte, capa, PNG, redesign ou revisão visual da Rota. Escolhe o estilo visual pelo tipo de conteúdo (notícia, dica de estudo, conteúdo de matéria, motivação, frase de impacto), usa o kit HTML/CSS da skill e só exporta PNG depois do preflight automático."
 ---
 
 # Criativos sociais da Rota de Ataque
 
-Crie peças que uma pessoa interessada no concurso compreenda no celular sem conhecer a plataforma. A identidade e os arquivos reais da Rota são a base; referências externas não substituem a marca nem autorizam inventar prova. Trabalhe em português brasileiro.
+Esta skill vale igual no Claude Code, Codex e OpenCode. Siga os passos **na ordem**. Os passos marcados como OBRIGATÓRIO não têm exceção: se um deles não puder ser cumprido, pare e diga ao usuário o que faltou.
 
-## Roteiro de decisão
+Caminhos abaixo são relativos à pasta desta skill (`SKILL_DIR`). O projeto de trabalho é `C:\Users\Lenovo\Desktop\Rota de Ataque\Rota Criativos e automacao` (ou a raiz aberta que contenha `Docs/GUIA_GERACAO_CRIATIVOS_ROTA.md`).
 
-1. **Grounding:** identifique concurso, produto/oferta, formato, objetivo, restrições, arquivos atuais e público. Estime o que ele já sabe e, quando a campanha justificar, investigue problemas, perguntas, obstáculos e resultados desejados em [público e mensagem](references/audience-and-message.md). Leia [marca e evidência](references/rota-brand-and-evidence.md) e confirme as fontes. Use o contexto já dado; pergunte só se uma lacuna alterar materialmente o resultado.
-2. **Estratégia:** fixe objetivo, pessoa/situação, fricção, ideia dominante, por que importa, ação e provas disponíveis. A prova limita o que se pode afirmar; ela não precisa ser a primeira coisa apresentada. Escolha abertura e progressão em [frameworks narrativos](references/narrative-frameworks.md). Se uma prova faltar, troque por ângulo sustentado; se nenhum servir, registre a lacuna e não fabrique a peça factual.
-3. **Copy:** parta da situação, decisão, objeção ou desejo do público qualificado. Dê contexto e significado antes de pedir que o leitor interprete uma interface. Em carrossel, a capa convida à leitura; o corpo entrega critérios, explicações e demonstrações que cumprem essa promessa. Leia o [guia de copy clara, humana e útil](references/guia-copy-clara-humana-e-util.md) ao escrever, criar ideias ou revisar texto visível. Diferencie hook, benefício, prova e CTA em [ângulos e voz](references/angles-and-copy.md), aplique [persuasão RAG](references/persuasion-rag.md) e siga [escrita natural](references/guia-escrita-natural-ptbr.md) e [humanização PT-BR](references/humanizacao-ptbr.md). Amplie a compreensão, sem alongar por repetição nem repartir slogans em slides.
-4. **Direção visual:** antes do layout, registre para cada peça/card sua função persuasiva, ideia dominante, elemento que deve dominar e progressão da mensagem; escolha o tratamento visual que torna essa ideia mais clara em [direção visual](references/visual-direction.md). Para pedido com várias peças, quantidade explícita, carrosséis ou Stories em sequência, leia [orquestração visual de lotes](references/style-orchestration.md) e distribua estilos e estruturas. Se a foto contextual tiver função real **ou o usuário pedir busca de imagens**, consulte [pesquisa de imagens Pexels](references/pexels-image-research.md); busque fotos antes de considerar geração por IA. Não comece por logo, título, print e CTA em posições predefinidas. Se houver [gramática visual da campanha](references/campaign-visual-grammar.md), carregue-a e preserve decisões aprovadas sem fixar a composição. Em campanha nova ou redesign relevante, compare A fiel/segura, B expressiva e C inesperada/coerente, variando composição. Direção aprovada dispensa redescoberta.
-5. **HTML/CSS:** leia o formato em [formatos](references/formats.md) e use [sistema HTML/CSS](references/html-css-system.md) para separar conteúdo, direção e componentes. Desenhe diretamente para o canvas final, não para um desktop reduzido.
-6. **Render:** exporte o mesmo HTML/CSS do preview em PNG nativo, aguardando fontes/assets; detalhes em [sistema HTML/CSS](references/html-css-system.md).
-7. **Pre-flight e QA:** execute as checagens estruturais automáticas quando houver navegador automatizado; depois inspecione PNG integral e em escala de celular, incluindo foco e leitura rápida da mensagem, conforme [produção e QA](references/production-qa.md). Em carrosséis, aplique também a [auditoria de copy e composição por card](references/carousel-copy-layout-audit.md), sobretudo em lotes e redesigns. Corrija no código, renderize de novo e repita as duas checagens.
+## Passo 0 · Ler o mínimo (OBRIGATÓRIO)
 
-## Invariantes
+1. Este arquivo inteiro.
+2. `Docs/GUIA_GERACAO_CRIATIVOS_ROTA.md` do projeto.
+3. O arquivo do estilo escolhido no passo 2 (`estilos/<estilo>.md`) e a prancha PNG dele em `kit/exemplos/out/<estilo>/prancha.png` (abra a imagem).
+4. Só se o pedido for de copy nova: `references/guia-copy-clara-humana-e-util.md` e a seção do formato em `references/copy-por-formato.md`.
 
-- Toda afirmação factual sobre produto, oferta ou resultado e toda demonstração exigem fonte verificável. Isso não obriga mostrar screenshot em toda peça ou card. Nunca complete lacunas com funcionalidade ou prova inventada; critérios e fallback em [marca e evidência](references/rota-brand-and-evidence.md).
-- Captura real pode ser ampliada ou recortada sem alterar significado. Reconstrução/adaptação deve ser apresentada como ilustração, jamais como screenshot autêntico. Recurso focal legível vale mais que miniaturas de teoria, resumo, lei, vídeo e questões juntas.
-- Escreva para o público real: se o pedido delimitar um concurso, a pessoa precisa reconhecer esse alvo e a situação/benefício antes de siglas ou jargão interno. Sem esse recorte, não infira concurso pela pasta, captura ou assunto geral. Use a Regra do Um — ideia, tensão, benefício e ação dominantes, com prova adequada às alegações. Em carrossel, uma ideia por card; a capa deve atrair a pessoa certa e prometer o que a sequência entrega, sem descarregar detalhes técnicos.
-- A Rota de Ataque é a marca; o brasão identifica o concurso/edição. Preferências específicas do pedido e da campanha prevalecem sobre padrões gerais de marca, formatos externos e presets.
-- Texto legível é requisito de exportação: nenhum texto visível pode ficar abaixo de **15 pt (20 CSS px no canvas 1080 px)**, inclusive legenda, número, rótulo, rodapé, microcopy e CTA. Não reduza a fonte para caber; encurte/reordene o texto, amplie o bloco ou retire o que for secundário. Texto que já vem rasterizado numa captura precisa ser recortado/ampliado até atingir leitura confortável; se não for possível sem distorcer a prova, troque o recorte ou não o use.
-- **Títulos principais: mínimo de 50 pt (67 CSS px), inclusive nos cards internos**, em canvas de 1080 px de largura. Para explicações centrais, parta normalmente de 30–38 px, com largura e entrelinha confortáveis; o piso de 20 px fica reservado a texto secundário que passe na leitura. Esses parâmetros valem para posts, carrosséis e Stories, salvo pedido atual diferente. Escala de preview, ajustes de escala e texto rasterizado não podem tornar o resultado menor ou ilegível. Aprovação depende do PNG integral e da leitura em telefone.
-- Cada criativo pode exibir no máximo **uma logo da Rota de Ataque**. Escolha cabeçalho ou rodapé; não repita a mesma marca nos dois. Brasão e marca do produto na UI autêntica não são aplicação extra da logo.
-- **Sem moldura editorial por padrão:** não coloque no alto ou rodapé assunto, concurso/cargo, edição ou contagem de página/card. Não numere cards nem Stories. A sequência se explica pelo conteúdo e pelo design, sem `05 / 08`, `2 / 5` ou equivalentes.
-- **Capa limpa:** a logo da Rota pode aparecer sozinha como assinatura. Não acrescente especificação do concurso, cargo, disciplina ou chamada pequena de assunto por hábito. Inclua esse dado apenas quando o usuário pedir a peça para aquele alvo, fornecer copy com esse recorte ou a estratégia singular da capa depender dele. Nesse último caso, incorpore o dado à mensagem principal, uma vez.
-- **Escopo antes da prova:** um print vindo de um plano específico não torna universalmente útil um tema exclusivo daquele concurso. Para assunto geral, como interpretação de texto, mantenha o texto e o CTA gerais, mesmo quando a demonstração vem de um plano específico. Nomeie concurso/cargo/estado somente por pedido explícito ou pelo escopo da copy fornecida; metadados do arquivo ou da captura não são autorização. Para convite geral, prefira “Peça uma amostra do plano de estudos”.
-- **Pessoas diferentes entre capas:** registre quais fotos e pessoas identificáveis já aparecem no lote. Não repita a mesma pessoa em capas de campanhas ou concursos diferentes, mesmo mudando pose, roupa ou enquadramento. Prefira uma pessoa diferente ou uma solução sem rosto. Reutilize uma pessoa só depois de esgotar alternativas adequadas e anote a exceção.
-- **Travessão proibido na copy final:** não use `—` em títulos, texto de apoio, rótulos ou CTAs de posts, carrosséis e Stories. Revise também textos extraídos do HTML antes de renderizar. Uma captura autêntica preserva o texto original da interface; não a altere para cumprir esta regra.
-- A peça precisa parecer feita para feed/Stories, não uma ficha técnica ou página editorial: evite microtexto, excesso de caixa alta espaçada, rótulos miúdos e alinhamentos de documento. Faça a mensagem principal e o benefício dominarem antes da identificação de recursos.
-- Em lotes, mantenha a maior parte da gramática visual aprovada e use variações imersivas, recortes sem fundo, passagem entre cards e efeitos tipográficos localizados conforme o mapa em [orquestração visual](references/style-orchestration.md). Nenhuma dessas opções precisa aparecer em toda peça.
-- Evite o motivo de **barra cromática decorativa**: filetes curtos, sublinhados, bordas coloridas no topo/lateral de cartões ou segmentos saturados repetidos parecem componentes genéricos de template/arte por IA. Para hierarquia, use tipografia e cor em palavras; para agrupar, espaço, superfície completa discreta ou contorno neutro; para fluxo, verbos/números e setas alinhadas. A regra vale para posts, carrosséis e Stories. Preserve indicadores funcionais e detalhes que fazem parte de captura autêntica; nunca os redesenhe ou masque. Se um detalhe real competir com a arte, escolha outro recorte autêntico ou transcreva o conteúdo com atribuição clara.
-- Mantenha título, explicação e prova no mesmo grupo visual. Não use `space-between` ou margens automáticas para empurrar partes do mesmo argumento para extremidades opostas; caixas comparativas agrupam nome e explicação, diagramas alinham etapas e setas por elementos separados numa grade consistente.
-- Cada card precisa dizer um ponto compreensível, contribuir para a sequência e preparar o passo seguinte. Palavra decorativa isolada (como “hoje?”) só fica se completar uma pergunta/promessa clara; no percurso inteiro, título, destaque e apoio precisam explicar a mesma ideia.
-- **Valor antes da contagem:** cards de conteúdo explicam o critério e sua aplicação na medida necessária. “Tenha foco”, “leia o edital” ou “reveja seus erros” pedem desenvolvimento: o que fazer, como conferir e em que condição. Use exemplos identificados e limites honestos; não invente casos reais, provas, economia de tempo ou resultados para parecer mais próximo ou convincente.
-- **Composição de leitura ampla por padrão:** não use cartões internos e colunas estreitas como estrutura automática. Escolha texto com destaque, exemplo anotado, faixas abertas, tabela, comparação ou fluxo pela informação. Caixas só entram quando o agrupamento ajuda a leitura. Retirar bordas sem ampliar texto e reorganizar o conteúdo não resolve o problema. Fotos, itens, mascotes e efeitos têm função definida e cedem espaço à explicação quando necessário.
-- A ilustração, o ícone, a seta e o rótulo precisam ter relação semântica verificável. Ponto de interrogação é pontuação de uma pergunta escrita, não marcador genérico. Confira os ícones no PNG renderizado, mesmo quando o arquivo carregou sem erro.
-- Crop de print preserva palavras, controles e respiro interno: texto ou botão não pode encostar/cortar na borda. Prefira recapturar a região inteira ou incluir margem/frame que respeite o screenshot autêntico; nunca esconda letra amputada no canvas nem reduza a captura a ponto de o texto virar textura. A regra vale para feed, carrossel e Story.
-- O formato padrão é HTML/CSS editável com exportação final em PNG nativo. Post/carrossel: 1080×1350; Story: 1080×1920 com conteúdo essencial fora dos 250 px superiores e 200 px inferiores, salvo pedido diferente.
-- Imagem gerada pode servir pontualmente a contexto ou atmosfera, não a tipografia, logotipo, brasão, interface, captura ou prova. Se reduzir credibilidade, não use.
-- Não escreva legendas, hashtags ou roteiros de vídeo, nem publique ou agende, a menos que o usuário peça separadamente.
+As demais referências em `references/` são consulta pontual (lista no fim). Não as leia por hábito.
 
-## Entrega
+## Passo 1 · Entender a entrega
 
-Em planejamento, entregue por peça a função, copy final na arte, prova e origem, composição, dimensão e CTA. Em produção, entregue HTML/CSS editável, PNGs, prévias quando úteis e um registro sucinto de QA e fontes. Preserve alterações alheias e saídas anteriores recuperáveis ao revisar conjuntos existentes.
+Responda internamente, antes de qualquer arquivo:
 
-O [registro das fontes externas da evolução](references/external-source-audit.md) documenta a pesquisa; a skill não depende desses repositórios para funcionar.
-Ao alterar esta skill, siga [o processo de mudança segura](evals/PROCESSO-DE-MUDANCA.md) e use os cenários de regressão em [evals](evals/); eles não são templates de produção.
+- **Saída:** só texto (copy, legenda, roteiro, revisão) ou arte (HTML + PNG)? Pedido de texto termina no passo 3.
+- **Formato:** carrossel (1080×1350, 5 a 10 cards), post estático (1080×1350), Story (1080×1920).
+- **Copy:** nova ou congelada? Se o usuário disse "não mude a copy" ou existe `copy-lock`, o texto é intocável: você muda composição, nunca palavras.
+- **Fatos:** quais afirmações precisam de fonte oficial (vagas, datas, banca, requisitos, recurso da plataforma)?
+
+## Passo 2 · Escolher o estilo pelo tipo de conteúdo (OBRIGATÓRIO)
+
+| Tipo de conteúdo | Estilo | Arquivo |
+|---|---|---|
+| **Notícia** de concurso: edital, autorização, vagas, banca, cronograma, prazo, requisito, retificação, resultado, etapas | **Painel Oficial** (limpo, informativo, creme, números grandes) | `estilos/painel-oficial.md` |
+| **Dica de estudo / método**: rotina, sessão, revisão, organização, como ler edital, como usar um recurso | **Ficha de Missão** (papel com fita, post-it, recibo, carimbo) | `estilos/ficha-missao.md` |
+| **Conteúdo de matéria**: regra de português, cálculo, lógica, lei, resumo, questão comentada | **Mapa Ilustrado** (diagrama, setas, janelas, etiquetas pixel) | `estilos/mapa-ilustrado.md` |
+| **Motivação com lastro / estratégia curta / bastidor / cena reconhecível** | **Anotado à mão** (papel, serifa, círculos e notas manuscritas) | `estilos/anotado.md` |
+| **Frase curta de impacto**: card solto, citação, capa viral | **Impacto** (tipografia grossa, adesivo, foto + texto pesado) | `estilos/impacto.md` |
+
+Regras de escolha:
+- Na dúvida entre dois tipos, pergunte: "o leitor quer **saber um fato**, **fazer algo**, **aprender uma matéria** ou **sentir/reconhecer algo**?" → Painel, Ficha, Mapa, Anotado/Impacto.
+- A **capa** de qualquer carrossel pode usar o estilo Impacto quando a abertura é uma frase de até 9 palavras. Os internos seguem o estilo da peça. Notícia não usa capa Impacto.
+- Recurso da plataforma (cursos, leis digitais, banco de questões, mentoria) entra em Ficha de Missão ou Mapa Ilustrado, ligado a uma tarefa. Nunca simule tela do produto.
+- Pedido do usuário por um estilo específico vence esta tabela.
+
+## Passo 3 · Copy (contrato que vale para todos os estilos)
+
+Se a copy é congelada, pule para o passo 4 (você só confere as regras 1, 2 e 8 e registra problemas, sem editar).
+
+1. **Fato só com fonte.** Vagas, datas, banca, requisito, preço, resultado, recurso do produto: fonte oficial registrada. Sem fonte, não afirme. Exemplo hipotético recebe a marca "Exemplo didático".
+2. **Sem travessão (—)** em texto de arte. Sem as palavras vetadas: utilizar, transformar, otimizar, alavancar, crucial, mergulhar, revolucionário, implementar.
+3. **Situação antes de sigla.** A capa chama a pessoa certa pela situação, decisão ou fato. Concurso/cargo só aparece se o pedido ou a copy delimitar.
+4. **Uma ideia por card**, com o que a pessoa precisa para aplicar: critério, motivo, exemplo, limite. Card que só repete o anterior sai ou se aprofunda.
+5. **Voz:** frases simples, "você", verbos concretos. Sem pergunta retórica, sem "Não é X, é Y", sem slogan de cursinho, sem urgência ou promessa inventada.
+6. **CTA:** uma ação principal com destino real (link da bio, PDF existente, salvar para usar). Ação secundária vai menor.
+7. **Fechamento de carrossel:** frase oficial "Quem traça a Rota, nunca perde o alvo!" + logo + `rotadeataque.com.br`.
+8. **Limites por slot** estão no arquivo do estilo. Copy nova que estoura o limite: reescreva. Copy congelada que estoura: mude a variação ou divida o card, nunca corte.
+
+Detalhes e exemplos: `references/guia-copy-clara-humana-e-util.md`, `references/legendas-e-ctas.md`, `references/copy-por-formato.md`.
+
+## Passo 4 · Mapa de direção (OBRIGATÓRIO em lote ou carrossel)
+
+Antes de escrever HTML, crie `direcao.json` na pasta da entrega:
+
+```json
+{ "pecas": [
+  { "id": "P01", "tipo": "noticia", "estilo": "painel-oficial", "formato": "carrossel",
+    "capa": "C2", "internos": ["I1", "I3", "I4", "I5"], "cta": "CTA-DATA", "fechamento": "F1", "fundo": "creme" }
+] }
+```
+
+`tipo`: noticia | dica-estudo | conteudo | motivacao | frase | recurso. Códigos de variação: arquivo do estilo.
+Escolha cada variação pelo conteúdo do card (número → linhas/equação; comparação → colunas; etapas → linha do tempo/fila; frase-exemplo → caderno/frase anotada). Nunca por rodízio, ID ou sorteio.
+
+Rode e corrija até passar:
+
+```bash
+node "<SKILL_DIR>/kit/tools/checar-lote.cjs" direcao.json
+```
+
+O verificador bloqueia: estilo errado para o tipo, capa repetida em peças vizinhas, menos de 3 arquiteturas nos internos, 3 cards seguidos iguais, menos de 4 fechamentos diferentes num lote.
+
+## Passo 5 · HTML com o kit (OBRIGATÓRIO para arte)
+
+1. Copie `kit/` inteiro para a pasta da entrega como `kit/` (fontes, CSS, assets e ferramentas). Não referencie arquivos fora da entrega.
+2. Parta do modelo `kit/exemplos/<estilo>.html`: copie as `<section class="card">` das variações escolhidas e troque só textos e imagens. Mantenha as classes.
+3. Cada card precisa de: `class="card <prefixo do estilo>"`, `data-bg`, `data-estilo`, `data-variante`, `data-arquivo` (nome do PNG: `card-01`, `card-06-tiktok`...). Último card do carrossel: `data-fechamento`. Post único: `data-estatico`.
+4. Marque título com `data-papel="titulo"` e corpo com `data-papel="corpo"` (o preflight cobra tamanho mínimo).
+5. Uma logo por card (`logo-rota.png` em fundo claro, `logo-rota-claro.png` em carvão, `logo-rota-branco.png` em vermelho/vinho). "Deslize →" em todos os cards menos o último. Sem número de card, contador ou cabeçalho de série.
+6. Foto: `style="background-image:url('...')"` no HTML (não em variável CSS). Antes de usar, abra a foto e registre o que mostra, a relação com o tema e a origem/licença. Cargo com farda: pesquise "farda + cargo" em fonte oficial. Não repita a mesma pessoa em capas vizinhas.
+7. Mascote: só os PNGs de `kit/assets/mascote/` (Raposa, trilha 1), com as cores originais.
+8. Não reduza fonte para caber. Reorganize, troque de variação ou divida o card.
+9. Story: mesmo estilo, `class="card story ..."` (1080×1920). Texto e ação dentro da faixa y 250 a 1670; confira a interface real do Instagram antes de fechar.
+
+## Passo 6 · Render, preflight e inspeção (OBRIGATÓRIO)
+
+```bash
+node kit/tools/render.cjs <arquivo.html> <pasta-de-saida>
+```
+
+- O render roda o preflight antes e **não exporta nada se houver erro**: texto fora da margem de 72 px, fonte abaixo do piso (24 px geral, 34 corpo, 42 manuscrito, 60 título), texto sobreposto, contraste baixo, logo ausente ou duplicada, "Deslize" errado, travessão, palavra vetada, contador de card, imagem ou foto que não carregou, canvas fora do tamanho.
+- Corrija o layout e rode de novo. `--forcar "motivo"` só com autorização explícita do usuário, e o motivo fica gravado.
+- Depois de exportar, **abra `prancha.png` e cada PNG** (ferramenta de leitura de imagem). O preflight não vê seta cruzando texto, foto mal recortada, vazio sem intenção ou hierarquia fraca. Registre em `preflight.json` → `pngs[].visual` uma nota concreta por PNG (`"aprovado: ..."` ou `"refazer: ..."`). Sem nota, o PNG continua pendente.
+- Se o Playwright não estiver disponível, diga ao usuário e não declare PNG pronto.
+
+## Passo 7 · Entrega
+
+Pasta da entrega com: `direcao.json`, HTML editável, `kit/`, PNGs, `preflight.json` com notas visuais, legendas se pedidas, e fontes dos fatos (`fonte-qa.json` ou seção no README). Na resposta, diga o que foi gerado, o que ficou pendente (fonte a revalidar, foto a trocar) e mostre a prancha.
+
+## Regras que nunca mudam
+
+- Paleta: creme `#F4F1EB`, papel `#FFFDF8`, carvão `#171717`, vermelho `#C1121F`, vinho `#8B0000`, cinzas. Coral `#F04452` só como ênfase sobre fundo escuro. Amarelo `#E8B23A` só em blocos pequenos de realce (Mapa Ilustrado e Impacto). Cor do concurso só em brasão, farda ou item pequeno.
+- Sem barra ou filete vertical colorido decorativo.
+- Brasão identifica o concurso; nunca sugere endosso oficial.
+- Margem útil de 80 px (mínimo 72).
+- Copy congelada é intocável.
+- Não declare "aprovado" sem ter aberto a imagem.
+
+## Referências de consulta (abrir só quando o caso pedir)
+
+| Situação | Arquivo |
+|---|---|
+| Copy nova, revisão de copy | `references/guia-copy-clara-humana-e-util.md`, `references/aprofundamento-copy.md`, `references/copy-concreta-e-narrativa.md` |
+| Formato específico (Story, blog, roteiro, legenda) | `references/copy-por-formato.md`, `references/legendas-e-ctas.md`, `references/formats.md` |
+| Público e ângulo | `references/audience-and-message.md`, `references/angles-and-copy.md`, `references/narrative-frameworks.md` |
+| Prova, fonte, alegação de produto | `references/rota-brand-and-evidence.md` |
+| Foto de capa e farda | `references/foto-de-capa-e-pesquisa-de-farda.md`, `references/pexels-image-research.md` |
+| Refazimento de lote com copy congelada | `references/redesign-copy-lock-and-visual-map.md` |
+| QA detalhado | `references/production-qa.md`, `references/carousel-copy-layout-audit.md` |
+| Escrita natural | `references/guia-escrita-natural-ptbr.md`, `references/humanizacao-ptbr.md` |
+| Mascote e itens | `references/pacote-visual-rota.md`, `kit/assets/MANIFESTO-PACOTE-MASCOTE.md` |
+
+Quando uma referência antiga contradiz este arquivo ou o arquivo do estilo, **vale este arquivo**. As referências `visual-direction.md`, `style-orchestration.md`, `carousel-grade-grid-cta.md`, `html-css-system.md` e `campaign-visual-grammar.md` descrevem o sistema anterior aos estilos e continuam úteis só como fundamento.
+
+Mudanças nesta skill seguem `evals/PROCESSO-DE-MUDANCA.md`; cenários de regressão em `evals/`.

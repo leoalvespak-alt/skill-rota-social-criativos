@@ -1,0 +1,7 @@
+{ "pecas": [
+  { "id": "P01", "tipo": "noticia", "estilo": "painel-oficial", "formato": "carrossel", "capa": "C2", "internos": ["I1","I3","I4","I5"], "cta": "CTA-DATA", "fechamento": "F1", "fundo": "creme" },
+  { "id": "P02", "tipo": "dica-estudo", "estilo": "ficha-missao", "formato": "carrossel", "capaEstilo": "impacto", "capa": "I3", "internos": ["A","C","A","D"], "cta": "CTA-4", "fechamento": "F2", "fundo": "carvao" },
+  { "id": "P03", "tipo": "conteudo", "estilo": "mapa-ilustrado", "formato": "carrossel", "capa": "V0", "internos": ["V1","V2","V3","V7"], "cta": "CTA-1", "fechamento": "F3", "fundo": "carvao" },
+  { "id": "P04", "tipo": "motivacao", "estilo": "anotado", "formato": "estatico", "capa": "A3", "fundo": "creme" },
+  { "id": "P05", "tipo": "noticia", "estilo": "painel-oficial", "formato": "carrossel", "capa": "C7", "internos": ["I5","I7","I6","I2"], "cta": "CTA-DATA", "fechamento": "F4", "fundo": "vinho" }
+] }

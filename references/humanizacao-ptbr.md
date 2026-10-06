@@ -1,6 +1,6 @@
 # Humanização de copy em português brasileiro
 
-Use esta referência ao criar ideias, redigir, auditar ou revisar texto visível em posts, carrosséis e Stories. O objetivo é obter uma copy clara, específica e com voz adequada ao público. Nenhum método garante que uma ferramenta classifique um texto como humano; pontuações de detector não são critério de qualidade.
+Use esta referência quando a redação ou revisão detectar linguagem mecânica em qualquer destino da skill. O objetivo é obter escrita clara, específica e com voz adequada ao público. Nenhum método garante classificação por detector; essa pontuação não é critério de qualidade. Preserve a substância aprovada em [aprofundamento](aprofundamento-copy.md).
 
 ## Processo curto
 
@@ -11,6 +11,10 @@ Use esta referência ao criar ideias, redigir, auditar ou revisar texto visível
 5. Compare a revisão com a fonte e com [escrita natural](guia-escrita-natural-ptbr.md). Confirme que argumento, modalidade e fatos continuam intactos e que a copy ainda cumpre a função persuasiva da peça.
 
 ## Catálogo de sinais
+
+Para dar proximidade ao texto, prefira uma situação e uma ação que a pessoa reconheça. “A preparação exige organização” pode virar “Se a sessão parou no meio da matéria, marque o trecho e a primeira questão que vai retomar”. Esse é um exemplo didático de redação, não um relato de aluno. Uma frase mais longa pode soar mais humana quando liga circunstância e consequência com clareza.
+
+Evite trocar abstração por intimidade fabricada: “sei como você se sente”, “a gente passa por isso junto” e histórias em primeira pessoa pedem uma voz ou experiência real da marca. Para uma alternativa narrativa com cena, mudança e aplicação, consulte [copy concreta e narrativa](copy-concreta-e-narrativa.md). Faça essa escolha só quando servir ao assunto e ao pedido.
 
 Os materiais originais estão preservados em [humanizar-upstream](humanizar-upstream/humanizar/SKILL.md), com licença e origem no mesmo diretório. Consulte somente as referências necessárias ao problema identificado:
 
@@ -25,6 +29,8 @@ Os materiais originais estão preservados em [humanizar-upstream](humanizar-upst
 | Texto didático que pede vocabulário mais simples | [português simples](humanizar-upstream/humanizar/references/padroes-portugues-simplificado.md) |
 
 Use o catálogo como lista de observação, não como receita de reescrita. Os exemplos no material de origem servem para explicar sinais; não os copie como templates de copy. Os perfis e os exemplos de origem não substituem a intenção, as fontes, a voz pedida nem as preferências pessoais do usuário.
+
+Metas de comprimento de frase dos perfis de brevidade/português simples só servem quando aquele perfil é pertinente ao pedido. Não impor 13–18 palavras ou um teto de 25 palavras a blog, argumento, explicação ou fala natural. Clareza pode exigir uma condição conectada à frase. Na criação autorizada, exemplos didáticos identificados podem esclarecer um procedimento; na humanização de texto fornecido, não acrescentar fatos, resultados ou casos apresentados como reais. A licença e o material de origem permanecem intactos.
 
 ## Critério de saída
 

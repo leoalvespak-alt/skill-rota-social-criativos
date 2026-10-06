@@ -19,6 +19,10 @@ Anote apenas campos decididos, sem preencher lacunas por hábito:
 | CTA | Linguagem e tratamento visual aprovados. |
 | Repertório | Padrões/composições que funcionaram, padrões a evitar e referências aprovadas. |
 
-Exemplo de anotação **ilustrativa, não aprovação automática**: `PPPE_PPPB_2026 · superfície clara · bordas quadradas · prova grande · alinhamento à esquerda · vermelho da Rota para assinatura · azul PPPE/vermelho profundo PPPB para identificação · CTA editorial de comentário · evitar dashboard miniaturizado e brasão dominante`.
+Exemplo de anotação **ilustrativa, não aprovação automática**: `PPPE_PPPB_2026 · fundo bege aprovado · bordas quadradas · prova grande · alinhamento à esquerda · vermelho Rota como acento · azul PPPE/vermelho profundo PPPB apenas em identificadores curtos · CTA editorial de comentário · evitar dashboard miniaturizado e brasão dominante`.
 
 **Gramática visual não é template.** Ela mantém identidade e decisões já aprovadas, mas permite mudar crop, proporção, posição da prova, fluxo, densidade e relação texto/imagem. Duas peças não precisam compartilhar o mesmo arranjo. Se um padrão registrado prejudicar a prova ou o formato atual, explique a exceção e ajuste apenas o necessário.
+
+## Refazimento integral do calendário
+
+Quando o pedido refizer o lote inteiro, preserve os valores estáveis da identidade (logo, paleta, tipografia, prova e tom) e atualize a arquitetura de cada peça conforme sua ideia e seu papel. A gramática aprovada não obriga repetir composição, posição, superfície ou densidade. Use [copy-lock e mapa visual](redesign-copy-lock-and-visual-map.md) para manter copy, relações do calendário, ativos, CTA e fechamento rastreáveis. Fechamentos repetidos não contam como variedade dos cards de conteúdo.

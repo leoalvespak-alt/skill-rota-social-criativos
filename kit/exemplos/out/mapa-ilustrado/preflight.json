@@ -1,0 +1,94 @@
+{
+  "arquivo": "C:\\Users\\Lenovo\\Desktop\\Rota de Ataque\\Rota Criativos e automacao\\rota-ataque-criativos\\skills\\rota-social-criativos\\kit\\exemplos\\mapa-ilustrado.html",
+  "data": "2026-10-06T04:46:15.832Z",
+  "totalErros": 0,
+  "forcado": null,
+  "cards": [
+    {
+      "id": "P08-capa",
+      "estilo": "mapa-ilustrado",
+      "variante": "V0-capa",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P08-v1-fluxo",
+      "estilo": "mapa-ilustrado",
+      "variante": "V1-fluxo",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P08-v2-antes-depois",
+      "estilo": "mapa-ilustrado",
+      "variante": "V2-antes-depois",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P08-v3-formula",
+      "estilo": "mapa-ilustrado",
+      "variante": "V3-formula",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P14-v4-frase-anotada",
+      "estilo": "mapa-ilustrado",
+      "variante": "V4-frase-anotada",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P32-v5-grupo",
+      "estilo": "mapa-ilustrado",
+      "variante": "V5-grupo",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "fechamento",
+      "estilo": "mapa-ilustrado",
+      "variante": "F-mapa",
+      "erros": [],
+      "avisos": []
+    }
+  ],
+  "pngs": [
+    {
+      "arquivo": "P08-capa.png",
+      "sha256": "c4d553bbd9a5761930a3fa4b0c47dba68da994eb30c4710f2275f659c3fe983b",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P08-v1-fluxo.png",
+      "sha256": "074837b1d2a4b39cd37511803ee039cd81887cb5f1d472630d64d9a6f288db44",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P08-v2-antes-depois.png",
+      "sha256": "1144c1523736dfcc95277ddba809f4e16f69ffdd99506c6eaaf62ca195111883",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P08-v3-formula.png",
+      "sha256": "d42ceff9dd363088fed94f45bea6adb0adcf3e603095f380796e253656be49ba",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P14-v4-frase-anotada.png",
+      "sha256": "07c168448e4066250208ff0f27306aa00b03d46c26285ec1641f3f9bffea2bfe",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P32-v5-grupo.png",
+      "sha256": "7e102d658580a14ac93d661e2e8a3958392a34f431e326fcd98eb3384492b722",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "fechamento.png",
+      "sha256": "62091c40aee68631594c7b6e7ef38c6be16704bf8e19264728d5e19bef484fac",
+      "visual": "pendente"
+    }
+  ]
+}

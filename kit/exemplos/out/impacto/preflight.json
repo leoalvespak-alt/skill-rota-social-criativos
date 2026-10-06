@@ -1,0 +1,70 @@
+{
+  "arquivo": "C:\\Users\\Lenovo\\Desktop\\Rota de Ataque\\Rota Criativos e automacao\\rota-ataque-criativos\\skills\\rota-social-criativos\\kit\\exemplos\\impacto.html",
+  "data": "2026-10-06T04:47:30.024Z",
+  "totalErros": 0,
+  "forcado": null,
+  "cards": [
+    {
+      "id": "I1-P27",
+      "estilo": "impacto",
+      "variante": "I1-adesivo",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "I2-P06",
+      "estilo": "impacto",
+      "variante": "I2-muralha",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "I3-P38-capa",
+      "estilo": "impacto",
+      "variante": "I3-grosso",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "I4-P18-capa",
+      "estilo": "impacto",
+      "variante": "I4-foto",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "I5-P44-capa",
+      "estilo": "impacto",
+      "variante": "I5-recorte",
+      "erros": [],
+      "avisos": []
+    }
+  ],
+  "pngs": [
+    {
+      "arquivo": "I1-P27.png",
+      "sha256": "0274c3354fae3976dfd23e636c15c391217a5272e0dac9dd2200e766018a982e",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "I2-P06.png",
+      "sha256": "375bc5c3e4269322c0d6f10c3374113b69f803688c1376de9bf5722fc525cc20",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "I3-P38-capa.png",
+      "sha256": "bef5cecc961027d9cb1f5f0b7d71f54342b38abd13083bc4b1502984a898de3f",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "I4-P18-capa.png",
+      "sha256": "1cd1737230f172fb80a80ab89d607edccf6ac85dac561acb958ae1b0a2481c55",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "I5-P44-capa.png",
+      "sha256": "d1b92d0b56b3de3ddec5b8aec722b262b43cb0a4daeccbdca3d1d9d47c7f57c2",
+      "visual": "pendente"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "rota-ataque-criativos",
+  "version": "0.3.0",
+  "description": "Crie e revise copy e criativos da Rota de Ataque em português brasileiro, com cinco estilos visuais por tipo de conteúdo, kit HTML/CSS e preflight automático antes de exportar PNG.",
+  "author": {
+    "name": "Rota de Ataque"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Rota de Ataque Criativos",
+        "shortDescription": "Copy e criativos sociais da Rota de Ataque",
+        "longDescription": "Planeje, escreva, revise e produza conteúdo social da Rota de Ataque em português brasileiro. A skill completa inclui copy, carrosséis, posts, Stories, legendas, blog, roteiros, direção visual, HTML/CSS, exportação PNG, pesquisa de fontes e QA, com referências, avaliações e atribuições originais.",
+        "developerName": "Rota de Ataque",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": [
+          "Escreva uma legenda ou copy para a Rota de Ataque, com fatos e fontes conferidos.",
+          "Planeje um carrossel informativo da Rota de Ataque, card a card, com progressão útil.",
+          "Produza um criativo social da Rota de Ataque em HTML/CSS e PNG, seguindo a identidade e o QA da skill."
+        ]
+      }
+    }
+  }
+}

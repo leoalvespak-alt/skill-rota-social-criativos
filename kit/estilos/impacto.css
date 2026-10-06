@@ -1,0 +1,46 @@
+/* =====================================================================
+   ESTILO 5 · IMPACTO  (frase curta e grossa: capa viral, card solto, citação)
+   Base: referências "impacts". Tipografia que ocupa o canvas, adesivos,
+   etiquetas em pílula, foto com texto pesado. Pouca copy por tela.
+   Ver estilos/impacto.md
+   ===================================================================== */
+.im .area { top: 96px; bottom: 170px; }
+.im-topo { position: absolute; left: var(--margem); right: var(--margem); top: 76px; display: flex; justify-content: space-between; align-items: flex-start; z-index: 10; }
+.im-topo .logo { height: 46px; width: auto; }
+.im-topo .mini { font: 700 24px/1.15 var(--f-corpo); letter-spacing: .04em; text-transform: uppercase; text-align: right; color: var(--ink); }
+.im .rodape { justify-content: space-between; }
+.im .rodape .deslize { font: 700 28px/1 var(--f-corpo); letter-spacing: .02em; text-transform: uppercase; color: var(--ink); }
+.im .rodape .mini { font: 700 24px/1.2 var(--f-corpo); letter-spacing: .04em; text-transform: uppercase; color: var(--ink); max-width: 560px; }
+
+/* I1 · ADESIVO: bloco colorido inclinado com caixa alta pesada */
+.adesivo { position: relative; background: var(--vermelho); color: var(--papel); padding: 54px 56px 60px; transform: rotate(var(--rot, -3deg)); box-shadow: 0 24px 40px rgba(23,23,23,.18); }
+.adesivo.realce { background: var(--realce); color: var(--tinta); }
+.adesivo.carvao { background: var(--carvao); color: var(--papel); }
+.adesivo .txt { font: 400 104px/.9 var(--f-pesada); letter-spacing: -.03em; text-transform: uppercase; }
+.pilula { display: inline-block; font: 700 25px/1 var(--f-corpo); letter-spacing: .04em; text-transform: uppercase; padding: 10px 18px 9px; border: 3px solid currentColor; border-radius: 999px; white-space: nowrap; }
+.asterisco { display: inline-block; font: 400 60px/1 var(--f-pesada); transform: rotate(12deg); }
+
+/* I2 · MURALHA: palavras gigantes condensadas preenchendo o canvas */
+.muralha { font: 400 260px/.84 var(--f-impacto); text-transform: uppercase; letter-spacing: -.01em; color: var(--ink); text-align: center; }
+.muralha.media { font-size: 200px; }
+.etiqueta-tilt { display: inline-block; background: var(--realce); color: var(--tinta); font: 400 76px/1 var(--f-pesada); text-transform: uppercase; padding: 14px 28px 12px; transform: rotate(-4deg); box-shadow: 0 0 40px rgba(232,178,58,.45); }
+.selo-redondo { display: inline-grid; place-items: center; width: 92px; height: 92px; border: 5px solid currentColor; border-radius: 50%; font: 700 30px/1 var(--f-num); }
+.barcode { height: 76px; width: 280px; background: repeating-linear-gradient(90deg, currentColor 0 4px, transparent 4px 8px, currentColor 8px 10px, transparent 10px 15px, currentColor 15px 21px, transparent 21px 24px); }
+.xadrez { width: 220px; height: 66px; background: conic-gradient(currentColor 25%, transparent 0 50%, currentColor 0 75%, transparent 0) 0 0 / 44px 44px; }
+
+/* I3 · EDITORIAL GROSSO: minúsculas pesadas, apertadas, uma palavra circulada ou em serifa */
+.grosso { font: 400 150px/.86 var(--f-pesada); letter-spacing: -.055em; color: var(--ink); }
+.grosso.medio { font-size: 120px; }
+.minusculas { text-transform: lowercase; } /* caixa só no CSS: o HTML guarda a copy original */
+.grosso em { font: italic 400 1.05em/.86 var(--f-serif); letter-spacing: -.01em; }
+.grosso .circ-mao { position: relative; display: inline-block; }
+.grosso .circ-mao::after { content: ''; position: absolute; left: -.12em; right: -.12em; top: .02em; bottom: -.08em; border: 6px solid var(--enf); border-radius: 50% 44% 52% 46% / 60% 52% 50% 44%; transform: rotate(-3deg); }
+.grosso .sub-grosso { text-decoration: underline; text-decoration-thickness: .07em; text-underline-offset: .08em; }
+.im-apoio { font: 600 36px/1.25 var(--f-corpo); color: var(--ink); max-width: 640px; }
+
+/* I4 · FOTO + TEXTO GROSSO */
+.im-foto { position: absolute; inset: 0; background-position: center; background-size: cover; background-repeat: no-repeat; /* imagem: style="background-image:url(...)" no HTML */ filter: saturate(.85) contrast(1.05); }
+.im-foto::after { content: ''; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(23,23,23,.88) 0, rgba(23,23,23,.4) 45%, rgba(23,23,23,.1) 70%); }
+
+/* I5 · RECORTE ORGÂNICO: foto com máscara de forma livre */
+.recorte { position: absolute; background-position: center; background-size: cover; background-repeat: no-repeat; /* imagem: style="background-image:url(...)" no HTML */ -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M52 3 C 70 2, 92 10, 96 30 C 100 48, 86 52, 92 70 C 98 90, 74 99, 54 96 C 36 93, 30 84, 16 86 C 2 88, 1 66, 6 52 C 11 38, 2 26, 12 14 C 22 2, 38 4, 52 3 Z'/%3E%3C/svg%3E") center/100% 100% no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M52 3 C 70 2, 92 10, 96 30 C 100 48, 86 52, 92 70 C 98 90, 74 99, 54 96 C 36 93, 30 84, 16 86 C 2 88, 1 66, 6 52 C 11 38, 2 26, 12 14 C 22 2, 38 4, 52 3 Z'/%3E%3C/svg%3E") center/100% 100% no-repeat; }

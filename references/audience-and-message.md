@@ -8,6 +8,8 @@ Demografia identifica o público; psicografia orienta normalmente **o que dizer*
 
 Para campanha relevante, faça um PQR² enxuto:
 
+Use o levantamento para redigir um argumento completo com [aprofundamento](aprofundamento-copy.md). “Pouco tempo” é uma condição; a decisão concreta pode ser escolher uma parte da tarefa, registrar a interrupção ou conferir uma dúvida. O recorte deve orientar uma entrega útil, sem atribuir comportamento universal ao público.
+
 | PQR² | Pergunta de trabalho | Exemplo a verificar na Rota |
 |---|---|---|
 | Problemas | O que está difícil agora? | Priorizar assuntos do edital. |
@@ -47,6 +49,6 @@ Uma peça pode estar factualmente correta e ainda não dar ao aluno motivo para 
 
 Não trate hipótese sobre o público como depoimento ou pesquisa. Use formulações condicionais e humanas — “se você está retomando Penal…”, “na hora de escolher o que revisar…” — em vez de universalizar “todo concurseiro”. O produto entra como resposta operacional quando a prova sustenta esse papel, não como lista de funcionalidades.
 
-Para público frio, a primeira tela deve oferecer uma razão concreta para olhar: pergunta de autoidentificação, tensão de uma escolha real, objeção relevante ou benefício específico. Dizer apenas o nome do concurso, a contagem de missões ou o assunto do edital identifica, mas não cria interesse. A promessa da abertura precisa ser paga logo adiante.
+Para público frio, a primeira tela deve oferecer razão concreta para olhar: situação reconhecível, escolha real, objeção relevante ou benefício específico. As perguntas do briefing orientam a redação; na copy final, prefira afirmação específica e evite perguntas retóricas. Nome do concurso e contagem de missões identificam, sem necessariamente explicar o interesse. A promessa deve ser cumprida logo adiante. Para público que já conhece o produto, preserve uma oferta direta quando pertinente ao pedido e confirmada.
 
 Em lote ou campanha importante, escreva ao menos três **ângulos** antes de escolher a copy — por exemplo: retomar um assunto, decidir o que fazer na sessão, ou entender uma distinção cobrada em questões. Eles devem partir de motivações diferentes; trocar substantivos mantendo o mesmo argumento não conta. Escolha um ângulo que combine com o estágio do público e a prova disponível.

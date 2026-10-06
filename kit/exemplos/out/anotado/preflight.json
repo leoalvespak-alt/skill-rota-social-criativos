@@ -1,0 +1,70 @@
+{
+  "arquivo": "C:\\Users\\Lenovo\\Desktop\\Rota de Ataque\\Rota Criativos e automacao\\rota-ataque-criativos\\skills\\rota-social-criativos\\kit\\exemplos\\anotado.html",
+  "data": "2026-10-06T04:46:56.875Z",
+  "totalErros": 0,
+  "forcado": null,
+  "cards": [
+    {
+      "id": "A1-P44-capa",
+      "estilo": "anotado",
+      "variante": "A1-circulos",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "A2-P02-c5",
+      "estilo": "anotado",
+      "variante": "A2-riscado",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "A3-P06",
+      "estilo": "anotado",
+      "variante": "A3-nota-canto",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "A4-P29-c4",
+      "estilo": "anotado",
+      "variante": "A4-lista",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "A5-P27",
+      "estilo": "anotado",
+      "variante": "A5-poster",
+      "erros": [],
+      "avisos": []
+    }
+  ],
+  "pngs": [
+    {
+      "arquivo": "A1-P44-capa.png",
+      "sha256": "0fc93563acb42252014b02524458a227e2979afb398a0ae63827f82b9ff7f657",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "A2-P02-c5.png",
+      "sha256": "e7e681fc31e2d08686c4325c24929a3a0c36cea07e460baa37455675112a2f16",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "A3-P06.png",
+      "sha256": "cfdc82f0b4948a497aa7bb3579e0f6f9b11049f946e43f4cc005bc85365c3c6a",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "A4-P29-c4.png",
+      "sha256": "77c63cfd81e99c47d0c32b7277457d621900abe8a62bb17af96ed284a991c364",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "A5-P27.png",
+      "sha256": "dd8f34888ffb221d63757c88359d645fd7056de3e99671bc8dd0c2600b8bd11e",
+      "visual": "pendente"
+    }
+  ]
+}

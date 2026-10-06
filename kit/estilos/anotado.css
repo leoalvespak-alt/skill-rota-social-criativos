@@ -1,0 +1,53 @@
+/* =====================================================================
+   ESTILO 4 · ANOTADO À MÃO  (motivação, mentalidade, estratégia curta, bastidor)
+   Base: referências "desenhossobtextos". Papel claro, tipografia elegante
+   e anotações manuscritas (círculos, setas, riscos, correções).
+   O espaço vazio aqui É intencional: a anotação respira. Ver estilos/anotado.md
+   ===================================================================== */
+.an { --bg: var(--creme); --ink: var(--tinta); --tinta-mao: var(--tinta); --enf: var(--vermelho); }
+.an[data-bg=papel] { --bg: var(--papel); }
+.an[data-bg=carvao] { --tinta-mao: var(--papel); --enf: var(--coral); }
+.an .grao { --grao: .06; }
+.an .area { top: 110px; bottom: 190px; justify-content: center; }
+
+/* textos-base */
+.an-rotulo { font: 600 28px/1 var(--f-corpo); letter-spacing: .22em; text-transform: uppercase; color: var(--ink); margin-bottom: 22px; }
+.an-serif { font: 400 82px/1.12 var(--f-serif); color: var(--ink); letter-spacing: -.01em; }
+.an-serif.grande { font-size: 108px; line-height: 1.04; }
+.an-serif i, .an-serif em { font-style: italic; }
+.an-sans { font: 700 96px/.98 var(--f-corpo); letter-spacing: -.035em; color: var(--ink); }
+.an-sans em { font: italic 400 1.06em/.9 var(--f-serif); letter-spacing: 0; }
+.an-corpo { font: 400 38px/1.42 var(--f-corpo); color: var(--ink); max-width: 860px; margin-top: 46px; }
+.an-corpo + .an-corpo { margin-top: 24px; }
+.an-corpo i { font-style: italic; }
+
+/* manuscrito */
+.nota-mao { position: absolute; font: 600 54px/1.04 var(--f-mao); color: var(--tinta-mao); transform: rotate(var(--rot, -4deg)); z-index: 5; }
+.nota-mao.verm { color: var(--enf); }
+.nota-mao.grande { font-size: 66px; }
+
+/* marcações sobre palavras (aplicadas em <span>) */
+.circulo { position: relative; display: inline-block; }
+.circulo::after { content: ''; position: absolute; left: -.16em; right: -.16em; top: -.1em; bottom: -.12em; border: 4px solid var(--enf); border-radius: 50% 46% 52% 44% / 58% 50% 52% 46%; transform: rotate(-2.5deg); pointer-events: none; }
+.circulo.tinta::after { border-color: var(--tinta-mao); }
+.circulo.duplo::before { content: ''; position: absolute; left: -.2em; right: -.12em; top: -.06em; bottom: -.16em; border: 3px solid var(--enf); border-radius: 48% 52% 46% 54% / 52% 58% 46% 50%; transform: rotate(1.5deg); pointer-events: none; }
+.riscado-mao { position: relative; display: inline-block; }
+.riscado-mao::after { content: ''; position: absolute; left: -4px; right: -4px; top: 52%; height: 6px; background: var(--enf); border-radius: 3px; transform: rotate(-1.5deg); }
+.sublinhado-mao { background: no-repeat left bottom / 100% 14px url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 14' preserveAspectRatio='none'%3E%3Cpath d='M2 9 C 60 3, 140 12, 200 6 S 280 4, 298 8' fill='none' stroke='%23C1121F' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E"); padding-bottom: 10px; }
+.correcao { position: relative; display: inline-block; }
+.correcao > .nova { position: absolute; left: 100%; top: -.55em; margin-left: 12px; font: 700 .72em/1 var(--f-mao); color: var(--enf); white-space: nowrap; transform: rotate(-6deg); }
+
+/* setas à mão (SVG inline com class="seta-mao") */
+svg.seta-mao { position: absolute; overflow: visible; z-index: 4; pointer-events: none; }
+svg.seta-mao path { fill: none; stroke: var(--tinta-mao); stroke-width: 4.5; stroke-linecap: round; stroke-linejoin: round; }
+svg.seta-mao.verm path { stroke: var(--enf); }
+
+/* lista com marcações à mão */
+.an-lista { list-style: none; margin-top: 30px; }
+.an-lista li { position: relative; font: 400 64px/1.2 var(--f-serif); color: var(--ink); padding: 10px 0 10px 90px; }
+.an-lista li::before { content: ''; position: absolute; left: 0; top: 26px; width: 46px; height: 46px; border: 4px solid var(--tinta-mao); border-radius: 8px 12px 6px 10px; transform: rotate(-3deg); }
+.an-lista li.feito::after { content: '✓'; position: absolute; left: 6px; top: -4px; font: 700 76px/1 var(--f-mao); color: var(--enf); }
+
+/* rodapé discreto do estilo */
+.an .rodape .deslize { font: 600 54px/1 var(--f-corpo); color: var(--ink); }
+.an .rodape .deslize.circulo-seta { width: 66px; height: 66px; border: 4px solid var(--ink); border-radius: 50%; display: grid; place-items: center; font-size: 34px; }

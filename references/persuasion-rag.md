@@ -4,6 +4,8 @@ Este complemento incorpora princípios do `GUIA-COPY-PERSUASAO-RAG.md` da Rota. 
 
 Fonte de origem: `Sistema de Design/Docs/GUIA-COPY-PERSUASAO-RAG.md`, consultado em 2026-09-24. Os princípios foram adaptados ao escopo e às proteções factuais da skill; os exemplos da fonte não são material pronto para publicação.
 
+A revisão de copy e conexão foi ampliada com [fundamentos dos cinco livros](fundamentos-livros-copy-conexao.md). Para desenvolvimento e os seis destinos, siga [aprofundamento](aprofundamento-copy.md) e [copy por formato](copy-por-formato.md). Esta referência conserva a aplicação visual original; não funciona como limite para blog, legenda ou roteiro.
+
 ## Uma ideia que guia a peça
 
 Defina antes de escrever:
@@ -14,6 +16,8 @@ Defina antes de escrever:
 - uma ação principal.
 
 Prova, recurso e contexto servem a essa ideia. Não tente encaixar vários benefícios, recursos e CTAs numa mesma peça. Em carrossel, cada card desenvolve um passo da mesma mensagem; a sequência inteira mantém uma ação principal.
+
+Uma ideia dominante permite várias explicações e demonstrações pertinentes. O corpo precisa cumprir a promessa; o comprimento da abertura não limita sua profundidade. Em conteúdo educativo, a ação pode ser uma aplicação no material do leitor, sem oferta comercial. Não exigir compra, amostra ou comentário em toda entrega.
 
 ## Fale com o nível de familiaridade certo
 

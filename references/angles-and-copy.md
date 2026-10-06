@@ -1,6 +1,6 @@
 # Estratégia e copy visível na arte
 
-Este guia trata do texto que aparece no PNG. Não cobre legenda, hashtag ou roteiro. Defina público/objetivo em [público e mensagem](audience-and-message.md), confirme a prova em [marca e evidência](rota-brand-and-evidence.md) e escolha a estrutura em [frameworks narrativos](narrative-frameworks.md).
+Este guia trata do texto que aparece no PNG. Para legenda, blog e roteiro, leia o destino em [copy por formato](copy-por-formato.md). Em qualquer destino, aplique [aprofundamento](aprofundamento-copy.md) antes de ajustar extensão. Defina público/objetivo em [público e mensagem](audience-and-message.md), confirme a prova em [marca e evidência](rota-brand-and-evidence.md) e escolha a estrutura em [frameworks narrativos](narrative-frameworks.md).
 
 Na criação, ideação ou revisão de copy, leia o [guia de copy clara, humana e útil](guia-copy-clara-humana-e-util.md), além de [persuasão RAG](persuasion-rag.md), [escrita natural](guia-escrita-natural-ptbr.md) e [humanização PT-BR](humanizacao-ptbr.md). Essas referências complementam as regras abaixo e preservam a hierarquia da skill principal.
 
@@ -21,7 +21,7 @@ Não chame de variação uma troca de sinônimos. Mude a situação do aluno, a 
 ## Escreva para a pessoa, sem ultrapassar o que pode sustentar
 
 1. Fixe a única ideia, a tensão, o benefício e a ação; confirme nos bastidores as provas das alegações. Identifique a consciência aproximada: quem ainda não conhece a Rota precisa de contexto antes de detalhes internos; quem já conhece o produto pode aceitar oferta direta.
-2. Gere chamadas por **mecanismos diferentes**: pergunta concreta, contraste honesto, situação reconhecível, objeção ou demonstração direta. Selecione pela relevância para o público qualificado, não pela quantidade de dados que cabem na capa. Corte o que depende de fato não verificado.
+2. Gere chamadas por **mecanismos diferentes**: situação reconhecível, decisão específica, objeção respondida ou demonstração direta. Perguntas de briefing ajudam a escolher o argumento; a copy final evita pergunta retórica e contraste pronto. Selecione pela relevância para o público, não pela quantidade de dados na capa. Corte o que depende de fato não verificado.
 3. Escolha o hook que passa cinco testes: **chama a pessoa certa, é específico, verdadeiro, compreensível sem legenda e pago pela sequência/peça**. Pode abrir uma tensão sem explicar o produto inteiro. Não comece por ID da missão, lei, tempo ou número de questões só porque esses dados existem.
 4. Acrescente apoio para situar o problema ou dar significado ao benefício, não para descrever uma captura linha por linha. A prova pode entrar depois no carrossel, aparecer como detalhe secundário ou permanecer documentada nos bastidores quando a peça não for demonstrativa. Leia gancho + contexto/benefício + ação: a mensagem precisa fazer sentido sem exigir leitura da interface.
 5. CTA nomeia **uma ação** e recompensa verdadeira. Comentário com palavra-chave só entra se esse canal estiver previsto. Para convite geral, use “Peça uma amostra do plano de estudos”. Nomeie curso/concurso no CTA apenas quando o pedido delimitar aquele alvo. Não o desenhe como controle clicável do produto.
@@ -36,15 +36,15 @@ Use a sequência mental `reconhecimento → tensão/curiosidade → possibilidad
 
 No primeiro card, comece pela situação, escolha ou obstáculo que faria o público do pedido se reconhecer. Não abra com ID, cronômetro, lei, artigo, contagem, lista de recursos ou uma tela de interface, a menos que o público já esteja consciente e o dado seja por si só a promessa pedida. O texto da capa pode ser curto e emocionalmente próximo sem ser sensacionalista. Identifique concurso somente quando o pedido ou a copy fornecida delimitar esse alvo; deixe o dado técnico para o ponto em que ele ajuda a compreensão.
 
-Antes de aprovar, leia a capa isolada e responda: “quem deve parar?”, “o que essa pessoa quer descobrir?” e “o próximo card realmente entrega isso?”. Se a única resposta for “quem já conhece o plano”, reescreva para público qualificado que ainda não conhece a Rota.
+Antes de aprovar, leia a capa isolada e responda internamente: “quem deve parar?”, “o que essa pessoa quer descobrir?” e “o próximo card realmente entrega isso?”. Para público frio, não exigir conhecimento prévio da Rota; para público consciente do produto, preserve abertura direta quando ela responder ao briefing. Não converter toda oferta em uma introdução para desconhecidos.
 
 ## Uma mensagem dominante; funções distintas
 
-A **Regra do Um** pede uma ideia dominante, uma tensão/emoção principal, um benefício central e uma ação, todos sustentáveis. Em peça demonstrativa, escolha uma prova focal; isso **não** obriga captura visível em toda peça ou card. Se a peça tenta vender simultaneamente contagem de missões, lei, vídeo, questões, progresso, preço e bônus, escolha o ponto mais relevante e distribua o restante.
+A **Regra do Um** pede uma ideia dominante, uma tensão/emoção principal, um benefício central e uma ação pertinente, todos sustentáveis. Ela permite várias razões e exemplos a serviço do mesmo argumento. Conteúdo educativo pode encerrar numa aplicação sem CTA comercial. Em peça demonstrativa, escolha uma prova focal; isso não exige captura em toda peça ou card. Se vários benefícios competem, escolha o ponto relevante e distribua o restante sem apagar as explicações que o sustentam.
 
 | Função | Pergunta que responde | Exemplo ilustrativo, sujeito a prova |
 |---|---|---|
-| Hook | Por que continuar olhando? | “Seu cronograma diz a matéria. Mas diz a tarefa?” |
+| Hook | Por que continuar olhando? | “Deixe a próxima tarefa definida antes de encerrar a sessão.” |
 | Diferencial | Por que considerar esta solução? | Missão com ação determinada, se a edição a mostrar. |
 | Prova | Por que acreditar? | Recorte legível da missão real correspondente. |
 | CTA | O que fazer agora? | Pedir amostra, se a entrega estiver disponível. |
@@ -70,7 +70,7 @@ Escolha uma ação principal. Um comentário não obriga compra; uma amostra nã
 
 - Prefira “missão de estudo”, “aula da missão”, “trecho da lei”, “responder questões” e “marcar como concluída” a “fluxo”, “recorte”, “material no ponto de uso” e siglas sem introdução.
 - Números grandes precisam de substantivo e contexto: “640 missões organizadas; hoje, a próxima tarefa” é diferente de “640” isolado. Número nunca substitui o benefício.
-- Use caixa alta/condensada só onde a chamada curta suportar. Se o título ocupa quatro a seis linhas, **reescreva** antes de encolher a fonte. Apoio, leitor e prova ficam em caixa de frase e tipografia confortável.
+- Use caixa alta/condensada só onde a chamada curta suportar. Se o título ocupa quatro a seis linhas, reveja largura, quebra e hierarquia; retire repetição sem perder a promessa. Parte da explicação pode passar ao corpo próximo. Não encurte o argumento inteiro para que a headline domine uma composição inadequada. Apoio e prova ficam em tipografia confortável.
 - Evite urgência inventada, promessa de aprovação, metáfora militar forçada, “revolucionário”, “definitivo” e slogans que qualquer cursinho assinaria. A voz da Rota combina decisão com instrução concreta.
 - Uma cor de ênfase deve indicar uma prioridade inequívoca. Quando tudo é vermelho/azul, a leitura perde ordem.
 - Se preço/oferta fizer parte da peça, confirme a informação atual e apresente-a após o público entender o produto ou conforme objetivo da campanha; não esconda preço nem o invente para preencher um modelo.
@@ -80,4 +80,4 @@ Escolha uma ação principal. Um comentário não obriga compra; uma amostra nã
 
 - **Post:** a primeira olhada deve identificar a situação ou público delimitado pelo pedido, a tensão/benefício e a ação. Não atribua tema geral a um concurso por causa do print usado como prova.
 - **Carrossel:** card 1 atrai o leitor qualificado e abre uma pergunta honesta; os cards seguintes contextualizam e demonstram no momento certo; payoff resolve a promessa antes ou junto do CTA.
-- **Story:** cada frame precisa fazer sentido mesmo isolado; a sequência tem um objetivo e um ritmo, não cinco peças idênticas. Conteúdo essencial cabe na zona segura.
+- **Story:** cada frame precisa fazer sentido mesmo isolado; a sequência tem um objetivo e um ritmo, não cinco peças idênticas. Confira a interface real do app e reserve espaço onde ela cobre a arte.

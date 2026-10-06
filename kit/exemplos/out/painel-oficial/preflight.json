@@ -1,0 +1,190 @@
+{
+  "arquivo": "C:\\Users\\Lenovo\\Desktop\\Rota de Ataque\\Rota Criativos e automacao\\rota-ataque-criativos\\skills\\rota-social-criativos\\kit\\exemplos\\painel-oficial.html",
+  "data": "2026-10-06T04:43:18.173Z",
+  "totalErros": 0,
+  "forcado": null,
+  "cards": [
+    {
+      "id": "capa-c1-numero",
+      "estilo": "painel-oficial",
+      "variante": "C1",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "capa-c2-status",
+      "estilo": "painel-oficial",
+      "variante": "C2",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "capa-c3-calendario",
+      "estilo": "painel-oficial",
+      "variante": "C3",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "capa-c4-foto-painel",
+      "estilo": "painel-oficial",
+      "variante": "C4",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "capa-c6-comparativo",
+      "estilo": "painel-oficial",
+      "variante": "C6",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "capa-c7-prazo",
+      "estilo": "painel-oficial",
+      "variante": "C7",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "capa-c8-foto-cheia",
+      "estilo": "painel-oficial",
+      "variante": "C8",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "i1-linhas",
+      "estilo": "painel-oficial",
+      "variante": "I1",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "i2-equacao",
+      "estilo": "painel-oficial",
+      "variante": "I2",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "i3-grade",
+      "estilo": "painel-oficial",
+      "variante": "I3",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "i4-colunas",
+      "estilo": "painel-oficial",
+      "variante": "I4",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "i8-grupos-vinho",
+      "estilo": "painel-oficial",
+      "variante": "I8",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "i9-dia-de-prova",
+      "estilo": "painel-oficial",
+      "variante": "I9",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "i5-linha-do-tempo",
+      "estilo": "painel-oficial",
+      "variante": "I5",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "cta-data",
+      "estilo": "painel-oficial",
+      "variante": "CTA-DATA",
+      "erros": [],
+      "avisos": []
+    }
+  ],
+  "pngs": [
+    {
+      "arquivo": "capa-c1-numero.png",
+      "sha256": "ada6fee3eb9917583532b9f0fdc2e8ac822ff761d2b40a0b234893c3cf9c0a40",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "capa-c2-status.png",
+      "sha256": "162e1d2b10ba2d397cb9479cb78fb5fd4754ba5a0278e4c4cc5881b67133f45c",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "capa-c3-calendario.png",
+      "sha256": "02bc1601763dd444920dc09b14c57875a0ab491ba3ca1884033f25ea14cc292f",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "capa-c4-foto-painel.png",
+      "sha256": "5c755613346001bc2e2ae3c842fcdb567b58f4dbe53ac17810e5628325c819cf",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "capa-c6-comparativo.png",
+      "sha256": "2f815c3c406ce9c86ebc2aaba8c6f54eda3b733f62a2d8d1032487c320f9840c",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "capa-c7-prazo.png",
+      "sha256": "f93176cf1c68a73a0e9c75ebbe51f0cf5190946deb675c7db4493cc4d1ee3bb8",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "capa-c8-foto-cheia.png",
+      "sha256": "d3ae7972ab76d471f279fa4b2eb79b7268f31ca0113e3f22795f897a5157811b",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "i1-linhas.png",
+      "sha256": "f4056e61007d63b228dafb5e5b6bb83a024f1c75c6c8a1e129d959541219fb9f",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "i2-equacao.png",
+      "sha256": "3716912f58db90576ede0614067f01bd0d2f3ebff48b1599957a4322ee30752c",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "i3-grade.png",
+      "sha256": "3314b5fb4d898e4281b52762fcebb7f0074a4027377ade93ea7702b716641f7f",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "i4-colunas.png",
+      "sha256": "ace56176c2cd96148734e58d6a672fc3e644e1a522a1eea8424345f41ef74400",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "i8-grupos-vinho.png",
+      "sha256": "024af972f0b6b301633565330d3f30b0f679b0afe045b9fd7be68b04380a2e6d",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "i9-dia-de-prova.png",
+      "sha256": "49b4b0bf11d30ab118e948b02f7d106b8db0b9a02c9ad11a5f05eb2f8e912852",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "i5-linha-do-tempo.png",
+      "sha256": "2488ca3f86fcb47addd12bfd700be2b030cf31f98ac983b92d6213677e3a2afd",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "cta-data.png",
+      "sha256": "852ac756d99eba01113e6f52069a8526387611f1a6d747f0ab43bd10685321da",
+      "visual": "pendente"
+    }
+  ]
+}

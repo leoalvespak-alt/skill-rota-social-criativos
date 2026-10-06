@@ -15,6 +15,7 @@ O guia geral descreve superfícies escuras, bordas arredondadas, caixa alta tát
 
 ## Arquivos desta campanha
 
+- Acervo aprovado de mascotes, props e itens vetoriais: `C:\Users\Lenovo\Desktop\Rota de Ataque\Gerador de planos HTML\pacote-mascote-rota`. Confira manifesto e licença antes de copiar assets para outro projeto.
 - Marca: `C:\Users\Lenovo\Desktop\Rota de Ataque\Plataforma 2-0 - Next - rota de Ataque\Docs\MARCA.md`.
 - Logo completo: `C:\Users\Lenovo\Desktop\Rota de Ataque\Nova Logo\03 LOGO ATAQUE - SEM FUNDO.png`.
 - Símbolo compacto: `C:\Users\Lenovo\Desktop\Rota de Ataque\Nova Logo\ATAQUE.png`.
@@ -27,7 +28,7 @@ O guia geral descreve superfícies escuras, bordas arredondadas, caixa alta tát
 ## Assinatura e voz
 
 - A **Rota de Ataque** assina o produto; o brasão apenas identifica o concurso. Nunca sugerir endosso oficial pelo órgão. Logo real, nítido; brasão real sem fundo preto/branco indesejado.
-- Vermelho de marca `#C1121F`; azul pode codificar PPPE e vermelho profundo PPPB. Escolha um papel claro para cada cor, sem pintar simultaneamente fundo, headline, bordas, números e CTA.
+- Vermelho da marca `#C1121F`, vermelho escuro oficial `#8B0000`, preto e cinzas são a base dominante. O bege `#F4F1EB` foi aprovado para os carrosséis deste lote. Cores de concurso podem identificar texto curto ou item pontual, além do brasão autêntico; azul, laranja e verde não dominam fundo, número principal ou composição.
 - O tom é direto, confiante e operacional, falando com “você”. A linguagem tática é uma assinatura, não licença para jargão, ameaça, clichê ou promessa de aprovação. Não use emojis no texto da arte, conforme o guia de marca.
 - Rajdhani pode caracterizar chamadas curtas; IBM Plex Sans sustenta leitura; Space Grotesk pode servir números. Não aplique a mesma fonte/tamanho a tudo por hábito. Preserve família de marca, mas ajuste peso, escala, caixa e alinhamento ao conteúdo.
 

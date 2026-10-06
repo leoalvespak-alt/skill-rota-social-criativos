@@ -25,9 +25,13 @@ Se alguma delas fizer parte de um nome oficial, citação protegida ou material-
 
 ## Voz e revisão
 
+Perguntas internas de pesquisa/briefing não são texto final. Uma FAQ pode nomear uma dúvida concreta e respondê-la; uma pesquisa ou convite de conversa pode pedir uma resposta real. Evite perguntas cuja função seja simular intimidade ou produzir suspense. Prefira afirmação específica para o hook. Essa distinção preserva dúvidas úteis sem contrariar a preferência contra retórica.
+
 Escreva em português brasileiro natural, com clareza, ritmo variado e palavras específicas ao assunto. Prefira uma ideia por frase quando isso ajudar a leitura. Use detalhes reais da fonte; não invente experiência pessoal, conversa, estatística, citação ou caso apresentado como real para dar cor. Exemplos criados para ensinar são permitidos com identificação explícita de exemplo didático ou situação hipotética; devem preservar os fatos e limites do assunto.
 
 Mantenha a explicação completa o bastante para que a pessoa entenda a ideia. Corte enchimento, não o raciocínio. Evite tom de anúncio, adjetivos inflados, frases perfeitamente simétricas, trios montados por hábito, abertura genérica, conectivos em série e conclusão otimista automática.
+
+Textos educativos precisam de desenvolvimento conforme o destino. Frase curta é uma escolha de ritmo; não é um requisito universal. Preserve o motivo, o exemplo e a condição que mudam a ação. Avalie a substância antes e depois da revisão com [aprofundamento](aprofundamento-copy.md).
 
 Reescreva frases com travessão usando ponto, vírgula, dois-pontos ou outra construção natural. A regra vale para texto editável da arte. Texto de uma captura autêntica permanece intacto.
 

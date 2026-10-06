@@ -2,6 +2,8 @@
 
 Use estes formatos quando o usuário não fixar outros. A plataforma de publicação pode mudar suas especificações; confirme exigências atuais se isso for relevante. O mesmo conceito pode ser adaptado entre formatos, mas não por simples crop.
 
+Este arquivo cobre composição visual. A redação dos seis destinos, incluindo blog, legendas e Reels, segue [copy por formato](copy-por-formato.md). Revise a substância com [aprofundamento](aprofundamento-copy.md) antes de decidir o que cabe. Pedidos apenas textuais não precisam passar por canvas/render.
+
 ## Post único — 1080×1350 px
 
 - Uma mensagem, uma tensão/benefício e uma ação. A alegação factual deve ser sustentada, mas o post não precisa trazer screenshot se sua função for identificação, contraste ou convite. Quando demonstrar produto, escolha uma prova focal; gancho e produto se complementam sem proporção fixa.
@@ -20,9 +22,9 @@ Use estes formatos quando o usuário não fixar outros. A plataforma de publica�
 
 ## Stories — 1080×1920 px
 
-- Conteúdo essencial entre `y=250` e `y=1720` como margem operacional inicial. Ajuste após observar sobreposição de interface da plataforma/campanha; não coloque gancho, prova focal ou CTA nos 250 px superiores nem nos 200 px inferiores.
+- Para Stories, considere a faixa central de `1080×1420` (`y=250…1670`) como ponto de partida para a revisão visual. O guia [Instagram: Creative sizing & safe zones](https://communityforums.atmeta.com/t5/s/hucou38897/attachments/hucou38897/General_Development_Discussion/538/1/GTMA_Unfold_Social_Best_Practices-1.pdf) do Meta Horizon (2025) mostra essa área central. Em Stories orgânicos, confira a interface real do Instagram no aparelho e reserve espaço onde controles, nome da conta ou stickers cubram a arte. Evite faixas vazias sem sobreposição de interface. Em anúncios, siga a orientação atual do placement e do CTA nativo.
 - Refaça a composição em 9:16. Uma captura alta/recorte vertical pode crescer; não estique uma imagem horizontal nem deixe o produto perdido numa faixa central.
-- Menos texto que no feed. Um Story funciona isoladamente; em sequência, o primeiro prende a atenção e cada frame acrescenta um beat. A sequência persegue **um objetivo**, com uma ação principal no fim.
+- O espaço útil pede foco: cada Story apresenta uma unidade compreensível e a sequência pode desenvolver o procedimento completo. Cada tela identifica assunto e contribuição, sem recapitular toda a tese. Preserve passo e condição essenciais; distribua explicações antes de reduzir tudo a chamadas. A sequência persegue um objetivo, com ação pertinente quando necessária.
 - Se houver sticker nativo solicitado, reserve sua área e descreva o texto/posicionamento; não desenhe um sticker estático que prometa interação inexistente no PNG. Sem pedido de sticker, não o adicione por fórmula.
 - Uma sequência curta pode seguir dúvida → missão → material → continuidade → comentário, mas troque essa ordem se a prova e o objetivo pedirem outra narrativa.
 - Não repita no alto assunto, concurso, cargo ou etapa; não mostre contadores como `1 / 5`. Mantenha a logo e a ideia do Story. Para tema geral, use CTA geral, ainda que uma captura real venha de um plano identificado.

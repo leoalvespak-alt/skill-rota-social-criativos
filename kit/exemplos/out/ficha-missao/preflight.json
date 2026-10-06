@@ -1,0 +1,346 @@
+{
+  "arquivo": "C:\\Users\\Lenovo\\Desktop\\Rota de Ataque\\Rota Criativos e automacao\\rota-ataque-criativos\\skills\\rota-social-criativos\\kit\\exemplos\\ficha-missao.html",
+  "data": "2026-10-06T04:43:54.305Z",
+  "totalErros": 0,
+  "forcado": null,
+  "cards": [
+    {
+      "id": "P01-card-01",
+      "estilo": "ficha-missao",
+      "variante": "",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P01-card-02",
+      "estilo": "ficha-missao",
+      "variante": "",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P01-card-03",
+      "estilo": "ficha-missao",
+      "variante": "",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P01-card-04",
+      "estilo": "ficha-missao",
+      "variante": "",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P01-card-05",
+      "estilo": "ficha-missao",
+      "variante": "",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P01-card-06",
+      "estilo": "ficha-missao",
+      "variante": "",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P01-card-07",
+      "estilo": "ficha-missao",
+      "variante": "",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P08-card-01",
+      "estilo": "ficha-missao",
+      "variante": "",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P08-card-02",
+      "estilo": "ficha-missao",
+      "variante": "",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P08-card-03",
+      "estilo": "ficha-missao",
+      "variante": "",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P08-card-04",
+      "estilo": "ficha-missao",
+      "variante": "",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P08-card-05",
+      "estilo": "ficha-missao",
+      "variante": "",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P08-card-06",
+      "estilo": "ficha-missao",
+      "variante": "",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P08-card-07",
+      "estilo": "ficha-missao",
+      "variante": "",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P14-card-01",
+      "estilo": "ficha-missao",
+      "variante": "",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P14-card-02",
+      "estilo": "ficha-missao",
+      "variante": "",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P14-card-03",
+      "estilo": "ficha-missao",
+      "variante": "",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P14-card-04",
+      "estilo": "ficha-missao",
+      "variante": "",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P14-card-05",
+      "estilo": "ficha-missao",
+      "variante": "",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P14-card-06",
+      "estilo": "ficha-missao",
+      "variante": "",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P14-card-07",
+      "estilo": "ficha-missao",
+      "variante": "",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P44-card-01",
+      "estilo": "ficha-missao",
+      "variante": "",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P44-card-02",
+      "estilo": "ficha-missao",
+      "variante": "",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P44-card-03",
+      "estilo": "ficha-missao",
+      "variante": "",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P44-card-04",
+      "estilo": "ficha-missao",
+      "variante": "",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P44-card-05",
+      "estilo": "ficha-missao",
+      "variante": "",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P44-card-06",
+      "estilo": "ficha-missao",
+      "variante": "",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P44-card-07",
+      "estilo": "ficha-missao",
+      "variante": "",
+      "erros": [],
+      "avisos": []
+    }
+  ],
+  "pngs": [
+    {
+      "arquivo": "P01-card-01.png",
+      "sha256": "13f11415e23e5235d2dde486cd0273f6ba1c53ee1291e3cb3d834f4d1e31175b",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P01-card-02.png",
+      "sha256": "0b5b8ce399924af8a83e34b4308886b385d1a21a16c7f9b888dd4e5dae4fd05c",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P01-card-03.png",
+      "sha256": "45466c67ba1b4bbf074bf70989f853161c114e918040d012f390b80640cb8fc1",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P01-card-04.png",
+      "sha256": "67e1523610b31524cf5d7ed6c7e1557757cbeb68871097ba8548883de3addf92",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P01-card-05.png",
+      "sha256": "44100eae0da61f463096cececf1fbc5836bc642f5f633a1a7d753a4477fda17e",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P01-card-06.png",
+      "sha256": "2e12061744fd006576cc9340bbd6c792d875c02b8b6a3983db01498e88c798a5",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P01-card-07.png",
+      "sha256": "a2453c192dc754f3760a9a4d5ed367099e801d3c16f5b7bfab289a45b7bff76e",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P08-card-01.png",
+      "sha256": "ae7bcab26ac45768ae76a34e8a02dcedcb28f30ed5b99016131275d1de5ab856",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P08-card-02.png",
+      "sha256": "ff9863507b9aeef67f5d61d156da9964cec99501b87aca8e24b26819f32a21fb",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P08-card-03.png",
+      "sha256": "59b94e6a24c07255c0aee9b4db30df114755917452a86557fae43103504ff2fe",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P08-card-04.png",
+      "sha256": "0a76128c16a1676a7576cfa0b826423ca9421bf0d1085fcf7c00e1957b7f6f05",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P08-card-05.png",
+      "sha256": "68daaa66d8a81d300f734764648bad7161048dcf4e23f417f25ab977c6f21d27",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P08-card-06.png",
+      "sha256": "eb62dbf4538df0071531062eaee13dac139ad3b50608df88a2242a9689921f6a",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P08-card-07.png",
+      "sha256": "2f80bd73094e0d759f4834d583098c226c0fe7695957501e1b56a7d39651ca49",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P14-card-01.png",
+      "sha256": "fa98590357b0be37aa78d1d1b235295202cfcf6d110116db4376f1f8ff54eeb1",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P14-card-02.png",
+      "sha256": "dfc1fa3c7bda3135e95bdec8a542824951bef20659307bc8777a90d3661f78f2",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P14-card-03.png",
+      "sha256": "ca4c6ae08eeb30e755eacc77c83755a695319b4ef18f9499b2efa11266dbee25",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P14-card-04.png",
+      "sha256": "c7a9bd13d20d3ce5b76b66b41e9f0ec09f2a8949b3eb58eaf376c459593e4638",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P14-card-05.png",
+      "sha256": "a6b11732e784306463ce91509fc77a1aeaad95056e05d701b0d3c2c9ea83fe15",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P14-card-06.png",
+      "sha256": "750588a4da07f3f54b26e90d97aaae2e891b8611b76b5e36a93ab074e4c0886e",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P14-card-07.png",
+      "sha256": "9ac1dab4ea7e34f9ef412f108b2169d74f619b36edb2f193e08e31cd1f5481f7",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P44-card-01.png",
+      "sha256": "175f3d60bfa853ab61edac33f1e735c94647f9aafafe4dc897e3b93be36e627e",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P44-card-02.png",
+      "sha256": "c82ace481008188a282513313690296d3c83cb9c54f1217aa6aacc9d73ee2a31",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P44-card-03.png",
+      "sha256": "a1fbe5e78afab7513e98b0aaa47a8c40b85fdeb6003b0ce4ee42795877717d49",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P44-card-04.png",
+      "sha256": "88c21a526f2ec61f149c63cbf8bed5865f4833b8018f819bfc57dc19f3f367da",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P44-card-05.png",
+      "sha256": "15395eb12c685447d7c6c568f073204c999c5ce1077f62bc0ddb895d22ab38ce",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P44-card-06.png",
+      "sha256": "3d82f299157266c03499e8c54bc738b06efabb9ab4e134b84c02e8712c805343",
+      "visual": "pendente"
+    },
+    {
+      "arquivo": "P44-card-07.png",
+      "sha256": "929f43fa9a204dc2dd067594e2d42254b5964642e16e9ed31a52c6c0504e6b1d",
+      "visual": "pendente"
+    }
+  ]
+}
