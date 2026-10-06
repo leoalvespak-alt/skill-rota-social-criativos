@@ -1,0 +1,166 @@
+{
+  "arquivo": "C:\\Users\\Lenovo\\Desktop\\Rota de Ataque\\Rota Criativos e automacao\\rota-ataque-criativos\\skills\\rota-social-criativos\\kit\\exemplos\\pessoal-organico.html",
+  "data": "2026-10-06T22:58:48.704Z",
+  "totalErros": 0,
+  "forcado": null,
+  "cards": [
+    {
+      "id": "C1-caixa-centro",
+      "estilo": "pessoal-organico",
+      "variante": "C1-caixa-centro",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "C2-linhas",
+      "estilo": "pessoal-organico",
+      "variante": "C2-linhas",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "C3-caixa-nota",
+      "estilo": "pessoal-organico",
+      "variante": "C3-caixa-nota",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "C4-duas-caixas",
+      "estilo": "pessoal-organico",
+      "variante": "C4-duas-caixas",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P1-paragrafo",
+      "estilo": "pessoal-organico",
+      "variante": "P1-paragrafo",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P2-duas-caixas",
+      "estilo": "pessoal-organico",
+      "variante": "P2-duas-caixas",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P3-linhas",
+      "estilo": "pessoal-organico",
+      "variante": "P3-linhas",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P4-lista",
+      "estilo": "pessoal-organico",
+      "variante": "P4-lista",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P5-riscado",
+      "estilo": "pessoal-organico",
+      "variante": "P5-riscado",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P6-nota-mao",
+      "estilo": "pessoal-organico",
+      "variante": "P6-nota-mao",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P7-papel",
+      "estilo": "pessoal-organico",
+      "variante": "P7-papel",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P8-faixa",
+      "estilo": "pessoal-organico",
+      "variante": "P8-faixa",
+      "erros": [],
+      "avisos": []
+    },
+    {
+      "id": "P1-story",
+      "estilo": "pessoal-organico",
+      "variante": "P1-story",
+      "erros": [],
+      "avisos": []
+    }
+  ],
+  "pngs": [
+    {
+      "arquivo": "C1-caixa-centro.png",
+      "sha256": "36a944a7ea465ef6e14d35f39b9ef8e7a358731663aef35b0c34481301deb4e0",
+      "visual": "aprovado: caixa branca no terço inferior, agenda visível acima"
+    },
+    {
+      "arquivo": "C2-linhas.png",
+      "sha256": "1ab30457789711d8ef739742edfb17303d52fb50ae4611fdebbb9ee4e3887d46",
+      "visual": "aprovado: linhas pretas no topo, mão escrevendo livre"
+    },
+    {
+      "arquivo": "C3-caixa-nota.png",
+      "sha256": "e5a0f3dc2f79b5ff4c5698c08c15a55f38da6a48a33ffd0301ea3f7f3c320d47",
+      "visual": "aprovado: círculo sem invadir palavra vizinha, nota em papel com fita"
+    },
+    {
+      "arquivo": "C4-duas-caixas.png",
+      "sha256": "0e8b81269ac9e11240a222fbf1a016f645a88ea61416c3e5652bc034913270e1",
+      "visual": "aprovado: vermelha curta + branca, livros visíveis"
+    },
+    {
+      "arquivo": "P1-paragrafo.png",
+      "sha256": "fdbc7ac7add8f4e05e400e6c65950da9c2ae20d3b653e250cd9f6aa29aecf457",
+      "visual": "aprovado: parágrafo no topo, pessoa e trem visíveis"
+    },
+    {
+      "arquivo": "P2-duas-caixas.png",
+      "sha256": "6f802f4929ed9d920ff48a0c45ec1d8da807a2b6ed6e9534fc6774d7b57164a4",
+      "visual": "aprovado: preta + branca no meio, foto quente legível"
+    },
+    {
+      "arquivo": "P3-linhas.png",
+      "sha256": "e97d04fa55bd72975cea055543effc929fd355857b35f00083d74b491e9f1f29",
+      "visual": "aprovado: linhas brancas sans na base, marca vermelha legível"
+    },
+    {
+      "arquivo": "P4-lista.png",
+      "sha256": "4e3c01d2a5628be3bd7f3956b3f0c31551427d8e2ee34e6c38031772ddb49068",
+      "visual": "aprovado: lista numerada em caixa preta"
+    },
+    {
+      "arquivo": "P5-riscado.png",
+      "sha256": "f113e2258636afe51dfae179ac4deee1a212baaa5ee53218ea4d032896e0a481",
+      "visual": "aprovado: riscado vermelho quebra junto com o texto, mão livre"
+    },
+    {
+      "arquivo": "P6-nota-mao.png",
+      "sha256": "42754aa6abe2f7552920b663c9c8694cd34bc14f1a7dde33159180ea128ad887",
+      "visual": "aprovado: nota em papel, seta aponta para as canetas, caixa vermelha na base"
+    },
+    {
+      "arquivo": "P7-papel.png",
+      "sha256": "f7c312aa200fb481f2611885df0ac3a7b5707179e7bb24c7748c169bcaa01abc",
+      "visual": "aprovado: respiro em papel, círculo e seta à mão"
+    },
+    {
+      "arquivo": "P8-faixa.png",
+      "sha256": "d817809a4e846b403fd6a46471416fffcef2906e200a02c66acc2e8fb811d12b",
+      "visual": "aprovado: faixa preta borda a borda, texto dentro da margem"
+    },
+    {
+      "arquivo": "P1-story.png",
+      "sha256": "17e6587ff0c2761b8c737a79fe2d815b5ed87c844a204c70a77ec1a6139353c9",
+      "visual": "aprovado: caixa no topo da faixa segura do Story"
+    }
+  ]
+}

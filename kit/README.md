@@ -11,14 +11,16 @@ kit/
     mapa-ilustrado.css     conteúdo de matéria → mi
     anotado.css            motivação/estratégia→ an
     impacto.css            frases de impacto   → im
+    pessoal-organico.css   perfil PESSOAL (só com "modelo pessoal") → pe; sem logo nem fechamento
   exemplos/<estilo>.html   modelos com TODAS as variações (copie as <section>)
   exemplos/out/<estilo>/   PNGs de referência + prancha.png
-  fonts/                   TTF locais (licenças OFL/SIL; Anton com OFL-Anton.txt)
+  fonts/                   TTF locais (licenças OFL/SIL; Anton e Literata com OFL-*.txt)
   assets/                  logos (claro, escuro, branco), mascote/ (Raposa trilha 1), itens/
   tools/
     render.cjs             HTML → PNG com preflight obrigatório + prancha + preflight.json
     preflight.js           regras medidas no DOM (injetado pelo render)
     checar-lote.cjs        valida direcao.json antes de desenhar
+    folha-fotos.cjs        folha de contato de uma pasta de fotos (modelo pessoal)
 ```
 
 ## Fluxo
@@ -42,3 +44,5 @@ Playwright: o render procura `ROTA_PLAYWRIGHT`, o runtime do Codex nesta máquin
 | `data-contraste-ok` | texto sobre foto | contraste conferido no PNG |
 | `data-decor` | código de barras, xadrez | ignorado como texto |
 | `data-data` | "14/10" isolado | não é contador de card |
+| `data-perfil="pessoal"` | `.card` | modelo pessoal: proíbe logo e assinatura da Rota, "Deslize" opcional, travessão/palavra vetada viram aviso |
+| `data-papel-sem-foto` | `.card` (pessoal) | card de papel sem foto de fundo (P7) |

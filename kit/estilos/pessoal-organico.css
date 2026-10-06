@@ -1,0 +1,113 @@
+/* =====================================================================
+   MODELO PESSOAL ORGÂNICO  (perfil pessoal de estudos, NÃO é Rota de Ataque)
+   Só quando o usuário pedir "modelo pessoal" ou "modelo pessoal orgânico".
+   Base: referência "monteiro" (foto real do dia a dia + caixa de texto do
+   Instagram) somada a "desenhossobtextos" (riscos, círculos, notas à mão).
+   Sem logo, sem fechamento da Rota, sem "Deslize" obrigatório.
+   Ver estilos/pessoal-organico.md
+   ===================================================================== */
+.pe { --bg: #1b1b1b; --ink: #fff; font-family: var(--f-leitura); }
+.pe[data-bg=papel] { --bg: var(--papel); --ink: var(--tinta); }
+.pe[data-bg=creme] { --bg: var(--creme); --ink: var(--tinta); }
+
+/* ---------- foto de fundo (sempre inline: style="background-image:url('...')") ---------- */
+.pe-foto { position: absolute; inset: 0; z-index: 0; background-size: cover; background-position: 50% 50%; background-color: #222; }
+/* leve escurecimento só quando a foto estoura de claridade (opcional) */
+.pe-foto.sombra::after { content: ''; position: absolute; inset: 0; background: rgba(0,0,0,.14); }
+
+/* ---------- CAIXA (o elemento principal) ----------
+   posição:  .topo | .meio | .base  (ou style="top:XXXpx" para fugir do rosto)
+   cor:      .branca | .preta | .vermelha
+   largura:  padrão = quase a tela toda (como no Instagram); .estreita = até 800px; .larga-esq/.larga-dir encostam num lado
+   texto:    .centro (capa) ou alinhado à esquerda (padrão)
+   fonte:    serifa de leitura (padrão) | .sans (fonte "clássica" do Instagram) */
+.pe-caixa { position: absolute; left: 50px; right: 50px; z-index: 3; padding: 22px 30px 26px;
+  --marca: var(--vermelho); --marca-fundo: var(--vermelho); --marca-tinta: #fff; }
+.pe-caixa.topo { top: 150px; }
+.pe-caixa.meio { top: 50%; transform: translateY(-50%); }
+.pe-caixa.base { bottom: 150px; }
+.card.story .pe-caixa.topo { top: 290px; }
+.card.story .pe-caixa.base { bottom: 300px; }
+.pe-caixa.estreita { right: auto; max-width: 820px; }
+.pe-caixa.estreita.dir { left: auto; right: 50px; }
+.pe-caixa.centro { text-align: center; }
+.pe-caixa.torta { rotate: -1.2deg; }
+.pe-caixa.torta.dir-rot { rotate: 1.2deg; }
+
+.pe-caixa.branca   { background: #fff;            color: #141414; }
+.pe-caixa.preta    { background: #121212;         color: #fff; --marca: var(--coral); --marca-fundo: #fff; --marca-tinta: #121212; }
+.pe-caixa.vermelha { background: var(--vermelho); color: #fff; --marca: #fff; --marca-fundo: #121212; --marca-tinta: #fff; }
+
+/* faixa de borda a borda (a caixa sangra nas laterais, o texto respeita a margem) */
+.pe-caixa.faixa { left: 0; right: 0; padding: 30px 84px 34px; }
+
+/* ---------- texto dentro da caixa ---------- */
+.pe-txt { font: 400 42px/1.27 var(--f-leitura); letter-spacing: -.005em; }
+.pe-txt + .pe-txt { margin-top: 18px; }
+.pe-titulo { font: 400 66px/1.13 var(--f-leitura); letter-spacing: -.012em; }
+.pe-titulo.g { font-size: 76px; }
+.pe-curta { font: 600 50px/1.14 var(--f-leitura); letter-spacing: -.01em; }
+.pe-caixa.sans .pe-txt, .pe-caixa.sans .pe-titulo, .pe-caixa.sans .pe-curta, .pe-linhas.sans span { font-family: var(--f-corpo); letter-spacing: -.012em; }
+.pe-caixa.sans .pe-txt { font-weight: 450; }
+.pe-caixa.sans .pe-titulo { font-weight: 600; }
+.pe b, .pe strong { font-weight: 700; }
+.pe em, .pe i { font-style: italic; }
+
+/* lista dentro da caixa */
+.pe-lista { list-style: none; counter-reset: pe; }
+.pe-lista li { position: relative; counter-increment: pe; padding-left: 62px; font: 400 42px/1.27 var(--f-leitura); }
+.pe-lista li + li { margin-top: 16px; }
+.pe-lista li::before { content: counter(pe) '.'; position: absolute; left: 0; top: 0; font-weight: 700; color: var(--marca); }
+.pe-caixa.sans .pe-lista li { font-family: var(--f-corpo); }
+
+/* ---------- LINHAS DESTACADAS (estilo de texto do Instagram: cada linha com o próprio fundo) ---------- */
+.pe-linhas { position: absolute; left: 66px; right: 66px; z-index: 3; }
+.pe-linhas.topo { top: 150px; } .pe-linhas.meio { top: 50%; transform: translateY(-50%); } .pe-linhas.base { bottom: 150px; }
+.pe-linhas.centro { text-align: center; }
+.pe-linhas p { font: 500 62px/1.4 var(--f-leitura); }
+.pe-linhas p.menor { font-size: 44px; line-height: 1.5; }
+.pe-linhas span { padding: 4px 16px 8px; border-radius: 10px; -webkit-box-decoration-break: clone; box-decoration-break: clone;
+  --marca: var(--vermelho); --marca-fundo: var(--vermelho); --marca-tinta: #fff; }
+.pe-linhas.branca span   { background: #fff; color: #141414; }
+.pe-linhas.preta span    { background: #121212; color: #fff; --marca: var(--coral); --marca-fundo: #fff; --marca-tinta: #121212; }
+.pe-linhas.vermelha span { background: var(--vermelho); color: #fff; --marca: #fff; --marca-fundo: #121212; --marca-tinta: #fff; }
+
+/* ---------- MARCAÇÕES em palavras (máx. 3 por card; a cor segue a caixa) ---------- */
+.pe .cor { color: var(--marca); }
+.pe mark { background: var(--marca-fundo); color: var(--marca-tinta); padding: 0 .14em .02em; border-radius: 3px; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.pe mark.amarelo { background: var(--realce); color: #141414; }
+.pe .sub { background: no-repeat left 100% / 100% .3em; padding-bottom: .08em;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 16' preserveAspectRatio='none'%3E%3Cpath d='M3 10 C 70 4, 150 14, 210 7 S 285 5, 297 9' fill='none' stroke='%23C1121F' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E"); }
+.pe .preta .sub { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 16' preserveAspectRatio='none'%3E%3Cpath d='M3 10 C 70 4, 150 14, 210 7 S 285 5, 297 9' fill='none' stroke='%23F04452' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E"); }
+.pe .vermelha .sub { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 16' preserveAspectRatio='none'%3E%3Cpath d='M3 10 C 70 4, 150 14, 210 7 S 285 5, 297 9' fill='none' stroke='%23FFFFFF' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E"); }
+.pe .risco { text-decoration: line-through; text-decoration-color: var(--marca); text-decoration-thickness: .1em; text-decoration-skip-ink: none; }
+.pe .circ { position: relative; display: inline-block; margin: 0 .16em 0 .1em; }
+.pe .circ::after { content: ''; position: absolute; left: -.14em; right: -.14em; top: -.06em; bottom: -.12em; border: 4px solid var(--marca);
+  border-radius: 50% 46% 52% 44% / 58% 50% 52% 46%; transform: rotate(-2.5deg); pointer-events: none; }
+/* correção escrita à mão logo depois da palavra riscada */
+.pe .corrige { font: 700 1.05em/1 var(--f-mao); color: var(--marca); margin-left: .18em; display: inline-block; transform: rotate(-4deg); }
+
+/* ---------- NOTA À MÃO (de "desenhossobtextos") ----------
+   Sempre sobre um pedaço de papel (.papel / .papel-preto) ou sobre área lisa (data-bg=papel).
+   Texto da nota = trecho da copy do usuário, nunca frase nova. */
+.pe-nota { position: absolute; z-index: 5; font: 600 56px/1.04 var(--f-mao); color: #141414; transform: rotate(var(--rot, -4deg)); }
+.pe-nota.papel { background: #fff; padding: 14px 24px 18px; box-shadow: 0 6px 18px rgba(0,0,0,.25); }
+.pe-nota.papel-preto { background: #121212; color: #fff; padding: 14px 24px 18px; box-shadow: 0 6px 18px rgba(0,0,0,.3); }
+.pe-nota.verm { color: var(--vermelho); }
+.pe-nota.papel-preto.verm { color: var(--coral); }
+/* fita adesiva no papel da nota */
+.pe-nota.fita::before { content: ''; position: absolute; top: -18px; left: 50%; width: 130px; height: 36px; margin-left: -65px; background: rgba(255,250,235,.72); transform: rotate(3deg); }
+
+/* seta à mão (SVG inline class="pe-seta"); branca com sombra sobre foto, tinta sobre papel */
+svg.pe-seta { position: absolute; overflow: visible; z-index: 4; pointer-events: none; filter: drop-shadow(0 2px 3px rgba(0,0,0,.45)); }
+svg.pe-seta path { fill: none; stroke: #fff; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+svg.pe-seta.verm path { stroke: var(--vermelho); }
+svg.pe-seta.tinta { filter: none; } svg.pe-seta.tinta path { stroke: var(--tinta); }
+
+/* ---------- CARD SEM FOTO (respiro: papel com anotação) ---------- */
+.pe-papel { position: absolute; left: 80px; right: 80px; top: 50%; transform: translateY(-50%); z-index: 2; color: var(--tinta); }
+.pe-papel .pe-titulo { font-size: 78px; }
+.pe-papel .pe-txt { margin-top: 36px; font-size: 42px; color: #2a2a2a; }
+
+/* ---------- pista de navegação OPCIONAL (o Instagram já mostra os pontos) ---------- */
+.pe-arrasta { position: absolute; right: 80px; bottom: 80px; z-index: 6; font: 600 30px/1 var(--f-corpo); color: #141414; background: #fff; padding: 12px 20px; border-radius: 30px; }

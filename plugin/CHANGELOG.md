@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.4.0 (06/10/2026)
+
+- Novo **modelo pessoal orgânico** (`estilos/pessoal-organico.md`, `kit/estilos/pessoal-organico.css`, prefixo `pe`) para o perfil pessoal de estudos do usuário. Ativa só com "modelo pessoal" ou "modelo pessoal orgânico" no pedido. Base: referências "monteiro" (foto real + caixa de texto do Instagram) e "desenhossobtextos" (círculo, riscado, sublinhado e nota à mão).
+- 4 capas (C1 a C4) e 8 internos (P1 a P8): caixa branca, preta ou vermelha no topo, meio ou base; linhas destacadas; duas caixas; lista; riscado e corrigido; nota à mão com seta; papel sem foto; faixa de borda a borda; Story.
+- Fonte Literata (OFL) para a serifa de leitura parecida com a do Instagram; IBM Plex Sans como alternativa "clássica".
+- Preflight: `data-perfil="pessoal"` proíbe logo e assinatura da Rota, deixa "Deslize" opcional, exige foto de fundo e transforma travessão/palavra vetada em aviso (copy do usuário é congelada).
+- `checar-lote.cjs`: tipo `pessoal`, campo `caixas` com variação obrigatória de posição e cor, sem fechamento.
+- `kit/tools/folha-fotos.cjs`: folha de contato de uma pasta de fotos para escolher a foto de cada card.
+- Cenário 59.
+
 ## 0.3.0 (06/10/2026)
 
 - SKILL.md reescrito como roteador curto: passos obrigatórios, escolha de estilo por tipo de conteúdo, contrato de copy e precedência sobre referências antigas.

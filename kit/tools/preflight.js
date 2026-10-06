@@ -7,6 +7,9 @@
      [data-sobrepoe]         texto que pode encostar em outro texto de propósito (carimbo, adesivo)
      [data-contraste-ok]     texto sobre foto já tratada (gradiente/camada), conferido no PNG
      [data-decor]            elemento sem leitura (código de barras, números decorativos de selo)
+     .card[data-perfil=pessoal] modelo pessoal orgânico: perfil pessoal, NÃO Rota de Ataque.
+                             Proíbe logo e assinatura da Rota; "Deslize" opcional; travessão e
+                             palavra vetada viram aviso (a copy é do usuário e é congelada: relate, não edite).
 */
 (() => {
   const MARGEM_MIN = 72;
@@ -104,18 +107,24 @@
 
     // regras de copy e navegação
     texto = texto.trim();
-    if (texto.includes('—')) erros.push('travessão "—" na arte');
+    const pessoal = card.dataset.perfil === 'pessoal';
+    const copyMsg = pessoal ? avisos : erros;
+    if (texto.includes('—')) copyMsg.push(pessoal ? 'travessão "—" na copy do usuário (não edite; relate ao usuário)' : 'travessão "—" na arte');
     const low = texto.toLowerCase();
-    PROIBIDAS.forEach((p) => { if (low.includes(p)) erros.push(`palavra vetada na copy: "${p}…"`); });
+    PROIBIDAS.forEach((p) => { if (low.includes(p)) copyMsg.push(`palavra vetada na copy: "${p}…"${pessoal ? ' (copy do usuário: relate, não edite)' : ''}`); });
+    if (pessoal && /quem traça a rota|rotadeataque\.com/i.test(texto)) erros.push('modelo pessoal com assinatura ou site da Rota de Ataque (proibido)');
+    else if (pessoal && /rota de ataque/i.test(texto)) avisos.push('modelo pessoal cita "Rota de Ataque": confira se está na copy do usuário');
     [...card.querySelectorAll('*')].forEach((el) => {
       if (el.children.length === 0 && /^\s*\d{1,2}\s*\/\s*\d{1,2}\s*$/.test(el.textContent) && !tem(el, 'data-data')) erros.push(`contador de card "${el.textContent.trim()}" (proibido; se for data, marque data-data)`);
     });
     const fim = card.hasAttribute('data-fechamento') || card.hasAttribute('data-estatico');
     const temDeslize = /deslize/i.test(texto);
     if (fim && temDeslize) erros.push('"Deslize" no último card ou post estático');
-    if (!fim && !temDeslize) erros.push('falta "Deslize →" (marque data-fechamento no último card ou data-estatico no post)');
+    if (!fim && !temDeslize && !pessoal) erros.push('falta "Deslize →" (marque data-fechamento no último card ou data-estatico no post)');
     const logos = [...card.querySelectorAll('img')].filter((im) => /logo/i.test(im.getAttribute('src') || '') && visivel(im));
-    if (logos.length !== 1) erros.push(`${logos.length} logos visíveis (exigido: 1)`);
+    if (pessoal) { if (logos.length) erros.push(`${logos.length} logo(s) no modelo pessoal (proibido: perfil pessoal não leva logo da Rota)`); }
+    else if (logos.length !== 1) erros.push(`${logos.length} logos visíveis (exigido: 1)`);
+    if (pessoal && !card.hasAttribute('data-papel-sem-foto') && !card.querySelector('.pe-foto')) erros.push('modelo pessoal sem foto de fundo (.pe-foto); card de papel precisa de data-papel-sem-foto');
     [...card.querySelectorAll('img')].forEach((im) => { if (!im.complete || im.naturalWidth === 0) erros.push(`imagem não carregou: ${im.getAttribute('src')}`); });
 
     out.cards.push({ id, estilo: card.dataset.estilo || '', variante: card.dataset.variante || '', erros: [...new Set(erros)], avisos: [...new Set(avisos)] });

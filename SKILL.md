@@ -1,6 +1,6 @@
 ---
 name: rota-social-criativos
-description: "Cria, revisa e produz conteúdo social da Rota de Ataque (concursos policiais) em português brasileiro: carrosséis, posts estáticos, Stories, legendas, blog e roteiros. Use para qualquer pedido de copy, criativo, carrossel, post, arte, capa, PNG, redesign ou revisão visual da Rota. Escolhe o estilo visual pelo tipo de conteúdo (notícia, dica de estudo, conteúdo de matéria, motivação, frase de impacto), usa o kit HTML/CSS da skill e só exporta PNG depois do preflight automático."
+description: "Cria, revisa e produz conteúdo social da Rota de Ataque (concursos policiais) em português brasileiro: carrosséis, posts estáticos, Stories, legendas, blog e roteiros. Use para qualquer pedido de copy, criativo, carrossel, post, arte, capa, PNG, redesign ou revisão visual da Rota. Escolhe o estilo visual pelo tipo de conteúdo (notícia, dica de estudo, conteúdo de matéria, motivação, frase de impacto), usa o kit HTML/CSS da skill e só exporta PNG depois do preflight automático. Também cria carrosséis e posts para o PERFIL PESSOAL de estudos do usuário quando ele pedir \"modelo pessoal\" ou \"modelo pessoal orgânico\" (fotos dele + caixas de texto estilo Instagram, sem marca da Rota)."
 ---
 
 # Criativos sociais da Rota de Ataque
@@ -8,6 +8,18 @@ description: "Cria, revisa e produz conteúdo social da Rota de Ataque (concurso
 Esta skill vale igual no Claude Code, Codex e OpenCode. Siga os passos **na ordem**. Os passos marcados como OBRIGATÓRIO não têm exceção: se um deles não puder ser cumprido, pare e diga ao usuário o que faltou.
 
 Caminhos abaixo são relativos à pasta desta skill (`SKILL_DIR`). O projeto de trabalho é `C:\Users\Lenovo\Desktop\Rota de Ataque\Rota Criativos e automacao` (ou a raiz aberta que contenha `Docs/GUIA_GERACAO_CRIATIVOS_ROTA.md`).
+
+## Modo pessoal orgânico (verifique ANTES do passo 0)
+
+Se o pedido contém **"modelo pessoal"** ou **"modelo pessoal orgânico"**, a peça é para o **perfil pessoal de estudos do usuário, não para a Rota de Ataque**. Então:
+
+1. Leia este arquivo e `estilos/pessoal-organico.md` (o fluxo dele substitui os passos 2 a 5) e abra `kit/exemplos/out/pessoal-organico/prancha.png`. Não precisa do guia da Rota.
+2. Copy vem do markdown indicado pelo usuário e é **congelada** (nada de reescrever, cortar ou acrescentar CTA). O contrato de copy do passo 3 não se aplica para editar: só relate problemas.
+3. Fotos vêm da pasta indicada: rode `kit/tools/folha-fotos.cjs`, abra a folha e escolha foto por card pelo sentido da copy.
+4. Sem logo, sem card de fechamento, sem frase/site da Rota, sem "Deslize" obrigatório. O preflight (`data-perfil="pessoal"`) bloqueia logo e assinatura da Rota.
+5. Passos 6 e 7 valem igual (render com preflight, abrir prancha e cada PNG, entrega com `direcao.json`, HTML, `kit/`, `fotos/`, PNGs e `preflight.json`).
+
+Sem essas palavras no pedido, **nunca** use o modelo pessoal; com elas, nunca use os estilos da Rota.
 
 ## Passo 0 · Ler o mínimo (OBRIGATÓRIO)
 
@@ -36,6 +48,7 @@ Responda internamente, antes de qualquer arquivo:
 | **Conteúdo de matéria**: regra de português, cálculo, lógica, lei, resumo, questão comentada | **Mapa Ilustrado** (diagrama, setas, janelas, etiquetas pixel) | `estilos/mapa-ilustrado.md` |
 | **Motivação com lastro / estratégia curta / bastidor / cena reconhecível** | **Anotado à mão** (papel, serifa, círculos e notas manuscritas) | `estilos/anotado.md` |
 | **Frase curta de impacto**: card solto, citação, capa viral | **Impacto** (tipografia grossa, adesivo, foto + texto pesado) | `estilos/impacto.md` |
+| **Perfil pessoal** do usuário (só com "modelo pessoal" no pedido) | **Pessoal orgânico** (foto real + caixa de texto do Instagram + marcações à mão) | `estilos/pessoal-organico.md` |
 
 Regras de escolha:
 - Na dúvida entre dois tipos, pergunte: "o leitor quer **saber um fato**, **fazer algo**, **aprender uma matéria** ou **sentir/reconhecer algo**?" → Painel, Ficha, Mapa, Anotado/Impacto.
@@ -69,7 +82,7 @@ Antes de escrever HTML, crie `direcao.json` na pasta da entrega:
 ] }
 ```
 
-`tipo`: noticia | dica-estudo | conteudo | motivacao | frase | recurso. Códigos de variação: arquivo do estilo.
+`tipo`: noticia | dica-estudo | conteudo | motivacao | frase | recurso | pessoal (só modelo pessoal). Códigos de variação: arquivo do estilo.
 Escolha cada variação pelo conteúdo do card (número → linhas/equação; comparação → colunas; etapas → linha do tempo/fila; frase-exemplo → caderno/frase anotada). Nunca por rodízio, ID ou sorteio.
 
 Rode e corrija até passar:

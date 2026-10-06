@@ -13,6 +13,8 @@
 @font-face { font-family: 'Caveat'; src: url('fonts/Caveat.ttf'); font-weight: 400 700; }
 @font-face { font-family: 'Anton'; src: url('fonts/Anton-Regular.ttf'); font-weight: 400; }
 @font-face { font-family: 'Archivo Black'; src: url('fonts/ArchivoBlack-Regular.ttf'); font-weight: 400; }
+@font-face { font-family: 'Literata'; src: url('fonts/Literata.ttf'); font-style: normal; font-weight: 200 900; }
+@font-face { font-family: 'Literata'; src: url('fonts/Literata-Italic.ttf'); font-style: italic; font-weight: 200 900; }
 @font-face { font-family: 'Silkscreen'; src: url('fonts/Silkscreen-Regular.ttf'); font-weight: 400; }
 @font-face { font-family: 'Silkscreen'; src: url('fonts/Silkscreen-Bold.ttf'); font-weight: 700; }
 
@@ -42,6 +44,7 @@
   --f-impacto: 'Anton', sans-serif;
   --f-pesada: 'Archivo Black', sans-serif;
   --f-pixel: 'Silkscreen', monospace;
+  --f-leitura: 'Literata', Georgia, serif;   /* serifa de leitura (modelo pessoal) */
 
   --margem: 80px;        /* alvo. Mínimo medido pelo preflight: 72px */
 }
