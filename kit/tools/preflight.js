@@ -29,6 +29,7 @@
     for (let e = el; e && e !== document.body; e = e.parentElement) {
       const cs = getComputedStyle(e);
       const bi = cs.backgroundImage || 'none';
+      if (/linear-gradient/.test(bi)) { const gm = bi.match(/rgba?\([^)]+\)/); const gl = gm && lum(gm[0]); if (gl && gl.a > 0.6) return gl; }   // fundo sólido feito com gradiente (marca-texto)
       if (bi !== 'none' && !/gradient|data:image\/svg/.test(bi)) return { foto: true };
       const l = lum(cs.backgroundColor);
       if (l && l.a > 0.6) return l;
@@ -124,6 +125,14 @@
     const logos = [...card.querySelectorAll('img')].filter((im) => /logo/i.test(im.getAttribute('src') || '') && visivel(im));
     if (pessoal) { if (logos.length) erros.push(`${logos.length} logo(s) no modelo pessoal (proibido: perfil pessoal não leva logo da Rota)`); }
     else if (logos.length !== 1) erros.push(`${logos.length} logos visíveis (exigido: 1)`);
+    if (pessoal) {
+      const pl = card.querySelector('.pe-pilha');
+      if (pl) {
+        const h = pl.getBoundingClientRect().height;
+        if (h > 0.72 * H) erros.push(`blocos de texto ocupam ${Math.round(100 * h / H)}% do card (máx. 72%): mude de posição/variação, não corte a copy`);
+        else if (h > 0.58 * H) avisos.push(`blocos de texto ocupam ${Math.round(100 * h / H)}% do card; confira se a foto ainda aparece`);
+      }
+    }
     if (pessoal && !card.hasAttribute('data-papel-sem-foto') && !card.querySelector('.pe-foto')) erros.push('modelo pessoal sem foto de fundo (.pe-foto); card de papel precisa de data-papel-sem-foto');
     [...card.querySelectorAll('img')].forEach((im) => { if (!im.complete || im.naturalWidth === 0) erros.push(`imagem não carregou: ${im.getAttribute('src')}`); });
 

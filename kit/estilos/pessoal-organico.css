@@ -66,22 +66,26 @@
 .pe-linhas.centro { text-align: center; }
 .pe-linhas p { font: 500 62px/1.4 var(--f-leitura); }
 .pe-linhas p.menor { font-size: 44px; line-height: 1.5; }
-.pe-linhas span { padding: 4px 16px 8px; border-radius: 10px; -webkit-box-decoration-break: clone; box-decoration-break: clone;
+.pe-linhas p > span { padding: 4px 16px 8px; border-radius: 10px; -webkit-box-decoration-break: clone; box-decoration-break: clone;
   --marca: var(--vermelho); --marca-fundo: var(--vermelho); --marca-tinta: #fff; }
-.pe-linhas.branca span   { background: #fff; color: #141414; }
-.pe-linhas.preta span    { background: #121212; color: #fff; --marca: var(--coral); --marca-fundo: #fff; --marca-tinta: #121212; }
-.pe-linhas.vermelha span { background: var(--vermelho); color: #fff; --marca: #fff; --marca-fundo: #121212; --marca-tinta: #fff; }
+.pe-linhas.branca p > span { background: #fff; color: #141414; }
+.pe-linhas.preta p > span { background: #121212; color: #fff; --marca: var(--coral); --marca-fundo: #fff; --marca-tinta: #121212; }
+.pe-linhas.vermelha p > span { background: var(--vermelho); color: #fff; --marca: #fff; --marca-fundo: #121212; --marca-tinta: #fff; }
 
 /* ---------- MARCAÇÕES em palavras (máx. 3 por card; a cor segue a caixa) ---------- */
 .pe .cor { color: var(--marca); }
-.pe mark { background: var(--marca-fundo); color: var(--marca-tinta); padding: 0 .14em .02em; border-radius: 3px; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
-.pe mark.amarelo { background: var(--realce); color: #141414; }
+.pe mark { color: var(--marca-tinta); padding: 0 .14em; border-radius: 0;
+  /* fundo de altura fixa: o fundo padrão do marca-texto usa a altura da fonte e invade a linha vizinha */
+  background-color: transparent; background-repeat: no-repeat; background-position: 0 56%; background-size: 100% 1.12em;
+  background-image: linear-gradient(var(--marca-fundo), var(--marca-fundo));
+  -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.pe mark.amarelo { color: #141414; background-image: linear-gradient(var(--realce), var(--realce)); }
 .pe .sub { background: no-repeat left 100% / 100% .3em; padding-bottom: .08em;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 16' preserveAspectRatio='none'%3E%3Cpath d='M3 10 C 70 4, 150 14, 210 7 S 285 5, 297 9' fill='none' stroke='%23C1121F' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E"); }
 .pe .preta .sub { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 16' preserveAspectRatio='none'%3E%3Cpath d='M3 10 C 70 4, 150 14, 210 7 S 285 5, 297 9' fill='none' stroke='%23F04452' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E"); }
 .pe .vermelha .sub { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 16' preserveAspectRatio='none'%3E%3Cpath d='M3 10 C 70 4, 150 14, 210 7 S 285 5, 297 9' fill='none' stroke='%23FFFFFF' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E"); }
 .pe .risco { text-decoration: line-through; text-decoration-color: var(--marca); text-decoration-thickness: .1em; text-decoration-skip-ink: none; }
-.pe .circ { position: relative; display: inline-block; margin: 0 .16em 0 .1em; }
+.pe .circ { position: relative; display: inline-block; white-space: nowrap; margin: 0 .16em 0 .1em; }
 .pe .circ::after { content: ''; position: absolute; left: -.14em; right: -.14em; top: -.06em; bottom: -.12em; border: 4px solid var(--marca);
   border-radius: 50% 46% 52% 44% / 58% 50% 52% 46%; transform: rotate(-2.5deg); pointer-events: none; }
 /* correção escrita à mão logo depois da palavra riscada */
@@ -111,3 +115,39 @@ svg.pe-seta.tinta { filter: none; } svg.pe-seta.tinta path { stroke: var(--tinta
 
 /* ---------- pista de navegação OPCIONAL (o Instagram já mostra os pontos) ---------- */
 .pe-arrasta { position: absolute; right: 80px; bottom: 80px; z-index: 6; font: 600 30px/1 var(--f-corpo); color: #141414; background: #fff; padding: 12px 20px; border-radius: 30px; }
+
+/* ---------- PILHA DE BLOCOS (usada pelo gerador: kit/tools/pessoal.cjs) ----------
+   Um card = foto + .pe-pilha (topo|meio|base) com blocos EM ORDEM DE LEITURA:
+   .pe-caixa (branca|preta|vermelha), .pe-linhas, .pe-nota, .pe-caixa.faixa.
+   A pilha empilha por fluxo (nunca sobrepõe texto). Cada bloco é copy do usuário, sem acréscimo. */
+.pe-pilha { position: absolute; left: 50px; right: 50px; z-index: 3; display: flex; flex-direction: column; gap: 16px; }
+.pe-pilha.topo { top: 150px; } .pe-pilha.meio { top: 50%; transform: translateY(-50%); } .pe-pilha.base { bottom: 150px; }
+.pe-pilha > .pe-caixa, .pe-pilha > .pe-linhas { position: static; transform: none; }
+.pe-pilha > .pe-caixa.estreita { max-width: 820px; align-self: flex-start; }
+.pe-pilha > .pe-caixa.estreita.dir { align-self: flex-end; }
+.pe-pilha > .pe-caixa.faixa { margin-left: -50px; margin-right: -50px; padding: 30px 84px 34px; }
+.pe-pilha > .pe-linhas { display: block; margin: 0 34px; }
+.pe-pilha > .pe-linhas p + p { margin-top: 18px; }
+.pe-pilha > .pe-linhas.centro { text-align: center; }
+.pe-pilha > .pe-nota { position: relative; align-self: flex-start; max-width: 780px; margin: 14px 24px 8px; }
+.pe-pilha > .pe-nota.dir { align-self: flex-end; }
+.pe-pilha > .pe-nota.papel, .pe-pilha > .pe-nota.papel-preto { margin-top: 26px; }
+
+/* lista de linhas curtas: marcador quadrado em CSS (não adiciona texto à copy) */
+.pe-lista.marcas { counter-reset: none; }
+.pe-lista.marcas li { counter-increment: none; padding-left: 46px; }
+.pe-lista.marcas li::before { content: ''; counter-increment: none; width: 16px; height: 16px; top: .56em; background: var(--marca); border-radius: 2px; }
+.pe-caixa.sans .pe-lista.marcas li { font-family: var(--f-corpo); }
+
+/* cabeçalho curto da caixa dupla */
+.pe-caixa.curta { padding: 16px 28px 18px; }
+.pe-caixa.curta .pe-curta { font-size: 50px; }
+.pe-caixa.torta { rotate: -1deg; } .pe-caixa.torta.inv { rotate: 1deg; }
+.pe-linhas.sans p { font-family: var(--f-corpo); font-weight: 520; letter-spacing: -.012em; }
+.pe-pilha .pe-txt b, .pe-pilha .pe-curta b, .pe-pilha .pe-titulo b { font-weight: 700; }
+.pe-faixa-txt { font: 600 46px/1.25 var(--f-leitura); }
+.pe-caixa.sans .pe-faixa-txt { font-family: var(--f-corpo); font-weight: 500; }
+
+.pe-linhas p.media { font-size: 54px; line-height: 1.42; }
+.pe-papel.sans .pe-titulo, .pe-papel.sans .pe-txt { font-family: var(--f-corpo); }
+.pe-papel.sans .pe-titulo { font-weight: 600; letter-spacing: -.02em; }

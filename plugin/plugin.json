@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "rota-ataque-criativos",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Crie e revise copy e criativos da Rota de Ataque em português brasileiro, com cinco estilos visuais por tipo de conteúdo, kit HTML/CSS e preflight automático antes de exportar PNG.",
   "author": {
     "name": "Rota de Ataque"

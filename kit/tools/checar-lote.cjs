@@ -17,7 +17,7 @@ const ESTILOS = {
   'mapa-ilustrado': { capas: ['V0','V0-JANELAS','V0-PERSONAGEM'], internos: ['V1','V2','V3','V4','V5','V6','V7','V8'] },
   'anotado':        { capas: ['A1','A2','A3','A5'], internos: ['A1','A2','A3','A4','A5'] },
   'impacto':        { capas: ['I1','I2','I3','I4','I5'], internos: ['I1','I2','I3','I4','I5'] },
-  'pessoal-organico': { capas: ['C1','C2','C3','C4'], internos: ['P1','P2','P3','P4','P5','P6','P7','P8'] },
+  'pessoal-organico': { capas: ['C1','C2','C3','C4'], internos: ['P1','P2','P3','P4','P5','P6','P7','P8','P9'] },
 };
 // tipo de conteúdo -> estilos permitidos (o primeiro é o padrão)
 const ROTA = {

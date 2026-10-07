@@ -90,9 +90,11 @@ function loadPlaywright() {
 
   // prancha: até 7 artes por linha, 360px de largura cada (escala de celular)
   const porLinha = Math.min(7, nomes.length);
-  const thumbs = nomes.map((f) => `<figure style="margin:0"><img src="data:image/png;base64,${fs.readFileSync(f).toString('base64')}" style="width:360px;display:block"><figcaption style="font:14px monospace;color:#bbb;margin-top:6px">${path.basename(f)}</figcaption></figure>`).join('');
+  const miniatura = async (f) => { const pg = await browser.newPage({ viewport: { width: 720, height: 960 } }); await pg.setContent(`<body style="margin:0"><img id=i src="data:image/png;base64,${fs.readFileSync(f).toString('base64')}" style="width:720px;display:block"></body>`, { timeout: 180000, waitUntil: 'load' }); const b = await (await pg.$('#i')).screenshot({ type: 'jpeg', quality: 80 }); await pg.close(); return b.toString('base64'); };
+  const minis = []; for (const f of nomes) minis.push(await miniatura(f));
+  const thumbs = nomes.map((f, i) => `<figure style="margin:0"><img src="data:image/jpeg;base64,${minis[i]}" style="width:360px;display:block"><figcaption style="font:14px monospace;color:#bbb;margin-top:6px">${path.basename(f)}</figcaption></figure>`).join('');
   const p2 = await browser.newPage({ viewport: { width: 400 * porLinha + 40, height: 600 } });
-  await p2.setContent(`<body style="margin:0;background:#2b2b2b;display:grid;grid-template-columns:repeat(${porLinha},360px);gap:30px 40px;padding:20px">${thumbs}</body>`);
+  await p2.setContent(`<body style="margin:0;background:#2b2b2b;display:grid;grid-template-columns:repeat(${porLinha},360px);gap:30px 40px;padding:20px">${thumbs}</body>`, { timeout: 180000, waitUntil: 'domcontentloaded' });
   await p2.waitForTimeout(300);
   await p2.screenshot({ path: path.join(saida, 'prancha.png'), fullPage: true });
 

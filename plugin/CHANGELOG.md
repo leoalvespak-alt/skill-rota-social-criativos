@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.5.0 (07/10/2026)
+
+- Modelo pessoal em escala: `kit/tools/pessoal.cjs` lê o markdown de copys do usuário e um plano (`entrada.json`) e gera o HTML de todos os carrosséis com a copy intocável. Subcomandos `plano`, `html` e `conferir` (compara o texto renderizado de cada card com o markdown).
+- Escolha automática e variada de layout por card (caixa única, duas caixas, linhas destacadas, lista de linhas curtas, nota à mão, papel sem foto, faixa de fechamento), de posição (topo, meio, base, equilibradas) e de cor (branca, preta, vermelha).
+- Regras de foto do usuário no gerador: capas só com ele estudando ou mesa/tela (exceções por tema), no mínimo 60% dos cards com foto de estudo, caderno ou mesa com monitor; repetição entre carrosséis permitida. Logo ou tela do produto dentro da foto é permitida.
+- `kit/tools/render-lote.cjs`: renderiza vários HTML em paralelo, sempre com preflight.
+- Marcações: círculo só até 26 letras (não quebra de linha); sublinhado e círculo funcionam dentro de linhas destacadas; lista de linhas curtas com marcador em CSS (sem numerar, para não acrescentar texto).
+- Preflight do modelo pessoal avisa quando os blocos de texto passam de 58% do card e reprova acima de 72%.
+- Gerador: aceita título `## NN. Título`, `### Slide N | Capa`, negrito no meio da frase e fechamento sem negrito; nova variação P9 (caixas empilhadas em cores alternadas); `papel: "auto"`.
+- Capas repetidas (faltou foto): cor, variação, recorte (zoom 135%), inclinação e tipo de marcação diferentes da primeira capa com a mesma foto.
+- Cenário 60.
+
 ## 0.4.0 (06/10/2026)
 
 - Novo **modelo pessoal orgânico** (`estilos/pessoal-organico.md`, `kit/estilos/pessoal-organico.css`, prefixo `pe`) para o perfil pessoal de estudos do usuário. Ativa só com "modelo pessoal" ou "modelo pessoal orgânico" no pedido. Base: referências "monteiro" (foto real + caixa de texto do Instagram) e "desenhossobtextos" (círculo, riscado, sublinhado e nota à mão).

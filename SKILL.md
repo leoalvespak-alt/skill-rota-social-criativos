@@ -15,7 +15,7 @@ Se o pedido contém **"modelo pessoal"** ou **"modelo pessoal orgânico"**, a pe
 
 1. Leia este arquivo e `estilos/pessoal-organico.md` (o fluxo dele substitui os passos 2 a 5) e abra `kit/exemplos/out/pessoal-organico/prancha.png`. Não precisa do guia da Rota.
 2. Copy vem do markdown indicado pelo usuário e é **congelada** (nada de reescrever, cortar ou acrescentar CTA). O contrato de copy do passo 3 não se aplica para editar: só relate problemas.
-3. Fotos vêm da pasta indicada: rode `kit/tools/folha-fotos.cjs`, abra a folha e escolha foto por card pelo sentido da copy.
+3. Fotos vêm da pasta indicada. Capas só com o usuário estudando ou mesa/tela; no mínimo 60% dos cards com foto de estudo, caderno ou mesa com monitor; repetir foto entre carrosséis pode; logo dentro da foto (tela do produto) pode, aplicada por cima não. Fluxo completo e comandos (`kit/tools/pessoal.cjs`, `render-lote.cjs`) em `estilos/pessoal-organico.md`.
 4. Sem logo, sem card de fechamento, sem frase/site da Rota, sem "Deslize" obrigatório. O preflight (`data-perfil="pessoal"`) bloqueia logo e assinatura da Rota.
 5. Passos 6 e 7 valem igual (render com preflight, abrir prancha e cada PNG, entrega com `direcao.json`, HTML, `kit/`, `fotos/`, PNGs e `preflight.json`).
 

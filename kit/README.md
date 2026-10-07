@@ -21,6 +21,8 @@ kit/
     preflight.js           regras medidas no DOM (injetado pelo render)
     checar-lote.cjs        valida direcao.json antes de desenhar
     folha-fotos.cjs        folha de contato de uma pasta de fotos (modelo pessoal)
+    pessoal.cjs            modelo pessoal: markdown + plano -> HTML com copy intocável (plano | html | conferir)
+    render-lote.cjs        renderiza vários HTML (preflight obrigatório), em paralelo
 ```
 
 ## Fluxo
